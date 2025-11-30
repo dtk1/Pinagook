@@ -1,36 +1,131 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Pinagook
 
-## Getting Started
+**Pinagook** is a web platform for **freelance English teachers** who teach online.  
+It helps teachers organize lessons, share interactive materials with students, and keep everything in one place instead of jumping between chats, docs and links.
 
-First, run the development server:
+The first real user of Pinagook is my mom, who teaches English online — the project is built around her everyday workflow.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Goals
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Make it easier for freelance teachers to run online lessons
+- Give students a clean, focused space with lesson materials and homework
+- Use this project as a real-world case study for my portfolio and internship applications
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🧱 Tech Stack (planned)
 
-To learn more about Next.js, take a look at the following resources:
+- **Frontend:** Next.js (React + TypeScript), Tailwind CSS, shadcn/ui  
+- **Backend:** Next.js API routes / Server Actions  
+- **Database & Auth:** PostgreSQL (Supabase/Neon)  
+- **Realtime / Interactivity:** Supabase Realtime or similar  
+- **Deployment:** Vercel (app) + Supabase (DB, auth, storage)  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+> This may change while the project evolves.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🎯 Core Use Cases (MVP)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**For teachers**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Create and manage students
+- Create lessons and attach materials (texts, PDFs, links, videos)
+- Create simple interactive exercises (quizzes, questions, tasks)
+- Share a link or invite students to specific lessons
+- See which students have opened/completed tasks
+
+**For students**
+
+- Log in and see upcoming / past lessons
+- Open materials for each lesson in one place
+- Complete simple interactive tasks and send answers to the teacher
+
+---
+
+## 🗺 Roadmap
+
+### Phase 0 — Project setup
+
+- [ ] Define user personas (teacher, student)
+- [ ] Finalize core MVP scope for the first real user (my mom)
+- [ ] Initialize Next.js + TypeScript project
+- [ ] Set up Tailwind CSS and basic design system (colors, typography)
+- [ ] Connect Supabase (auth + database)
+
+---
+
+### Phase 1 — Authentication & Roles
+
+- [ ] Email/password sign up & login
+- [ ] Role-based access (teacher / student)
+- [ ] Basic account settings page
+- [ ] Protect routes based on role
+
+---
+
+### Phase 2 — Teacher Dashboard (MVP)
+
+- [ ] Teacher home dashboard (overview)
+- [ ] Students management:
+  - [ ] Add / edit / archive students
+  - [ ] Assign students to groups (optional)
+- [ ] Lessons management:
+  - [ ] Create / edit / delete lessons
+  - [ ] Attach materials (text, links, files)
+- [ ] Simple status tracking (e.g. "draft", "published")
+
+---
+
+### Phase 3 — Student Area (MVP)
+
+- [ ] Student dashboard with list of lessons
+- [ ] Lesson detail page with all materials
+- [ ] Basic homework submission (text answer / file upload)
+- [ ] Status of completion visible to teacher
+
+---
+
+### Phase 4 — Interactive Exercises
+
+- [ ] Data model for exercises (e.g. quiz, open question)
+- [ ] UI for creating exercises in teacher dashboard
+- [ ] UI for solving exercises in student view
+- [ ] Basic grading or “completed / not completed” status
+
+---
+
+### Phase 5 — Realtime & Quality of Life
+
+- [ ] Realtime updates for submissions (teacher sees updates without refresh)
+- [ ] Notifications / toasts for key actions
+- [ ] Better error handling & validation
+- [ ] Basic analytics for teacher (e.g. how many tasks completed)
+
+---
+
+### Phase 6 — Polish & Portfolio
+
+- [ ] Public landing page explaining Pinagook
+- [ ] Demo teacher & student accounts for recruiters
+- [ ] Case study write-up (problem → solution → tech → results)
+- [ ] Screenshots & GIFs for portfolio and CV
+- [ ] “Building in public” posts summarizing the journey
+
+---
+
+## 🚧 Status
+
+> Project is in **early development**.  
+> The roadmap will change as I test the platform with real lessons.
+
+---
+
+## 📬 Contact
+
+If you’re interested in the project or have ideas / feedback:
+
+- GitHub: _add later_
+- LinkedIn: _add later_
