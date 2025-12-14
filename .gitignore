@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# planning/documentation
+Sitemap.md
+SITEMAP.md
+FLOWS.md
+MVP_TODO.md
