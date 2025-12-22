@@ -44,3 +44,5 @@ const quizSteps = firstLesson.steps.filter(step => step.type === 'single_choice'
 console.log(`Text steps: ${textSteps.length}`);
 console.log(`Quiz steps: ${quizSteps.length}`);
 
+
+

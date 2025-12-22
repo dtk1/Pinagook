@@ -23,3 +23,5 @@ export type AnswersByStepId = Record<string, Answer>;
 // Checked status stored by step ID
 export type CheckedByStepId = Record<string, boolean>;
 
+
+

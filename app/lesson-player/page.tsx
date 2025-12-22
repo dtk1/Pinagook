@@ -1,11 +1,12 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { getDemoCourse, Course } from '../../content';
+import { getDemoCourse, Course, Lesson } from '../../content';
 import LessonPlayer from '../features/lesson-player/LessonPlayer';
 
 export default function LessonPlayerPage() {
   const [course, setCourse] = useState<Course | null>(null);
+  const [currentLessonIndex, setCurrentLessonIndex] = useState(0);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
@@ -42,10 +43,10 @@ export default function LessonPlayerPage() {
     );
   }
 
-  // Use the first lesson from the demo course
-  const lesson = course.lessons[0];
+  const currentLesson = course.lessons[currentLessonIndex];
+  const hasNextLesson = currentLessonIndex < course.lessons.length - 1;
 
-  if (!lesson) {
+  if (!currentLesson) {
     return (
       <div className="min-h-screen bg-[#F7FAFC] p-8">
         <div className="max-w-4xl mx-auto">
@@ -57,13 +58,21 @@ export default function LessonPlayerPage() {
     );
   }
 
+  const handleNextLesson = () => {
+    if (hasNextLesson) {
+      setCurrentLessonIndex(prev => prev + 1);
+    }
+  };
+
   return (
     <div className="min-h-screen bg-[#F7FAFC] p-8">
       <LessonPlayer
-        lesson={lesson}
+        lesson={currentLesson}
+        hasNextLesson={hasNextLesson}
         onFinish={() => {
           console.log('Lesson finished!');
         }}
+        onNextLesson={handleNextLesson}
       />
     </div>
   );

@@ -4,19 +4,27 @@ import { useState } from 'react';
 import { Lesson, Step, StepText, StepSingleChoice, StepFillBlank } from '../../../content/types';
 import { Answer, AnswersByStepId, CheckedByStepId, SingleChoiceAnswer, FillBlankAnswer } from './types';
 import { hasAnswer, isCorrect, isInteractiveStep } from './lessonEngine';
+import { scoreLesson, LessonResult as LessonResultType } from './scoring';
 import Button from '../../components/Button';
-import LessonResult from './LessonResult';
+import LessonResultView from './LessonResultView';
 
 interface LessonPlayerProps {
   lesson: Lesson;
+  hasNextLesson?: boolean;
   onFinish?: () => void;
+  onNextLesson?: () => void;
 }
 
-export default function LessonPlayer({ lesson, onFinish }: LessonPlayerProps) {
+export default function LessonPlayer({ 
+  lesson, 
+  hasNextLesson = false, 
+  onFinish, 
+  onNextLesson 
+}: LessonPlayerProps) {
   const [currentStepIndex, setCurrentStepIndex] = useState(0);
   const [answers, setAnswers] = useState<AnswersByStepId>({});
   const [checked, setChecked] = useState<CheckedByStepId>({});
-  const [isFinished, setIsFinished] = useState(false);
+  const [result, setResult] = useState<LessonResultType | null>(null);
 
   const currentStep = lesson.steps[currentStepIndex];
   const isFirstStep = currentStepIndex === 0;
@@ -27,14 +35,6 @@ export default function LessonPlayer({ lesson, onFinish }: LessonPlayerProps) {
   const hasCurrentAnswer = hasAnswer(currentStep, currentAnswer);
   const isCurrentCorrect = isCorrect(currentStep, currentAnswer);
 
-  // Calculate correct count for finished lesson
-  const interactiveSteps = lesson.steps.filter(isInteractiveStep);
-  const correctCount = interactiveSteps.filter(step => {
-    const answer = answers[step.id];
-    const wasChecked = checked[step.id];
-    return wasChecked && isCorrect(step, answer);
-  }).length;
-
   const handleCheck = () => {
     if (!hasCurrentAnswer) return;
     setChecked(prev => ({ ...prev, [currentStep.id]: true }));
@@ -42,7 +42,9 @@ export default function LessonPlayer({ lesson, onFinish }: LessonPlayerProps) {
 
   const handleNext = () => {
     if (isLastStep) {
-      setIsFinished(true);
+      // Compute result using scoring logic
+      const lessonResult = scoreLesson(lesson, answers, checked);
+      setResult(lessonResult);
       if (onFinish) onFinish();
     } else {
       setCurrentStepIndex(prev => prev + 1);
@@ -67,11 +69,20 @@ export default function LessonPlayer({ lesson, onFinish }: LessonPlayerProps) {
     setCurrentStepIndex(0);
     setAnswers({});
     setChecked({});
-    setIsFinished(false);
+    setResult(null);
   };
 
-  if (isFinished) {
-    return <LessonResult totalSteps={interactiveSteps.length} correctCount={correctCount} onRetry={handleRetry} />;
+  // Show result view if lesson is finished
+  if (result) {
+    return (
+      <LessonResultView
+        result={result}
+        lessonTitle={lesson.title}
+        hasNextLesson={hasNextLesson}
+        onRetry={handleRetry}
+        onNextLesson={onNextLesson}
+      />
+    );
   }
 
   return (
