@@ -30,6 +30,11 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   // Load user from localStorage on mount
   useEffect(() => {
+    if (typeof window === 'undefined') {
+      setIsLoading(false);
+      return;
+    }
+
     const stored = localStorage.getItem(STORAGE_KEY);
     if (stored) {
       try {
@@ -82,7 +87,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       }
       
       setUser(userData.user);
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(userData.user));
+      if (typeof window !== 'undefined') {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(userData.user));
+      }
       setIsLoading(false);
       return true;
     }
@@ -111,14 +118,18 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     };
 
     setUser(newUser);
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(newUser));
+    if (typeof window !== 'undefined') {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(newUser));
+    }
     setIsLoading(false);
     return true;
   };
 
   const logout = () => {
     setUser(null);
-    localStorage.removeItem(STORAGE_KEY);
+    if (typeof window !== 'undefined') {
+      localStorage.removeItem(STORAGE_KEY);
+    }
   };
 
   const value: AuthContextType = {

@@ -1,12 +1,19 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Lesson, Step, StepText, StepSingleChoice, StepFillBlank } from '../../../content/types';
 import { Answer, AnswersByStepId, CheckedByStepId, SingleChoiceAnswer, FillBlankAnswer } from './types';
 import { hasAnswer, isCorrect, isInteractiveStep } from './lessonEngine';
 import { scoreLesson, LessonResult as LessonResultType } from './scoring';
 import Button from '../../components/Button';
 import LessonResultView from './LessonResultView';
+import Card from '../../components/Card';
+import {
+  loadProgress,
+  saveProgress,
+  clearProgress,
+  StoredLessonProgress,
+} from '../progress/progressStorage';
 
 interface LessonPlayerProps {
   lesson: Lesson;
@@ -25,6 +32,9 @@ export default function LessonPlayer({
   const [answers, setAnswers] = useState<AnswersByStepId>({});
   const [checked, setChecked] = useState<CheckedByStepId>({});
   const [result, setResult] = useState<LessonResultType | null>(null);
+  const [savedProgress, setSavedProgress] = useState<StoredLessonProgress | null>(null);
+  const [showResumePrompt, setShowResumePrompt] = useState(false);
+  const [savingEnabled, setSavingEnabled] = useState(false);
 
   const currentStep = lesson.steps[currentStepIndex];
   const isFirstStep = currentStepIndex === 0;
@@ -34,6 +44,85 @@ export default function LessonPlayer({
   const isInteractive = isInteractiveStep(currentStep);
   const hasCurrentAnswer = hasAnswer(currentStep, currentAnswer);
   const isCurrentCorrect = isCorrect(currentStep, currentAnswer);
+
+  // Load progress on mount
+  useEffect(() => {
+    if (typeof window === 'undefined') {
+      setSavingEnabled(true);
+      return;
+    }
+
+    const progress = loadProgress(lesson.courseId, lesson.id);
+
+    if (progress) {
+      setSavedProgress(progress);
+      setShowResumePrompt(true);
+    } else {
+      setSavingEnabled(true);
+    }
+  }, [lesson.courseId, lesson.id]);
+
+  // Auto-save progress when state changes and saving is enabled
+  useEffect(() => {
+    if (!savingEnabled || typeof window === 'undefined' || result) return;
+
+    const progress: StoredLessonProgress = {
+      version: 1,
+      courseId: lesson.courseId,
+      lessonId: lesson.id,
+      currentStepIndex,
+      answers,
+      checked,
+      updatedAt: Date.now(),
+    };
+
+    saveProgress(progress);
+  }, [savingEnabled, result, lesson.courseId, lesson.id, currentStepIndex, answers, checked]);
+
+  const applySavedProgress = () => {
+    if (!savedProgress) return;
+
+    // Clamp step index to valid range
+    const maxIndex = Math.max(0, lesson.steps.length - 1);
+    const clampedIndex = Math.min(
+      Math.max(savedProgress.currentStepIndex, 0),
+      maxIndex,
+    );
+
+    // Filter answers/checked to existing steps only
+    const validStepIds = new Set(lesson.steps.map((s) => s.id));
+    const filteredAnswers: AnswersByStepId = {};
+    const filteredChecked: CheckedByStepId = {};
+
+    Object.entries(savedProgress.answers || {}).forEach(([stepId, value]) => {
+      if (validStepIds.has(stepId)) {
+        filteredAnswers[stepId] = value as Answer;
+      }
+    });
+
+    Object.entries(savedProgress.checked || {}).forEach(([stepId, value]) => {
+      if (validStepIds.has(stepId)) {
+        filteredChecked[stepId] = Boolean(value);
+      }
+    });
+
+    setCurrentStepIndex(clampedIndex);
+    setAnswers(filteredAnswers);
+    setChecked(filteredChecked);
+    setShowResumePrompt(false);
+    setSavingEnabled(true);
+  };
+
+  const handleStartOver = () => {
+    clearProgress(lesson.courseId, lesson.id);
+    setSavedProgress(null);
+    setShowResumePrompt(false);
+    setCurrentStepIndex(0);
+    setAnswers({});
+    setChecked({});
+    setResult(null);
+    setSavingEnabled(true);
+  };
 
   const handleCheck = () => {
     if (!hasCurrentAnswer) return;
@@ -45,6 +134,7 @@ export default function LessonPlayer({
       // Compute result using scoring logic
       const lessonResult = scoreLesson(lesson, answers, checked);
       setResult(lessonResult);
+      clearProgress(lesson.courseId, lesson.id);
       if (onFinish) onFinish();
     } else {
       setCurrentStepIndex(prev => prev + 1);
@@ -66,10 +156,7 @@ export default function LessonPlayer({
   };
 
   const handleRetry = () => {
-    setCurrentStepIndex(0);
-    setAnswers({});
-    setChecked({});
-    setResult(null);
+    handleStartOver();
   };
 
   // Show result view if lesson is finished
@@ -87,6 +174,38 @@ export default function LessonPlayer({
 
   return (
     <div className="max-w-3xl mx-auto p-6 space-y-6">
+      {/* Resume prompt */}
+      {showResumePrompt && savedProgress && (
+        <Card padding="s" hover={false} className="border-[#0EA5B7]/40 bg-[#D9F6F8]/60">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+            <div>
+              <p className="text-sm font-semibold text-[#0F172A]">
+                Saved progress found for this lesson.
+              </p>
+              <p className="text-xs text-[#475569]">
+                Continue where you left off or start over from the beginning.
+              </p>
+            </div>
+            <div className="flex gap-2">
+              <Button
+                variant="secondary"
+                size="s"
+                onClick={handleStartOver}
+              >
+                Start over
+              </Button>
+              <Button
+                variant="primary"
+                size="s"
+                onClick={applySavedProgress}
+              >
+                Continue
+              </Button>
+            </div>
+          </div>
+        </Card>
+      )}
+
       {/* Header */}
       <div className="bg-white rounded-2xl p-6 border border-[#E6EEF2]">
         <h1 className="text-2xl font-semibold text-[#0F172A] mb-2">{lesson.title}</h1>
