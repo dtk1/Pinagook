@@ -1,0 +1,132 @@
+{
+  "id": "past-tense-basics",
+  "title": "Past Tense Basics",
+  "description": "Learn how to use Past Simple tense to talk about completed actions in the past.",
+  "lessons": [
+    {
+      "id": "past-simple-intro",
+      "courseId": "past-tense-basics",
+      "title": "Introduction to Past Simple",
+      "description": "Master the basics of Past Simple tense with regular and irregular verbs.",
+      "steps": [
+        {
+          "id": "step-1-welcome",
+          "type": "text",
+          "title": "Welcome",
+          "content": "Welcome to Past Simple! This tense is used to talk about actions that happened and finished in the past."
+        },
+        {
+          "id": "step-2-grammar",
+          "type": "text",
+          "title": "Grammar Rule",
+          "content": "Past Simple is formed differently for regular and irregular verbs:\n\nRegular verbs: add -ed\n- walk → walked\n- play → played\n- study → studied\n\nIrregular verbs: change form\n- go → went\n- see → saw\n- eat → ate"
+        },
+        {
+          "id": "step-3-quiz-1",
+          "type": "single_choice",
+          "question": "What is the past form of 'go'?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "goed"
+            },
+            {
+              "id": "opt-2",
+              "text": "went"
+            },
+            {
+              "id": "opt-3",
+              "text": "gone"
+            }
+          ],
+          "correctOptionId": "opt-2",
+          "explanation": "Correct! 'Go' is an irregular verb, so its past form is 'went', not 'goed' or 'gone'."
+        },
+        {
+          "id": "step-4-fill-1",
+          "type": "fill_blank",
+          "sentence": "Yesterday I ____ to the store.",
+          "correctAnswers": ["went"],
+          "explanation": "The correct answer is 'went' because we're talking about a completed action in the past."
+        },
+        {
+          "id": "step-5-quiz-2",
+          "type": "single_choice",
+          "question": "Which sentence is correct?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "I play football yesterday."
+            },
+            {
+              "id": "opt-2",
+              "text": "I played football yesterday."
+            },
+            {
+              "id": "opt-3",
+              "text": "I playing football yesterday."
+            }
+          ],
+          "correctOptionId": "opt-2",
+          "explanation": "Correct! For past actions, we use the past form 'played', not 'play' or 'playing'."
+        },
+        {
+          "id": "step-6-fill-2",
+          "type": "fill_blank",
+          "sentence": "She ____ a book last week.",
+          "correctAnswers": ["read"],
+          "explanation": "The past form of 'read' is also 'read' (pronounced differently), but spelled the same."
+        },
+        {
+          "id": "step-7-summary",
+          "type": "text",
+          "title": "Summary",
+          "content": "You've learned:\n- Past Simple is for completed past actions\n- Regular verbs: add -ed\n- Irregular verbs: memorize the forms\n- Common time markers: yesterday, last week, ago"
+        }
+      ]
+    },
+    {
+      "id": "past-simple-practice",
+      "courseId": "past-tense-basics",
+      "title": "Past Simple Practice",
+      "description": "Practice using Past Simple with more examples and exercises.",
+      "steps": [
+        {
+          "id": "step-1-intro",
+          "type": "text",
+          "title": "Practice Time",
+          "content": "Let's practice Past Simple with more examples and exercises."
+        },
+        {
+          "id": "step-2-quiz-1",
+          "type": "single_choice",
+          "question": "What is the past form of 'see'?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "seed"
+            },
+            {
+              "id": "opt-2",
+              "text": "saw"
+            },
+            {
+              "id": "opt-3",
+              "text": "seen"
+            }
+          ],
+          "correctOptionId": "opt-2",
+          "explanation": "Correct! 'See' is irregular: see → saw → seen."
+        },
+        {
+          "id": "step-3-fill-1",
+          "type": "fill_blank",
+          "sentence": "We ____ dinner at 7 PM yesterday.",
+          "correctAnswers": ["ate", "had"],
+          "explanation": "Both 'ate' and 'had' are correct, depending on what you want to say."
+        }
+      ]
+    }
+  ]
+}
+

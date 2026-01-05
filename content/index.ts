@@ -25,5 +25,6 @@ export {
   getAllCourses,
   getAvailableCourseIds,
   courseExists,
+  courseStorageAPI,
   type CourseLoader,
 } from './loaders';
