@@ -1,131 +1,180 @@
 # Pinagook
 
 **Pinagook** is a web platform for **freelance English teachers** who teach online.  
-It helps teachers organize lessons, share interactive materials with students, and keep everything in one place instead of jumping between chats, docs and links.
+It focuses on structured lesson content, interactive exercises, and a clean learning experience for students.
 
-The first real user of Pinagook is my mom, who teaches English online — the project is built around her everyday workflow.
+The first real user of Pinagook is my mom, who teaches English online — the project is built around her real teaching workflow and constraints.
 
 ---
 
 ## ✨ Goals
 
-- Make it easier for freelance teachers to run online lessons
-- Give students a clean, focused space with lesson materials and homework
-- Use this project as a real-world case study for my portfolio and internship applications
+- Provide a structured way to deliver lessons and exercises online
+- Keep lesson content, interaction, and progress in one place
+- Serve as a real-world, evolving case study for my portfolio
 
 ---
 
-## 🧱 Tech Stack (planned)
+## 🧱 Tech Stack (current)
 
-- **Frontend:** Next.js (React + TypeScript), Tailwind CSS, shadcn/ui  
-- **Backend:** Next.js API routes / Server Actions  
-- **Database & Auth:** PostgreSQL (Supabase/Neon)  
-- **Realtime / Interactivity:** Supabase Realtime or similar  
-- **Deployment:** Vercel (app) + Supabase (DB, auth, storage)  
+- **Frontend:** Next.js (App Router), React, TypeScript  
+- **Styling:** Tailwind CSS  
+- **State & Logic:** local-first (client-side state + localStorage)  
+- **Testing:** Vitest, React Testing Library, Playwright (E2E)  
+- **Deployment:** Vercel (planned)
 
-> This may change while the project evolves.
-
----
-
-## 🎯 Core Use Cases (MVP)
-
-**For teachers**
-
-- Create and manage students
-- Create lessons and attach materials (texts, PDFs, links, videos)
-- Create simple interactive exercises (quizzes, questions, tasks)
-- Share a link or invite students to specific lessons
-- See which students have opened/completed tasks
-
-**For students**
-
-- Log in and see upcoming / past lessons
-- Open materials for each lesson in one place
-- Complete simple interactive tasks and send answers to the teacher
+> Backend and database are intentionally postponed until content and UX are stable.
 
 ---
 
-## 🗺 Roadmap
+## 🎯 Core Use Cases (current scope)
 
-### Phase 0 — Project setup
+### For teachers (local-first MVP)
 
-- [ ] Define user personas (teacher, student)
-- [ ] Finalize core MVP scope for the first real user (my mom)
-- [ ] Initialize Next.js + TypeScript project
-- [ ] Set up Tailwind CSS and basic design system (colors, typography)
-- [ ] Connect Supabase (auth + database)
+- Define lesson content using a structured JSON format
+- Validate lesson content before publishing
+- Preview lessons and exercises before sharing
+- Store and load multiple courses locally (no backend yet)
 
----
+### For students (learning flow MVP)
 
-### Phase 1 — Authentication & Roles
-
-- [ ] Email/password sign up & login
-- [ ] Role-based access (teacher / student)
-- [ ] Basic account settings page
-- [ ] Protect routes based on role
+- Open lessons step by step
+- Read explanations and complete interactive tasks
+- Get immediate feedback
+- Resume progress after reload
 
 ---
 
-### Phase 2 — Teacher Dashboard (MVP)
+## 🧱 Implemented Features
 
-- [ ] Teacher home dashboard (overview)
-- [ ] Students management:
-  - [ ] Add / edit / archive students
-  - [ ] Assign students to groups (optional)
-- [ ] Lessons management:
-  - [ ] Create / edit / delete lessons
-  - [ ] Attach materials (text, links, files)
-- [ ] Simple status tracking (e.g. "draft", "published")
+### Lesson content model
 
----
-
-### Phase 3 — Student Area (MVP)
-
-- [ ] Student dashboard with list of lessons
-- [ ] Lesson detail page with all materials
-- [ ] Basic homework submission (text answer / file upload)
-- [ ] Status of completion visible to teacher
+- Stable JSON structure: **Course → Lessons → Steps**
+- Strong TypeScript types using discriminated unions
+- Supported step types:
+  - text / explanation  
+  - single-choice  
+  - input (fill-in-the-blank)  
 
 ---
 
-### Phase 4 — Interactive Exercises
+### Runtime validation
 
-- [ ] Data model for exercises (e.g. quiz, open question)
-- [ ] UI for creating exercises in teacher dashboard
-- [ ] UI for solving exercises in student view
-- [ ] Basic grading or “completed / not completed” status
-
----
-
-### Phase 5 — Realtime & Quality of Life
-
-- [ ] Realtime updates for submissions (teacher sees updates without refresh)
-- [ ] Notifications / toasts for key actions
-- [ ] Better error handling & validation
-- [ ] Basic analytics for teacher (e.g. how many tasks completed)
+- Manual runtime validation (no external schema libraries)
+- Clear, path-based error messages for invalid content
+- Same validation logic used for demo and teacher-imported courses
 
 ---
 
-### Phase 6 — Polish & Portfolio
+### Lesson Player (v1)
 
-- [ ] Public landing page explaining Pinagook
-- [ ] Demo teacher & student accounts for recruiters
-- [ ] Case study write-up (problem → solution → tech → results)
-- [ ] Screenshots & GIFs for portfolio and CV
-- [ ] “Building in public” posts summarizing the journey
+- Deterministic step-by-step flow
+- Internal state includes:
+  - current step index  
+  - answers by stepId  
+  - checked status per step  
+
+**UX rules**
+- Interactive steps require **Check** before **Next**
+- Feedback and explanations shown after checking
+
+---
+
+### Scoring & results
+
+- Unified scoring across step types
+- Result screen with:
+  - score summary (X / Y, percentage)
+  - review of incorrect answers
+  - retry option
+
+---
+
+### Local progress persistence
+
+- Progress saved in localStorage:
+  - current step
+  - answers
+  - checked states
+  - timestamps
+- Resume or restart prompt on reload
+
+---
+
+### Teacher import (Week 4.2)
+
+- Paste or upload course JSON
+- Validate content before saving
+- Preview course structure (lessons, steps)
+- Save valid courses locally
+- Load teacher courses alongside demo content
+
+---
+
+### Testing (Week 4.3)
+
+- **RTL + Vitest**
+  - Lesson Player UX rules (Check / Next gating)
+  - Input behavior
+  - Progress persistence
+- **Playwright E2E**
+  - Full learning flow: course → lesson → steps → result → reload
+- Focused on protecting the core learning loop
+
+---
+
+## 🗺 Roadmap (updated)
+
+### Phase 0 — Foundations ✅
+
+- [x] Content model and validation
+- [x] Lesson Player v1
+- [x] Scoring and result view
+- [x] Local progress persistence
+
+---
+
+### Phase 1 — Authoring & Quality ✅
+
+- [x] Teacher import (local-first)
+- [x] Multi-course support (local)
+- [x] Core test coverage (unit + E2E)
+
+---
+
+### Phase 2 — Content expansion (next)
+
+- [ ] New step types (matching / pairs)
+- [ ] Better explanations and feedback UX
+- [ ] Improved teacher preview tools
+
+---
+
+### Phase 3 — Backend & accounts (later)
+
+- [ ] Authentication (teacher / student)
+- [ ] Persistent storage (database)
+- [ ] Student accounts and submissions
+
+---
+
+### Phase 4 — Polish & portfolio
+
+- [ ] Public landing page
+- [ ] Demo data for recruiters
+- [ ] Case study write-up
+- [ ] Screenshots / GIFs
 
 ---
 
 ## 🚧 Status
 
-> Project is in **early development**.  
-> The roadmap will change as I test the platform with real lessons.
+> Project is in **active development**.  
+> Current focus: content correctness, UX clarity, and safe authoring workflows before adding backend complexity.
 
 ---
 
 ## 📬 Contact
 
-If you’re interested in the project or have ideas / feedback:
-
-- GitHub: _add later_
-- LinkedIn: _add later_
+- GitHub: _to be added_
+- LinkedIn: _to be added_
