@@ -1,7 +1,6 @@
 import PublicLayout from './layouts/PublicLayout';
 import Button from './components/Button';
 import Card from './components/Card';
-import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -11,7 +10,7 @@ export default function Home() {
       <section className="w-full max-w-[1440px] mx-auto px-8 py-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#D9F6F8] text-[#0EA5B7] text-sm font-medium">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#e0f2fe] text-[#0ea5e9] text-sm font-medium">
               <span>🐬</span>
               <span>Dolphin-smooth teaching workspace</span>
             </div>
@@ -25,22 +24,18 @@ export default function Home() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/register">
-                <Button variant="primary" className="text-lg px-8 py-4">
-                  Start free
-                </Button>
-              </Link>
-              <Link href="/login">
-                <Button variant="secondary" className="text-lg px-8 py-4">
-                  Watch demo
-                </Button>
-              </Link>
+              <Button variant="primary" className="text-lg px-8 py-4">
+                Start free
+              </Button>
+              <Button variant="outline" className="text-lg px-8 py-4">
+                Watch demo
+              </Button>
             </div>
 
             <div className="space-y-4 pt-4">
               <div className="flex items-center gap-3">
                 <div className="w-6 h-6 rounded-full bg-[#e0f2fe] flex items-center justify-center">
-                  <svg className="w-4 h-4 text-[#0EA5B7]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-4 h-4 text-[#0ea5e9]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
@@ -48,7 +43,7 @@ export default function Home() {
               </div>
               <div className="flex items-center gap-3">
                 <div className="w-6 h-6 rounded-full bg-[#e0f2fe] flex items-center justify-center">
-                  <svg className="w-4 h-4 text-[#0EA5B7]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-4 h-4 text-[#0ea5e9]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
@@ -56,7 +51,7 @@ export default function Home() {
               </div>
               <div className="flex items-center gap-3">
                 <div className="w-6 h-6 rounded-full bg-[#e0f2fe] flex items-center justify-center">
-                  <svg className="w-4 h-4 text-[#0EA5B7]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-4 h-4 text-[#0ea5e9]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
@@ -66,12 +61,12 @@ export default function Home() {
           </div>
 
           <div className="relative">
-            <div className="relative bg-gradient-to-br from-[#D9F6F8] to-[#3BC7D8] rounded-3xl p-8 shadow-xl">
+            <div className="relative bg-gradient-to-br from-[#e0f2fe] to-[#bae6fd] rounded-3xl p-8 shadow-xl">
               <div className="bg-white rounded-2xl p-6 shadow-lg mb-4">
                 <div className="space-y-3">
                   <div className="h-4 bg-gray-200 rounded w-3/4"></div>
                   <div className="h-4 bg-gray-200 rounded w-1/2"></div>
-                  <div className="h-32 bg-gradient-to-br from-[#0EA5B7] to-[#3BC7D8] rounded-lg mt-4"></div>
+                  <div className="h-32 bg-gradient-to-br from-[#0ea5e9] to-[#14b8a6] rounded-lg mt-4"></div>
                 </div>
               </div>
               <div className="bg-white rounded-2xl p-4 shadow-lg w-48 mx-auto">
@@ -108,7 +103,7 @@ export default function Home() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <Card>
-            <div className="w-12 h-12 rounded-xl bg-[#0EA5B7] flex items-center justify-center mb-4">
+            <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-[#0ea5e9] to-[#14b8a6] flex items-center justify-center mb-4">
               <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
               </svg>
@@ -118,7 +113,7 @@ export default function Home() {
           </Card>
 
           <Card>
-            <div className="w-12 h-12 rounded-xl bg-[#0EA5B7] flex items-center justify-center mb-4">
+            <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-[#0ea5e9] to-[#14b8a6] flex items-center justify-center mb-4">
               <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
               </svg>
@@ -128,7 +123,7 @@ export default function Home() {
           </Card>
 
           <Card>
-            <div className="w-12 h-12 rounded-xl bg-[#0EA5B7] flex items-center justify-center mb-4">
+            <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-[#0ea5e9] to-[#14b8a6] flex items-center justify-center mb-4">
               <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
               </svg>
@@ -148,7 +143,7 @@ export default function Home() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="text-center">
-            <div className="w-16 h-16 rounded-full bg-[#0EA5B7] flex items-center justify-center mx-auto mb-6 text-white text-2xl font-bold">
+            <div className="w-16 h-16 rounded-full bg-gradient-to-br from-[#0ea5e9] to-[#14b8a6] flex items-center justify-center mx-auto mb-6 text-white text-2xl font-bold">
               1
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">Create lesson</h3>
@@ -156,7 +151,7 @@ export default function Home() {
           </div>
 
           <div className="text-center">
-            <div className="w-16 h-16 rounded-full bg-[#0EA5B7] flex items-center justify-center mx-auto mb-6 text-white text-2xl font-bold">
+            <div className="w-16 h-16 rounded-full bg-gradient-to-br from-[#0ea5e9] to-[#14b8a6] flex items-center justify-center mx-auto mb-6 text-white text-2xl font-bold">
               2
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">Attach materials</h3>
@@ -164,7 +159,7 @@ export default function Home() {
           </div>
 
           <div className="text-center">
-            <div className="w-16 h-16 rounded-full bg-[#0EA5B7] flex items-center justify-center mx-auto mb-6 text-white text-2xl font-bold">
+            <div className="w-16 h-16 rounded-full bg-gradient-to-br from-[#0ea5e9] to-[#14b8a6] flex items-center justify-center mx-auto mb-6 text-white text-2xl font-bold">
               3
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">Teach & track progress</h3>
@@ -182,7 +177,7 @@ export default function Home() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
           <Card>
-            <div className="h-32 bg-gradient-to-br from-[#0EA5B7] to-[#3BC7D8] rounded-xl mb-4"></div>
+            <div className="h-32 bg-gradient-to-br from-[#0ea5e9] to-[#14b8a6] rounded-xl mb-4"></div>
             <div className="flex gap-2 mb-3">
               <span className="px-3 py-1 bg-[#e0f2fe] text-[#0ea5e9] rounded-full text-xs font-medium">A2</span>
               <span className="px-3 py-1 bg-[#e0f2fe] text-[#0ea5e9] rounded-full text-xs font-medium">Kids</span>
@@ -192,7 +187,7 @@ export default function Home() {
           </Card>
 
           <Card>
-            <div className="h-32 bg-gradient-to-br from-[#3BC7D8] to-[#0EA5B7] rounded-xl mb-4"></div>
+            <div className="h-32 bg-gradient-to-br from-[#14b8a6] to-[#0ea5e9] rounded-xl mb-4"></div>
             <div className="flex gap-2 mb-3">
               <span className="px-3 py-1 bg-[#e0f2fe] text-[#0ea5e9] rounded-full text-xs font-medium">B1</span>
             </div>
@@ -221,7 +216,7 @@ export default function Home() {
         </div>
 
         <div className="text-center">
-          <Button variant="secondary">Explore all templates</Button>
+          <Button variant="outline">Explore all templates</Button>
         </div>
       </section>
 
@@ -262,7 +257,7 @@ export default function Home() {
                   <span className="text-gray-700">Lesson planning</span>
                 </li>
               </ul>
-              <Button variant="secondary" className="w-full">Get started</Button>
+              <Button variant="outline" className="w-full">Get started</Button>
             </div>
           </Card>
 
@@ -306,9 +301,7 @@ export default function Home() {
                   <span className="text-gray-700">Priority support</span>
                 </li>
               </ul>
-              <Link href="/register">
-                <Button variant="primary" className="w-full">Start free trial</Button>
-              </Link>
+              <Button variant="primary" className="w-full">Start free trial</Button>
             </div>
           </Card>
         </div>
@@ -388,11 +381,9 @@ export default function Home() {
         <div className="bg-gradient-to-br from-[#0ea5e9] to-[#14b8a6] rounded-3xl p-12 text-center text-white">
           <h2 className="text-4xl font-bold mb-4">Ready to teach with less stress?</h2>
           <p className="text-xl mb-8 opacity-90">Join independent teachers who are already using Pinagook</p>
-          <Link href="/register">
-            <Button variant="secondary" className="text-lg px-8 py-4">
-              Start free
-            </Button>
-          </Link>
+          <Button variant="secondary" className="text-lg px-8 py-4">
+            Start free
+          </Button>
         </div>
       </section>
 
