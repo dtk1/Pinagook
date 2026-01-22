@@ -5,6 +5,9 @@
 
 import { Course, Lesson, Step, StepText, StepSingleChoice, StepFillBlank } from './types';
 
+// Re-export Course type for use in other modules
+export type { Course };
+
 /**
  * Type guard: Check if value is a string
  */

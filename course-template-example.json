@@ -1,0 +1,247 @@
+{
+  "id": "future-tenses-complete",
+  "title": "Future Tenses Complete Guide",
+  "description": "Master all future tenses in English: will, going to, and present continuous for future. Perfect for intermediate learners.",
+  "lessons": [
+    {
+      "id": "will-future",
+      "courseId": "future-tenses-complete",
+      "title": "Will Future",
+      "description": "Learn how to use 'will' to talk about future predictions, spontaneous decisions, and promises.",
+      "steps": [
+        {
+          "id": "step-1-welcome",
+          "type": "text",
+          "title": "Welcome to Will Future",
+          "content": "Welcome! In this lesson, you'll learn how to use 'will' to express future actions. 'Will' is one of the most common ways to talk about the future in English."
+        },
+        {
+          "id": "step-2-grammar",
+          "type": "text",
+          "title": "When to Use Will",
+          "content": "We use 'will' for:\n\n1. Predictions about the future\n   Example: It will rain tomorrow.\n\n2. Spontaneous decisions\n   Example: I'll help you with that.\n\n3. Promises and offers\n   Example: I will call you later.\n\n4. Future facts\n   Example: The meeting will start at 3 PM.\n\nStructure: Subject + will + base verb"
+        },
+        {
+          "id": "step-3-quiz-1",
+          "type": "single_choice",
+          "question": "Which sentence uses 'will' correctly for a prediction?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "I will going to the store."
+            },
+            {
+              "id": "opt-2",
+              "text": "I think it will rain tomorrow."
+            },
+            {
+              "id": "opt-3",
+              "text": "I will to buy some milk."
+            }
+          ],
+          "correctOptionId": "opt-2",
+          "explanation": "Correct! 'Will' is followed by the base form of the verb (rain), not 'going' or 'to buy'."
+        },
+        {
+          "id": "step-4-fill-1",
+          "type": "fill_blank",
+          "sentence": "I ____ help you with your homework.",
+          "correctAnswers": ["will", "'ll"],
+          "explanation": "Both 'will' and the contraction ''ll' are correct. This is a spontaneous decision or offer."
+        },
+        {
+          "id": "step-5-quiz-2",
+          "type": "single_choice",
+          "question": "What does 'I'll' mean?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "I will"
+            },
+            {
+              "id": "opt-2",
+              "text": "I all"
+            },
+            {
+              "id": "opt-3",
+              "text": "I well"
+            }
+          ],
+          "correctOptionId": "opt-1",
+          "explanation": "Correct! 'I'll' is the contraction of 'I will'."
+        },
+        {
+          "id": "step-6-fill-2",
+          "type": "fill_blank",
+          "sentence": "She ____ probably arrive late.",
+          "correctAnswers": ["will", "'ll"],
+          "explanation": "This is a prediction about the future, so 'will' is appropriate."
+        },
+        {
+          "id": "step-7-summary",
+          "type": "text",
+          "title": "Summary",
+          "content": "You've learned:\n- 'Will' is used for predictions, spontaneous decisions, promises, and future facts\n- Structure: Subject + will + base verb\n- Contraction: will → 'll (I will → I'll)\n- 'Will' is NOT followed by 'to' or 'going'"
+        }
+      ]
+    },
+    {
+      "id": "going-to-future",
+      "courseId": "future-tenses-complete",
+      "title": "Going to Future",
+      "description": "Learn how to use 'going to' for planned actions and predictions based on evidence.",
+      "steps": [
+        {
+          "id": "step-1-intro",
+          "type": "text",
+          "title": "Introduction",
+          "content": "Now let's learn about 'going to'! This form is used when we have plans or when we can see evidence that something will happen."
+        },
+        {
+          "id": "step-2-grammar",
+          "type": "text",
+          "title": "When to Use Going To",
+          "content": "We use 'going to' for:\n\n1. Plans and intentions\n   Example: I'm going to study tonight.\n\n2. Predictions with evidence\n   Example: Look at those clouds! It's going to rain.\n\nStructure: Subject + be (am/is/are) + going to + base verb\n\nExamples:\n- I am going to travel next month.\n- She is going to start a new job.\n- They are going to buy a house."
+        },
+        {
+          "id": "step-3-quiz-1",
+          "type": "single_choice",
+          "question": "Which sentence shows a plan?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "I will probably go to the party."
+            },
+            {
+              "id": "opt-2",
+              "text": "I'm going to visit my parents next weekend."
+            },
+            {
+              "id": "opt-3",
+              "text": "I go to the party."
+            }
+          ],
+          "correctOptionId": "opt-2",
+          "explanation": "Correct! 'I'm going to visit' shows a planned intention, not a spontaneous decision or a general statement."
+        },
+        {
+          "id": "step-4-fill-1",
+          "type": "fill_blank",
+          "sentence": "We ____ going to watch a movie tonight.",
+          "correctAnswers": ["are", "'re"],
+          "explanation": "With 'we', we use 'are' or the contraction ''re'. This shows a plan."
+        },
+        {
+          "id": "step-5-quiz-2",
+          "type": "single_choice",
+          "question": "Look at the dark sky! It ____ rain.",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "will"
+            },
+            {
+              "id": "opt-2",
+              "text": "is going to"
+            },
+            {
+              "id": "opt-3",
+              "text": "goes to"
+            }
+          ],
+          "correctOptionId": "opt-2",
+          "explanation": "Correct! When we have evidence (dark sky), we use 'going to' for the prediction."
+        },
+        {
+          "id": "step-6-fill-2",
+          "type": "fill_blank",
+          "sentence": "He ____ going to learn Spanish next year.",
+          "correctAnswers": ["is", "'s"],
+          "explanation": "With 'he', we use 'is' or the contraction ''s'. This shows a plan or intention."
+        }
+      ]
+    },
+    {
+      "id": "present-continuous-future",
+      "courseId": "future-tenses-complete",
+      "title": "Present Continuous for Future",
+      "description": "Learn how to use Present Continuous to talk about fixed arrangements and scheduled events.",
+      "steps": [
+        {
+          "id": "step-1-intro",
+          "type": "text",
+          "title": "Introduction",
+          "content": "Did you know that Present Continuous can also be used for the future? Let's learn when and how!"
+        },
+        {
+          "id": "step-2-grammar",
+          "type": "text",
+          "title": "Present Continuous for Future",
+          "content": "We use Present Continuous for:\n\n1. Fixed arrangements (with time reference)\n   Example: I'm meeting John at 3 PM tomorrow.\n\n2. Scheduled events\n   Example: The train is leaving at 8 AM.\n\nStructure: Subject + be (am/is/are) + verb-ing\n\nKey point: Always include a future time reference (tomorrow, next week, at 3 PM, etc.)"
+        },
+        {
+          "id": "step-3-quiz-1",
+          "type": "single_choice",
+          "question": "Which sentence uses Present Continuous for future correctly?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "I'm playing tennis."
+            },
+            {
+              "id": "opt-2",
+              "text": "I'm playing tennis tomorrow at 2 PM."
+            },
+            {
+              "id": "opt-3",
+              "text": "I play tennis tomorrow."
+            }
+          ],
+          "correctOptionId": "opt-2",
+          "explanation": "Correct! Present Continuous for future needs a time reference. Without it, 'I'm playing tennis' means 'now'."
+        },
+        {
+          "id": "step-4-fill-1",
+          "type": "fill_blank",
+          "sentence": "She ____ flying to Paris next Monday.",
+          "correctAnswers": ["is", "'s"],
+          "explanation": "With 'she', we use 'is' or ''s'. The time reference 'next Monday' shows this is a future arrangement."
+        },
+        {
+          "id": "step-5-quiz-2",
+          "type": "single_choice",
+          "question": "When do we use Present Continuous for future?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "For spontaneous decisions"
+            },
+            {
+              "id": "opt-2",
+              "text": "For fixed arrangements with time reference"
+            },
+            {
+              "id": "opt-3",
+              "text": "For general predictions"
+            }
+          ],
+          "correctOptionId": "opt-2",
+          "explanation": "Correct! Present Continuous is used for fixed arrangements that have a specific time."
+        },
+        {
+          "id": "step-6-fill-2",
+          "type": "fill_blank",
+          "sentence": "They ____ having a party this Saturday.",
+          "correctAnswers": ["are", "'re"],
+          "explanation": "With 'they', we use 'are' or ''re'. 'This Saturday' is the time reference showing it's a future arrangement."
+        },
+        {
+          "id": "step-7-comparison",
+          "type": "text",
+          "title": "Quick Comparison",
+          "content": "Remember the differences:\n\n- WILL: predictions, spontaneous decisions\n  Example: I'll call you later.\n\n- GOING TO: plans, predictions with evidence\n  Example: I'm going to study tonight.\n\n- PRESENT CONTINUOUS: fixed arrangements\n  Example: I'm meeting him at 5 PM."
+        }
+      ]
+    }
+  ]
+}

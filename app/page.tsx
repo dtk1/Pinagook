@@ -1,6 +1,7 @@
 import PublicLayout from './layouts/PublicLayout';
 import Button from './components/Button';
 import Card from './components/Card';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -24,12 +25,16 @@ export default function Home() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button variant="primary" className="text-lg px-8 py-4">
-                Start free
-              </Button>
-              <Button variant="outline" className="text-lg px-8 py-4">
-                Watch demo
-              </Button>
+              <Link href="/auth/register">
+                <Button variant="primary" className="text-lg px-8 py-4">
+                  Start free
+                </Button>
+              </Link>
+              <Link href="/courses">
+                <Button variant="secondary" className="text-lg px-8 py-4">
+                  Watch demo
+                </Button>
+              </Link>
             </div>
 
             <div className="space-y-4 pt-4">
@@ -216,7 +221,9 @@ export default function Home() {
         </div>
 
         <div className="text-center">
-          <Button variant="outline">Explore all templates</Button>
+          <Link href="/courses">
+            <Button variant="secondary">Explore all templates</Button>
+          </Link>
         </div>
       </section>
 
@@ -257,7 +264,9 @@ export default function Home() {
                   <span className="text-gray-700">Lesson planning</span>
                 </li>
               </ul>
-              <Button variant="outline" className="w-full">Get started</Button>
+              <Link href="/auth/register" className="w-full block">
+                <Button variant="secondary" className="w-full">Get started</Button>
+              </Link>
             </div>
           </Card>
 
@@ -301,7 +310,9 @@ export default function Home() {
                   <span className="text-gray-700">Priority support</span>
                 </li>
               </ul>
-              <Button variant="primary" className="w-full">Start free trial</Button>
+              <Link href="/auth/register" className="w-full block">
+                <Button variant="primary" className="w-full">Start free trial</Button>
+              </Link>
             </div>
           </Card>
         </div>
@@ -381,9 +392,11 @@ export default function Home() {
         <div className="bg-gradient-to-br from-[#0ea5e9] to-[#14b8a6] rounded-3xl p-12 text-center text-white">
           <h2 className="text-4xl font-bold mb-4">Ready to teach with less stress?</h2>
           <p className="text-xl mb-8 opacity-90">Join independent teachers who are already using Pinagook</p>
-          <Button variant="secondary" className="text-lg px-8 py-4">
-            Start free
-          </Button>
+          <Link href="/auth/register">
+            <Button variant="secondary" className="text-lg px-8 py-4">
+              Start free
+            </Button>
+          </Link>
         </div>
       </section>
 

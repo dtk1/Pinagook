@@ -1,7 +1,21 @@
+'use client';
+
+import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import Button from './Button';
+import { useAuth } from '../contexts/AuthContext';
 
 export default function Navbar() {
+  const router = useRouter();
+  const { user, isLoading, signOut } = useAuth();
+
+  const handleSignOut = async () => {
+    await signOut();
+    // Navigate to login page after sign out
+    router.push('/auth/login');
+    router.refresh();
+  };
+
   return (
     <nav className="w-full max-w-[1440px] mx-auto px-8 py-6 flex items-center justify-between">
       <Link href="/" className="flex items-center gap-2">
@@ -12,18 +26,38 @@ export default function Navbar() {
       </Link>
       
       <div className="hidden md:flex items-center gap-8">
-        <a href="#features" className="text-[#475569] hover:text-[#0EA5B7] transition-colors">Features</a>
-        <a href="#templates" className="text-[#475569] hover:text-[#0EA5B7] transition-colors">Templates</a>
-        <a href="#pricing" className="text-[#475569] hover:text-[#0EA5B7] transition-colors">Pricing</a>
-        <a href="#blog" className="text-[#475569] hover:text-[#0EA5B7] transition-colors">Blog</a>
-        <a href="#contact" className="text-[#475569] hover:text-[#0EA5B7] transition-colors">Contact</a>
+        <Link href="/courses" className="text-[#475569] hover:text-[#0EA5B7] transition-colors">
+          Courses
+        </Link>
+        {user && (
+          <Link href="/teacher" className="text-[#475569] hover:text-[#0EA5B7] transition-colors">
+            Teacher
+          </Link>
+        )}
       </div>
 
       <div className="flex items-center gap-4">
-        <Link href="/login" className="text-[#475569] hover:text-[#0EA5B7] transition-colors hidden md:block">Log in</Link>
-        <Link href="/register">
-          <Button variant="primary">Start free</Button>
-        </Link>
+        {isLoading ? (
+          <span className="text-sm text-[#475569] animate-pulse">Loading...</span>
+        ) : user ? (
+          <>
+            <span className="text-sm text-[#475569] hidden md:block">
+              Signed in as <span className="font-medium">{user.email}</span>
+            </span>
+            <Button variant="secondary" onClick={handleSignOut}>
+              Sign out
+            </Button>
+          </>
+        ) : (
+          <>
+            <Link href="/auth/login" className="text-[#475569] hover:text-[#0EA5B7] transition-colors hidden md:block">
+              Login
+            </Link>
+            <Link href="/auth/register">
+              <Button variant="primary">Register</Button>
+            </Link>
+          </>
+        )}
       </div>
     </nav>
   );

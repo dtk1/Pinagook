@@ -18,6 +18,8 @@ export const metadata: Metadata = {
   description: "Plan lessons, organize materials, and track student progress — all in one calm, organized workspace for independent English teachers.",
 };
 
+import Navbar from './components/Navbar';
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -29,7 +31,10 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <AuthProvider>
-        {children}
+          <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-sm border-b border-[#E6EEF2]">
+            <Navbar />
+          </header>
+          <main>{children}</main>
         </AuthProvider>
       </body>
     </html>
