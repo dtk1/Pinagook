@@ -1,0 +1,34 @@
+# Pinagook Project Rules & Context
+
+## 1. Tech Stack & Environment
+- **Framework:** Next.js 16 (App Router), React 19.
+- **Styling:** Tailwind CSS 4 (Strictly no legacy config).
+- **UI:** shadcn/ui (Radix Primitives).
+- **Backend/Auth:** Supabase (SSR/Server Actions integration).
+- **Database:** PostgreSQL (Neon/Supabase).
+- **Testing:** Vitest, Playwright.
+
+## 2. Coding Standards
+- **Language:** TypeScript only. Strictly no `any`. Use interfaces for Course/Lesson models.
+- **Architecture:** - Use Server Actions for DB mutations.
+  - Keep Client Components lean. 
+  - Prefer Server Components for data fetching.
+- **Naming:** CamelCase for functions/variables, PascalCase for Components.
+- **Supabase:** Always use the middleware-based session handling for protected routes.
+
+## 3. Interaction Preferences (Daulet's Style)
+- **No Verbosity:** Do not explain basic concepts. Provide direct, ready-to-use artifacts.
+- **Structure:** Use tables, checklists, and step-by-step schemas.
+- **Context:** Always consider the "Teacher-Student" roles. 
+- **Deployment Ready:** Focus on error handling, RLS policies, and loading states.
+
+## 4. Key Project Constraints
+- **State:** Progress is synced between `localStorage` (unauthenticated) and `user_progress` table (authenticated).
+- **Course Model:** Course → Lessons → Steps (JSON based).
+- **Theme:** "Ocean/Dolphin" (Calm, Educational). Use primary colors for educational CTAs.
+
+## 5. Deployment Checklist (Always verify)
+- [ ] No hardcoded API keys.
+- [ ] RLS policies for all tables.
+- [ ] Proper loading/error states in App Router.
+- [ ] Standard ML-style logic (recursion/immutability) where functional approach is cleaner.

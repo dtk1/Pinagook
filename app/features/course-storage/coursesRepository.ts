@@ -19,7 +19,7 @@ export interface CourseMetadata {
 
 /**
  * List all courses for a specific owner
- * @param ownerId - The user ID (owner) to list courses for
+ * @param ownerId - The owner ID to list courses for
  * @returns Array of course metadata
  * @throws Error if database operation fails
  */
@@ -50,8 +50,40 @@ export async function listCoursesForOwner(ownerId: string): Promise<CourseMetada
 }
 
 /**
+ * Get database ID (UUID) for a specific course
+ * @param ownerId - The owner ID of the course
+ * @param courseId - The course ID to retrieve
+ * @returns Database ID (UUID) or null if not found
+ * @throws Error if database operation fails
+ */
+export async function getCourseDbId(
+  ownerId: string,
+  courseId: string
+): Promise<string | null> {
+  const supabase = await createServerSupabaseClient();
+
+  const { data, error } = await supabase
+    .from('courses')
+    .select('id')
+    .eq('owner_id', ownerId)
+    .eq('course_id', courseId)
+    .maybeSingle();
+
+  if (error) {
+    throw new Error(`Failed to get course DB ID: ${error.message}`);
+  }
+
+  if (!data) {
+    return null;
+  }
+
+  // Type assertion needed due to Supabase type inference limitations
+  return (data as any).id as string | null;
+}
+
+/**
  * Get raw JSON for a specific course
- * @param ownerId - The user ID (owner) of the course
+ * @param ownerId - The owner ID of the course
  * @param courseId - The course ID to retrieve
  * @returns Raw JSON data or null if not found
  * @throws Error if database operation fails
@@ -84,7 +116,7 @@ export async function getCourseRawJson(
 /**
  * Upsert a course from raw JSON
  * Validates the JSON, extracts metadata, and stores it in the database
- * @param ownerId - The user ID (owner) of the course
+ * @param ownerId - The owner ID of the course
  * @param rawJson - Raw JSON data to validate and store
  * @returns Course metadata (courseId, title, description)
  * @throws Error if validation fails or database operation fails

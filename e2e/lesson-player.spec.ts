@@ -66,7 +66,7 @@ test.describe('Lesson Player E2E', () => {
     }
 
     // Find and complete a fill_blank step if available
-    const fillBlankInput = page.getByPlaceholderText('?');
+    const fillBlankInput = page.getByPlaceholder('?');
     if (await fillBlankInput.isVisible().catch(() => false)) {
       await fillBlankInput.fill('go');
       
@@ -178,7 +178,7 @@ test.describe('Lesson Player E2E', () => {
       const checkButton = page.getByRole('button', { name: /check/i });
       if (await checkButton.isEnabled().catch(() => false)) {
         // Try to answer
-        const fillBlankInput = page.getByPlaceholderText('?');
+        const fillBlankInput = page.getByPlaceholder('?');
         const option = page.getByText(/i go to school|i brush/i);
 
         if (await fillBlankInput.isVisible().catch(() => false)) {

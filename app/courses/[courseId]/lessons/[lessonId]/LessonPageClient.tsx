@@ -68,6 +68,7 @@ export default function LessonPageClient({
 
       <LessonPlayer
         lesson={lesson}
+        courseId={courseId}
         hasNextLesson={hasNextLesson}
         onFinish={handleFinish}
         onNextLesson={handleNextLesson}

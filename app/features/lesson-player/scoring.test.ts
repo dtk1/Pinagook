@@ -36,7 +36,7 @@ describe('scoreStep - single_choice', () => {
     expect(result?.type).toBe('single_choice');
     expect(result?.isCorrect).toBe(true);
     expect(result?.userAnswer).toBe('4');
-    expect(result?.correctAnswer).toBe('4');
+    expect((result as any)?.correctAnswer).toBe('4');
   });
 
   it('should return incorrect result for wrong answer', () => {
@@ -51,7 +51,7 @@ describe('scoreStep - single_choice', () => {
     expect(result?.type).toBe('single_choice');
     expect(result?.isCorrect).toBe(false);
     expect(result?.userAnswer).toBe('3');
-    expect(result?.correctAnswer).toBe('4');
+    expect((result as any)?.correctAnswer).toBe('4');
   });
 
   it('should return null if not checked', () => {

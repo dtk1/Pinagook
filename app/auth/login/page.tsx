@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, FormEvent } from 'react';
+import { useState, FormEvent, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { signInAction, resendConfirmationAction } from '../../actions/authActions';
 import { createBrowserSupabaseClient } from '../../lib/supabase/browser';
@@ -9,7 +9,7 @@ import Button from '../../components/Button';
 import Input from '../../components/Input';
 import Link from 'next/link';
 
-export default function LoginPage() {
+function LoginPageInner() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const next = searchParams.get('next') || '/courses';
@@ -148,5 +148,30 @@ export default function LoginPage() {
         </Card>
       </div>
     </div>
+  );
+}
+
+export default function LoginPage() {
+  // Next.js 16 требует, чтобы компоненты, использующие useSearchParams,
+  // были внутри <Suspense>, иначе при пререндере падает ошибка CSR bailout.
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen flex items-center justify-center bg-[#F8FAFC] px-4">
+        <div className="w-full max-w-md">
+          <Card>
+            <div className="space-y-4">
+              <div className="h-6 bg-slate-200 rounded w-1/3" />
+              <div className="space-y-2">
+                <div className="h-10 bg-slate-100 rounded" />
+                <div className="h-10 bg-slate-100 rounded" />
+              </div>
+              <div className="h-10 bg-slate-200 rounded" />
+            </div>
+          </Card>
+        </div>
+      </div>
+    }>
+      <LoginPageInner />
+    </Suspense>
   );
 }

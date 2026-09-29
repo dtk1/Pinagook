@@ -55,6 +55,41 @@ export type Database = {
           updated_at?: string;
         };
       };
+      user_progress: {
+        Row: {
+          id: string;
+          user_id: string;
+          course_db_id: string;
+          lesson_id: string;
+          step_id: string;
+          is_completed: boolean;
+          score: number;
+          user_answer: unknown; // JSONB in PostgreSQL
+          updated_at: string;
+        };
+        Insert: {
+          id?: string;
+          user_id: string;
+          course_db_id: string;
+          lesson_id: string;
+          step_id: string;
+          is_completed?: boolean;
+          score?: number;
+          user_answer?: unknown;
+          updated_at?: string;
+        };
+        Update: {
+          id?: string;
+          user_id?: string;
+          course_db_id?: string;
+          lesson_id?: string;
+          step_id?: string;
+          is_completed?: boolean;
+          score?: number;
+          user_answer?: unknown;
+          updated_at?: string;
+        };
+      };
     };
   };
 };

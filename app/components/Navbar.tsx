@@ -30,9 +30,14 @@ export default function Navbar() {
           Courses
         </Link>
         {user && (
-          <Link href="/teacher" className="text-[#475569] hover:text-[#0EA5B7] transition-colors">
-            Teacher
-          </Link>
+          <>
+            <Link href="/progress" className="text-[#475569] hover:text-[#0EA5B7] transition-colors">
+              Progress
+            </Link>
+            <Link href="/teacher" className="text-[#475569] hover:text-[#0EA5B7] transition-colors">
+              Teacher
+            </Link>
+          </>
         )}
       </div>
 

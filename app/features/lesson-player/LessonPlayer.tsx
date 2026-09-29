@@ -14,9 +14,11 @@ import {
   clearProgress,
   StoredLessonProgress,
 } from '../progress/progressStorage';
+import { saveLessonProgressAction } from '../../actions/progressActions';
 
 interface LessonPlayerProps {
   lesson: Lesson;
+  courseId?: string;
   hasNextLesson?: boolean;
   onFinish?: () => void;
   onNextLesson?: () => void;
@@ -24,6 +26,7 @@ interface LessonPlayerProps {
 
 export default function LessonPlayer({ 
   lesson, 
+  courseId,
   hasNextLesson = false, 
   onFinish, 
   onNextLesson 
@@ -35,6 +38,8 @@ export default function LessonPlayer({
   const [savedProgress, setSavedProgress] = useState<StoredLessonProgress | null>(null);
   const [showResumePrompt, setShowResumePrompt] = useState(false);
   const [savingEnabled, setSavingEnabled] = useState(false);
+  const [savingToDb, setSavingToDb] = useState(false);
+  const [saveStatus, setSaveStatus] = useState<{ type: 'success' | 'error'; message: string } | null>(null);
   const fillBlankInputRef = useRef<HTMLInputElement>(null);
 
   const currentStep = lesson.steps[currentStepIndex];
@@ -87,6 +92,44 @@ export default function LessonPlayer({
     if (!hasCurrentAnswer) return;
     setChecked(prev => ({ ...prev, [currentStep.id]: true }));
   }, [hasCurrentAnswer, currentStep.id]);
+
+  const handleSaveToDb = useCallback(async () => {
+    if (!courseId) {
+      setSaveStatus({ type: 'error', message: 'Course ID is required to save progress' });
+      return;
+    }
+
+    setSavingToDb(true);
+    setSaveStatus(null);
+
+    try {
+      const result = await saveLessonProgressAction(
+        courseId,
+        null, // courseDbId will be fetched automatically
+        lesson,
+        answers,
+        checked
+      );
+
+      if (result.ok) {
+        setSaveStatus({ 
+          type: 'success', 
+          message: `Progress saved! ${result.savedCount} step${result.savedCount !== 1 ? 's' : ''} saved to database.` 
+        });
+        // Clear status after 3 seconds
+        setTimeout(() => setSaveStatus(null), 3000);
+      } else {
+        setSaveStatus({ type: 'error', message: result.error });
+      }
+    } catch (error) {
+      setSaveStatus({ 
+        type: 'error', 
+        message: error instanceof Error ? error.message : 'Failed to save progress' 
+      });
+    } finally {
+      setSavingToDb(false);
+    }
+  }, [courseId, lesson, answers, checked]);
 
   const handleNext = useCallback(() => {
     if (isLastStep) {
@@ -272,6 +315,31 @@ export default function LessonPlayer({
         />
       </Card>
 
+      {/* Save to DB Button */}
+      {courseId && Object.keys(checked).length > 0 && !result && (
+        <div className="mb-4">
+          <Button
+            variant="secondary"
+            onClick={handleSaveToDb}
+            isLoading={savingToDb}
+            disabled={savingToDb}
+            size="s"
+            className="w-full"
+          >
+            💾 Save Progress to Database
+          </Button>
+          {saveStatus && (
+            <div className={`mt-2 p-2 rounded-lg text-sm ${
+              saveStatus.type === 'success'
+                ? 'bg-green-50 text-green-800 border border-green-200'
+                : 'bg-red-50 text-red-800 border border-red-200'
+            }`}>
+              {saveStatus.message}
+            </div>
+          )}
+        </div>
+      )}
+
       {/* Navigation */}
       <div className="space-y-3">
         <div className="flex items-center justify-between gap-4">
@@ -331,7 +399,7 @@ interface StepRendererProps {
   isChecked: boolean;
   isCorrect: boolean;
   onAnswerChange: (answer: Answer) => void;
-  fillBlankInputRef?: React.RefObject<HTMLInputElement>;
+  fillBlankInputRef?: React.RefObject<HTMLInputElement | null>;
 }
 
 function StepRenderer({ step, answer, isChecked, isCorrect, onAnswerChange, fillBlankInputRef }: StepRendererProps) {
@@ -489,7 +557,7 @@ function StepFillBlankRenderer({
   isChecked: boolean;
   isCorrect: boolean;
   onAnswerChange: (answer: FillBlankAnswer) => void;
-  inputRef?: React.RefObject<HTMLInputElement>;
+  inputRef?: React.RefObject<HTMLInputElement | null>;
 }) {
   const value = answer?.value || '';
 

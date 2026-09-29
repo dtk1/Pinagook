@@ -9,6 +9,7 @@ import { redirect } from 'next/navigation';
 import { requireUser } from '../../lib/auth/requireUser';
 import { seedDemoCourseToDb } from '../../actions/devSeedCourse';
 import SeedButton from './SeedButton';
+import ProgressTestButton from './ProgressTestButton';
 
 export default async function DevDbPage() {
   // Only allow in development
@@ -35,6 +36,14 @@ export default async function DevDbPage() {
             Click the button below to seed the demo course to the database.
           </p>
           <SeedButton />
+        </div>
+
+        <div className="border rounded-lg p-6 space-y-4">
+          <h2 className="text-lg font-semibold">Test Progress Storage</h2>
+          <p className="text-sm text-gray-600">
+            Test saving and loading progress from the database. Make sure you have seeded a course first.
+          </p>
+          <ProgressTestButton />
         </div>
       </div>
     </div>
