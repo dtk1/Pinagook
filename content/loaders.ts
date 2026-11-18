@@ -6,6 +6,15 @@
 import { Course } from './types';
 import { loadCourseFromJson as validateCourse } from './validate';
 import demoCourseJson from './demo-course.json';
+import bcElementaryJson from './bc-elementary-a1-a2.json';
+import bcIntermediateJson from './bc-intermediate-b1-b2.json';
+import bcAdvancedJson from './bc-advanced-c1-c2.json';
+import teA1Json from './test-english-a1.json';
+import teA2Json from './test-english-a2.json';
+import teB1Json from './test-english-b1.json';
+import teB1PlusJson from './test-english-b1plus.json';
+import teB2Json from './test-english-b2.json';
+import teC1Json from './test-english-c1.json';
 
 /**
  * Load and validate a course from JSON data
@@ -38,9 +47,15 @@ export type CourseLoader = () => Course;
  */
 const courseLoaders: Record<string, CourseLoader> = {
   'present-simple-basics': () => validateCourse(demoCourseJson),
-  // Add more courses here as they become available
-  // Example:
-  // 'past-tense-basics': () => validateCourse(pastTenseCourseJson),
+  'bc-elementary-a1-a2': () => validateCourse(bcElementaryJson),
+  'bc-intermediate-b1-b2': () => validateCourse(bcIntermediateJson),
+  'bc-advanced-c1-c2': () => validateCourse(bcAdvancedJson),
+  'test-english-a1': () => validateCourse(teA1Json),
+  'test-english-a2': () => validateCourse(teA2Json),
+  'test-english-b1': () => validateCourse(teB1Json),
+  'test-english-b1plus': () => validateCourse(teB1PlusJson),
+  'test-english-b2': () => validateCourse(teB2Json),
+  'test-english-c1': () => validateCourse(teC1Json),
 };
 
 /**
@@ -168,9 +183,13 @@ export function courseExists(courseId: string): boolean {
 
   if (typeof window !== 'undefined') {
     try {
-      const { storedCourseExists } = require('../app/features/course-storage/courseStorage');
-      return storedCourseExists(courseId);
-    } catch (error) {
+      const storageKey = 'pinagook:courses:v1';
+      const stored = localStorage.getItem(storageKey);
+      if (!stored) return false;
+      const courses = JSON.parse(stored);
+      if (!Array.isArray(courses)) return false;
+      return courses.some((c: { courseId: string }) => c.courseId === courseId);
+    } catch {
       return false;
     }
   }

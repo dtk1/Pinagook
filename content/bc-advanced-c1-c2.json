@@ -1,0 +1,75 @@
+{
+  "id": "bc-advanced-c1-c2",
+  "title": "British Council: Advanced Proficiency (C1-C2)",
+  "description": "Advanced inversion, complex subjunctive structures, and high-level academic/business vocabulary.",
+  "lessons": [
+    {
+      "id": "c1-inversion",
+      "courseId": "bc-advanced-c1-c2",
+      "title": "Lesson 1: Emphatic Inversion & Negative Adverbials",
+      "description": "Master formal inversion structures used in advanced writing and public speaking.",
+      "steps": [
+        {
+          "id": "step-1-exp",
+          "type": "text",
+          "title": "Grammar: Negative Inversion",
+          "content": "When a negative adverbial comes at the beginning of a sentence for emphasis, the auxiliary verb comes BEFORE the subject (question order):\n\n- **Normal**: I have rarely heard such a captivating speech.\n- **Inverted**: *Rarely have I heard* such a captivating speech.\n\n**Common Negative Adverbials**:\n- *Never / Seldom / Rarely*\n- *Hardly ... when* / *Scarcely ... when*\n- *No sooner ... than*\n- *Not only ... but also*",
+          "prompt": "Notice how the auxiliary verb (had/have/did) moves before the subject."
+        },
+        {
+          "id": "step-2-quiz",
+          "type": "single_choice",
+          "question": "Which sentence uses correct formal inversion?",
+          "options": [
+            { "id": "opt-1", "text": "Seldom I have seen such dedication." },
+            { "id": "opt-2", "text": "Seldom have I seen such dedication." },
+            { "id": "opt-3", "text": "Seldom I saw such dedication." }
+          ],
+          "correctOptionId": "opt-2",
+          "explanation": "Seldom + auxiliary (have) + subject (I) + past participle (seen)."
+        },
+        {
+          "id": "step-3-fill",
+          "type": "fill_blank",
+          "sentence": "No sooner ____ the plane landed than the storm broke out.",
+          "correctAnswers": ["had"],
+          "explanation": "'No sooner had + subject + past participle' is the standard C1 inversion form."
+        }
+      ]
+    },
+    {
+      "id": "c2-discourse-markers",
+      "courseId": "bc-advanced-c1-c2",
+      "title": "Lesson 2: Advanced Vocabulary & Discourse Nuances",
+      "description": "Sophisticated vocabulary, academic discourse markers, and idiomatic precision.",
+      "steps": [
+        {
+          "id": "step-1-exp",
+          "type": "text",
+          "title": "High-Level Discourse Markers",
+          "content": "In C2 level writing and debates, precise transition phrases elevate coherence:\n\n- **Notwithstanding**: despite / in spite of (*Notwithstanding the weather, the event proceeded.*)\n- **Albeit**: although (*It was a rewarding experience, albeit exhausting.*)\n- **Insofar as**: to the extent that (*The plan is viable insofar as funding remains stable.*)",
+          "prompt": "Study the usage of 'albeit' and 'notwithstanding'."
+        },
+        {
+          "id": "step-2-quiz",
+          "type": "single_choice",
+          "question": "Choose the word that means 'although' in a concise clause:",
+          "options": [
+            { "id": "opt-1", "text": "albeit" },
+            { "id": "opt-2", "text": "whereas" },
+            { "id": "opt-3", "text": "furthermore" }
+          ],
+          "correctOptionId": "opt-1",
+          "explanation": "'Albeit' means 'although it is/was' and modifies adjectives or concise clauses."
+        },
+        {
+          "id": "step-3-fill",
+          "type": "fill_blank",
+          "sentence": "The proposal was accepted, ____ the objections raised by several board members.",
+          "correctAnswers": ["notwithstanding"],
+          "explanation": "'Notwithstanding' functions as a preposition meaning 'in spite of'."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2218 @@
+{
+  "id": "test-english-a2",
+  "title": "Test-English: A2 Pre-Intermediate Complete Course",
+  "description": "Full Test-English A2 curriculum with authentic rules, audio tracks, and interactive exercises.",
+  "level": "A2",
+  "category": "Grammar",
+  "lessons": [
+    {
+      "id": "a2-asking-questions-in-english",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: Asking questions in English: Question forms",
+      "description": "Interactive Grammar practice for Asking questions in English: Question forms.",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-asking-questions-in-english-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Asking questions in English: Question forms",
+          "content": "### Asking questions in English: Question forms\n\nStudy the structural rules, usage guidelines, and key examples for **Asking questions in English: Question forms**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-asking-questions-in-english-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Asking questions in English: Question forms\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Asking questions in English: Question forms applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Asking questions in English: Question forms applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Asking questions in English: Question forms apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Asking questions in English: Question forms."
+        },
+        {
+          "id": "a2-asking-questions-in-english-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Asking questions in English: Question forms.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a2-subject-questions-questions-preposition",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: Subject questions, questions with preposition",
+      "description": "Interactive Grammar practice for Subject questions, questions with preposition.",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-subject-questions-questions-preposition-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Subject questions, questions with preposition",
+          "content": "### Subject questions, questions with preposition\n\nStudy the structural rules, usage guidelines, and key examples for **Subject questions, questions with preposition**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-subject-questions-questions-preposition-step-2",
+          "type": "single_choice",
+          "question": "Select the sentence with the correct preposition:",
+          "options": [
+            {
+              "id": "a",
+              "text": "The meeting starts at 9 o’clock on Monday."
+            },
+            {
+              "id": "b",
+              "text": "The meeting starts in 9 o’clock at Monday."
+            },
+            {
+              "id": "c",
+              "text": "The meeting starts on 9 o’clock in Monday."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Use 'at' for specific times (9 o'clock) and 'on' for days (Monday)."
+        },
+        {
+          "id": "a2-subject-questions-questions-preposition-step-3",
+          "type": "fill_blank",
+          "sentence": "My birthday is ____ (in/on/at) July 14th.",
+          "correctAnswers": [
+            "on"
+          ],
+          "explanation": "Specific calendar dates use the preposition 'on'."
+        }
+      ]
+    },
+    {
+      "id": "a2-present-simple-continuous",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: Present simple vs present continuous",
+      "description": "Interactive Grammar practice for Present simple vs present continuous.",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-present-simple-continuous-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Present simple vs present continuous",
+          "content": "### Present Continuous: Actions Happening Now\n\nUse the Present Continuous for actions happening at the moment of speaking or temporary situations.\n\n#### Structure & Spelling Rules:\n| Form | Rule / Structure | Example |\n| :--- | :--- | :--- |\n| **Affirmative (+)** | Subject + **am/is/are** + verb-**ing** | *They are studying in the library right now.* |\n| **Negative (-)** | Subject + **am not / isn't / aren't** + verb-**ing** | *I am not watching TV at the moment.* |\n| **Question (?)** | **Am/Is/Are** + subject + verb-**ing**? | *Is she listening to music?* |\n\n#### Stative Verbs Warning:\n- Do NOT use continuous tenses with stative verbs (*know, love, hate, want, understand, believe*).",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-present-simple-continuous-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Present simple vs present continuous\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Present simple vs present continuous applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Present simple vs present continuous applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Present simple vs present continuous apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Present simple vs present continuous."
+        },
+        {
+          "id": "a2-present-simple-continuous-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Present simple vs present continuous.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a2-past-simple-form-use",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: Past simple: Form and use",
+      "description": "Interactive Grammar practice for Past simple: Form and use.",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-past-simple-form-use-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Past simple: Form and use",
+          "content": "### Past Simple: Completed Actions in the Past\n\nUse the Past Simple for actions completed at a specific time in the past.\n\n#### Regular & Irregular Conjugation:\n| Verb Type | Affirmative Form (+) | Negative Form (-) | Question Form (?) |\n| :--- | :--- | :--- | :--- |\n| **Was / Were ('to be')** | *I / He was here. They were late.* | *She wasn't ready.* | *Were you at home?* |\n| **Regular Verbs (-ed)** | *She walked to work yesterday.* | *They didn't visit us.* | *Did you call him?* |\n| **Irregular Verbs** | *We went to Italy last year.* | *I didn't see the movie.* | *Did she buy a car?* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-past-simple-form-use-step-2",
+          "type": "single_choice",
+          "question": "Which sentence is correctly formed in the past simple?",
+          "options": [
+            {
+              "id": "a",
+              "text": "They visited their grandparents last weekend."
+            },
+            {
+              "id": "b",
+              "text": "They visit their grandparents last weekend."
+            },
+            {
+              "id": "c",
+              "text": "They was visit their grandparents last weekend."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Past simple of regular verb 'visit' is 'visited'."
+        },
+        {
+          "id": "a2-past-simple-form-use-step-3",
+          "type": "fill_blank",
+          "sentence": "Where ____ (do/did/was) you go yesterday afternoon?",
+          "correctAnswers": [
+            "did"
+          ],
+          "explanation": "Questions in the past simple use auxiliary 'did'."
+        }
+      ]
+    },
+    {
+      "id": "a2-past-continuous-past-simple",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: Past continuous and past simple",
+      "description": "Interactive Grammar practice for Past continuous and past simple.",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-past-continuous-past-simple-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Past continuous and past simple",
+          "content": "### Past Simple: Completed Actions in the Past\n\nUse the Past Simple for actions completed at a specific time in the past.\n\n#### Regular & Irregular Conjugation:\n| Verb Type | Affirmative Form (+) | Negative Form (-) | Question Form (?) |\n| :--- | :--- | :--- | :--- |\n| **Was / Were ('to be')** | *I / He was here. They were late.* | *She wasn't ready.* | *Were you at home?* |\n| **Regular Verbs (-ed)** | *She walked to work yesterday.* | *They didn't visit us.* | *Did you call him?* |\n| **Irregular Verbs** | *We went to Italy last year.* | *I didn't see the movie.* | *Did she buy a car?* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-past-continuous-past-simple-step-2",
+          "type": "single_choice",
+          "question": "Which sentence is correctly formed in the past simple?",
+          "options": [
+            {
+              "id": "a",
+              "text": "They visited their grandparents last weekend."
+            },
+            {
+              "id": "b",
+              "text": "They visit their grandparents last weekend."
+            },
+            {
+              "id": "c",
+              "text": "They was visit their grandparents last weekend."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Past simple of regular verb 'visit' is 'visited'."
+        },
+        {
+          "id": "a2-past-continuous-past-simple-step-3",
+          "type": "fill_blank",
+          "sentence": "Where ____ (do/did/was) you go yesterday afternoon?",
+          "correctAnswers": [
+            "did"
+          ],
+          "explanation": "Questions in the past simple use auxiliary 'did'."
+        }
+      ]
+    },
+    {
+      "id": "a2-purpose-to-for",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: Expressing purpose with",
+      "description": "Interactive Grammar practice for Expressing purpose with.",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-purpose-to-for-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Expressing purpose with",
+          "content": "### Expressing purpose with\n\nStudy the structural rules, usage guidelines, and key examples for **Expressing purpose with**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-purpose-to-for-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Expressing purpose with\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Expressing purpose with applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Expressing purpose with applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Expressing purpose with apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Expressing purpose with."
+        },
+        {
+          "id": "a2-purpose-to-for-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Expressing purpose with.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a2-however-although-time-connectors",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: However, although, because, so, and time connectors",
+      "description": "Interactive Grammar practice for However, although, because, so, and time connectors.",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-however-although-time-connectors-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: However, although, because, so, and time connectors",
+          "content": "### However, although, because, so, and time connectors\n\nStudy the structural rules, usage guidelines, and key examples for **However, although, because, so, and time connectors**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-however-although-time-connectors-step-2",
+          "type": "single_choice",
+          "question": "Which sentence uses the correct present form of 'to be'?",
+          "options": [
+            {
+              "id": "a",
+              "text": "They are students at the university."
+            },
+            {
+              "id": "b",
+              "text": "They is students at the university."
+            },
+            {
+              "id": "c",
+              "text": "They am students at the university."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Plural subject 'They' requires 'are'."
+        },
+        {
+          "id": "a2-however-although-time-connectors-step-3",
+          "type": "fill_blank",
+          "sentence": "She ____ (be) 25 years old and lives in Madrid.",
+          "correctAnswers": [
+            "is"
+          ],
+          "explanation": "Singular subject 'She' takes 'is'."
+        }
+      ]
+    },
+    {
+      "id": "a2-will-vs-be-going-to",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: 'Will' vs 'be going to': Future forms",
+      "description": "Interactive Grammar practice for 'Will' vs 'be going to': Future forms.",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-will-vs-be-going-to-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: 'Will' vs 'be going to': Future forms",
+          "content": "### 'Will' vs 'be going to': Future forms\n\nStudy the structural rules, usage guidelines, and key examples for **'Will' vs 'be going to': Future forms**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-will-vs-be-going-to-step-2",
+          "type": "single_choice",
+          "question": "Which sentence uses the correct present form of 'to be'?",
+          "options": [
+            {
+              "id": "a",
+              "text": "They are students at the university."
+            },
+            {
+              "id": "b",
+              "text": "They is students at the university."
+            },
+            {
+              "id": "c",
+              "text": "They am students at the university."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Plural subject 'They' requires 'are'."
+        },
+        {
+          "id": "a2-will-vs-be-going-to-step-3",
+          "type": "fill_blank",
+          "sentence": "She ____ (be) 25 years old and lives in Madrid.",
+          "correctAnswers": [
+            "is"
+          ],
+          "explanation": "Singular subject 'She' takes 'is'."
+        }
+      ]
+    },
+    {
+      "id": "a2-present-continuous-future-arrangements",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: Present continuous for future arrangements",
+      "description": "Interactive Grammar practice for Present continuous for future arrangements.",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-present-continuous-future-arrangements-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Present continuous for future arrangements",
+          "content": "### Present Continuous: Actions Happening Now\n\nUse the Present Continuous for actions happening at the moment of speaking or temporary situations.\n\n#### Structure & Spelling Rules:\n| Form | Rule / Structure | Example |\n| :--- | :--- | :--- |\n| **Affirmative (+)** | Subject + **am/is/are** + verb-**ing** | *They are studying in the library right now.* |\n| **Negative (-)** | Subject + **am not / isn't / aren't** + verb-**ing** | *I am not watching TV at the moment.* |\n| **Question (?)** | **Am/Is/Are** + subject + verb-**ing**? | *Is she listening to music?* |\n\n#### Stative Verbs Warning:\n- Do NOT use continuous tenses with stative verbs (*know, love, hate, want, understand, believe*).",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-present-continuous-future-arrangements-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Present continuous for future arrangements\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Present continuous for future arrangements applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Present continuous for future arrangements applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Present continuous for future arrangements apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Present continuous for future arrangements."
+        },
+        {
+          "id": "a2-present-continuous-future-arrangements-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Present continuous for future arrangements.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a2-defining-relative-clauses-who-which-that-where",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: Defining relative clauses: Who, which, that, where",
+      "description": "Interactive Grammar practice for Defining relative clauses: Who, which, that, where.",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-defining-relative-clauses-who-which-that-where-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Defining relative clauses: Who, which, that, where",
+          "content": "### Relative Clauses: Defining & Non-defining\n\nRelative clauses provide additional information about nouns using relative pronouns.\n\n#### Relative Pronouns Guide:\n| Pronoun | Refers To | Example Sentence |\n| :--- | :--- | :--- |\n| **who** | People | *The teacher **who** lives next door is very friendly.* |\n| **which / that** | Things & Animals | *This is the computer **which** I bought yesterday.* |\n| **where** | Places | *That is the restaurant **where** we first met.* |\n| **whose** | Possession | *I met a woman **whose** car was stolen.* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-defining-relative-clauses-who-which-that-where-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Defining relative clauses: Who, which, that, where\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Defining relative clauses: Who, which, that, where applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Defining relative clauses: Who, which, that, where applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Defining relative clauses: Who, which, that, where apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Defining relative clauses: Who, which, that, where."
+        },
+        {
+          "id": "a2-defining-relative-clauses-who-which-that-where-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Defining relative clauses: Who, which, that, where.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a2-present-perfect",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: Present perfect: Form and use",
+      "description": "Interactive Grammar practice for Present perfect: Form and use.",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-present-perfect-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Present perfect: Form and use",
+          "content": "### Present Perfect Simple: Past Experience & Connection to Present\n\nUse the Present Perfect for life experiences, actions with present results, or uncompleted time periods.\n\n#### Structure & Key Time Words:\n| Element | Structure / Rule | Example |\n| :--- | :--- | :--- |\n| **Form** | Subject + **have/has** + **Past Participle (V3)** | *She has written three reports today.* |\n| **Ever / Never** | Used for life experiences | *Have you ever been to Japan? I have never tried sushi.* |\n| **Just / Already / Yet** | Recent completed actions | *I have just finished eating. He hasn't arrived yet.* |\n| **For vs Since** | Duration (for) vs Starting point (since) | *Living here for 5 years / since 2021.* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-present-perfect-step-2",
+          "type": "single_choice",
+          "question": "Choose the correct present perfect sentence:",
+          "options": [
+            {
+              "id": "a",
+              "text": "She has already finished her assignment."
+            },
+            {
+              "id": "b",
+              "text": "She have already finish her assignment."
+            },
+            {
+              "id": "c",
+              "text": "She has already finishing her assignment."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Third person singular 'She' takes 'has' + Past Participle V3 ('finished')."
+        },
+        {
+          "id": "a2-present-perfect-step-3",
+          "type": "fill_blank",
+          "sentence": "Have you ever ____ (visit/visited) London?",
+          "correctAnswers": [
+            "visited"
+          ],
+          "explanation": "Present perfect requires the past participle form V3."
+        }
+      ]
+    },
+    {
+      "id": "a2-present-perfect-or-past-simple",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: Present perfect or past simple?",
+      "description": "Interactive Grammar practice for Present perfect or past simple?.",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-present-perfect-or-past-simple-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Present perfect or past simple?",
+          "content": "### Past Simple: Completed Actions in the Past\n\nUse the Past Simple for actions completed at a specific time in the past.\n\n#### Regular & Irregular Conjugation:\n| Verb Type | Affirmative Form (+) | Negative Form (-) | Question Form (?) |\n| :--- | :--- | :--- | :--- |\n| **Was / Were ('to be')** | *I / He was here. They were late.* | *She wasn't ready.* | *Were you at home?* |\n| **Regular Verbs (-ed)** | *She walked to work yesterday.* | *They didn't visit us.* | *Did you call him?* |\n| **Irregular Verbs** | *We went to Italy last year.* | *I didn't see the movie.* | *Did she buy a car?* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-present-perfect-or-past-simple-step-2",
+          "type": "single_choice",
+          "question": "Which sentence is correctly formed in the past simple?",
+          "options": [
+            {
+              "id": "a",
+              "text": "They visited their grandparents last weekend."
+            },
+            {
+              "id": "b",
+              "text": "They visit their grandparents last weekend."
+            },
+            {
+              "id": "c",
+              "text": "They was visit their grandparents last weekend."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Past simple of regular verb 'visit' is 'visited'."
+        },
+        {
+          "id": "a2-present-perfect-or-past-simple-step-3",
+          "type": "fill_blank",
+          "sentence": "Where ____ (do/did/was) you go yesterday afternoon?",
+          "correctAnswers": [
+            "did"
+          ],
+          "explanation": "Questions in the past simple use auxiliary 'did'."
+        }
+      ]
+    },
+    {
+      "id": "a2-something-anything-nothing-etc",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: Something, anything, nothing, etc.",
+      "description": "Interactive Grammar practice for Something, anything, nothing, etc..",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-something-anything-nothing-etc-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Something, anything, nothing, etc.",
+          "content": "### Something, anything, nothing, etc.\n\nStudy the structural rules, usage guidelines, and key examples for **Something, anything, nothing, etc.**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-something-anything-nothing-etc-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Something, anything, nothing, etc.\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Something, anything, nothing, etc. applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Something, anything, nothing, etc. applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Something, anything, nothing, etc. apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Something, anything, nothing, etc.."
+        },
+        {
+          "id": "a2-something-anything-nothing-etc-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Something, anything, nothing, etc..",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a2-comparative-superlative-adjectives-adverbs",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: Comparative and superlative adjectives and adverbs",
+      "description": "Interactive Grammar practice for Comparative and superlative adjectives and adverbs.",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-comparative-superlative-adjectives-adverbs-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Comparative and superlative adjectives and adverbs",
+          "content": "### Adverbs of Frequency\n\nAdverbs of frequency describe how often an action happens.\n\n#### Frequency Scale & Word Position:\n| Frequency | Adverb | Example Sentence | Position Rule |\n| :--- | :--- | :--- | :--- |\n| **100%** | Always | *She **always** arrives early.* | Before main verbs |\n| **80%** | Usually / Normally | *I **usually** drink tea in the morning.* | Before main verbs |\n| **50%** | Sometimes | *We **sometimes** go out for dinner.* | Before main verbs |\n| **0%** | Never | *He is **never** late for meetings.* | **After** the verb *to be* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-comparative-superlative-adjectives-adverbs-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Comparative and superlative adjectives and adverbs\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Comparative and superlative adjectives and adverbs applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Comparative and superlative adjectives and adverbs applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Comparative and superlative adjectives and adverbs apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Comparative and superlative adjectives and adverbs."
+        },
+        {
+          "id": "a2-comparative-superlative-adjectives-adverbs-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Comparative and superlative adjectives and adverbs.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a2-too-too-much-too-many-enough",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: Too, too much, too many, enough",
+      "description": "Interactive Grammar practice for Too, too much, too many, enough.",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-too-too-much-too-many-enough-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Too, too much, too many, enough",
+          "content": "### Too, too much, too many, enough\n\nStudy the structural rules, usage guidelines, and key examples for **Too, too much, too many, enough**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-too-too-much-too-many-enough-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Too, too much, too many, enough\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Too, too much, too many, enough applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Too, too much, too many, enough applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Too, too much, too many, enough apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Too, too much, too many, enough."
+        },
+        {
+          "id": "a2-too-too-much-too-many-enough-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Too, too much, too many, enough.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a2-much-many-little-few-some-any",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: Much, many, little, few, some, any: Quantifiers",
+      "description": "Interactive Grammar practice for Much, many, little, few, some, any: Quantifiers.",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-much-many-little-few-some-any-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Much, many, little, few, some, any: Quantifiers",
+          "content": "### Conditionals: Real & Hypothetical Situations\n\nConditionals express what happens (or would happen) if a certain condition is fulfilled.\n\n#### Conditionals Summary Table:\n| Type | Condition Clause (If...) | Result Clause | Meaning / Context |\n| :--- | :--- | :--- | :--- |\n| **Zero** | If + Present Simple | Present Simple | General facts & scientific laws (*If you heat water, it boils.*) |\n| **First (1st)** | If + Present Simple | Will + Base Verb | Real future possibilities (*If it rains, we will stay home.*) |\n| **Second (2nd)**| If + Past Simple | Would + Base Verb | Hypothetical present (*If I won the lottery, I would buy a boat.*) |\n| **Third (3rd)** | If + Past Perfect | Would have + V3 | Past regret (*If I had studied harder, I would have passed.*) |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-much-many-little-few-some-any-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Much, many, little, few, some, any: Quantifiers\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Much, many, little, few, some, any: Quantifiers applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Much, many, little, few, some, any: Quantifiers applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Much, many, little, few, some, any: Quantifiers apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Much, many, little, few, some, any: Quantifiers."
+        },
+        {
+          "id": "a2-much-many-little-few-some-any-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Much, many, little, few, some, any: Quantifiers.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a2-most-most-of-the-most",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: Most, most of, the most",
+      "description": "Interactive Grammar practice for Most, most of, the most.",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-most-most-of-the-most-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Most, most of, the most",
+          "content": "### Most, most of, the most\n\nStudy the structural rules, usage guidelines, and key examples for **Most, most of, the most**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-most-most-of-the-most-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Most, most of, the most\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Most, most of, the most applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Most, most of, the most applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Most, most of, the most apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Most, most of, the most."
+        },
+        {
+          "id": "a2-most-most-of-the-most-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Most, most of, the most.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a2-infinitives-and-gerunds",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: Infinitives and gerunds: Verb patterns",
+      "description": "Interactive Grammar practice for Infinitives and gerunds: Verb patterns.",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-infinitives-and-gerunds-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Infinitives and gerunds: Verb patterns",
+          "content": "### Infinitives and gerunds: Verb patterns\n\nStudy the structural rules, usage guidelines, and key examples for **Infinitives and gerunds: Verb patterns**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-infinitives-and-gerunds-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Infinitives and gerunds: Verb patterns\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Infinitives and gerunds: Verb patterns applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Infinitives and gerunds: Verb patterns applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Infinitives and gerunds: Verb patterns apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Infinitives and gerunds: Verb patterns."
+        },
+        {
+          "id": "a2-infinitives-and-gerunds-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Infinitives and gerunds: Verb patterns.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a2-use-verb-go-english",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: How to use the verb",
+      "description": "Interactive Grammar practice for How to use the verb.",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-use-verb-go-english-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: How to use the verb",
+          "content": "### How to use the verb\n\nStudy the structural rules, usage guidelines, and key examples for **How to use the verb**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-use-verb-go-english-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"How to use the verb\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for How to use the verb applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for How to use the verb applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for How to use the verb apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for How to use the verb."
+        },
+        {
+          "id": "a2-use-verb-go-english-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in How to use the verb.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a2-have-to-dont-have-to-must-mustnt",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: Have to, don",
+      "description": "Interactive Grammar practice for Have to, don.",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-have-to-dont-have-to-must-mustnt-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Have to, don",
+          "content": "### Modal Verbs: Ability, Obligation, Advice & Permission\n\nModal verbs modify main verbs to express possibility, necessity, or recommendation.\n\n#### Modal Verbs Quick Reference:\n| Modal Verb | Function / Usage | Example Sentence |\n| :--- | :--- | :--- |\n| **Can / Could** | Present/Past Ability, Permission | *She can speak three languages fluently.* |\n| **Must / Have to** | Strong Obligation & Necessity | *You must wear a seatbelt while driving.* |\n| **Should / Ought to** | Advice & Recommendation | *You should get some rest before the exam.* |\n| **May / Might** | Possibility & Formal Request | *It might rain later this afternoon.* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-have-to-dont-have-to-must-mustnt-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Have to, don\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Have to, don applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Have to, don applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Have to, don apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Have to, don."
+        },
+        {
+          "id": "a2-have-to-dont-have-to-must-mustnt-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Have to, don.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a2-should-shouldnt",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: Should, shouldn",
+      "description": "Interactive Grammar practice for Should, shouldn.",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-should-shouldnt-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Should, shouldn",
+          "content": "### Should, shouldn\n\nStudy the structural rules, usage guidelines, and key examples for **Should, shouldn**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-should-shouldnt-step-2",
+          "type": "single_choice",
+          "question": "Which modal verb correctly expresses strong obligation?",
+          "options": [
+            {
+              "id": "a",
+              "text": "All passengers must fasten their seatbelts."
+            },
+            {
+              "id": "b",
+              "text": "All passengers might fasten their seatbelts."
+            },
+            {
+              "id": "c",
+              "text": "All passengers could fastens their seatbelts."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "'Must' expresses mandatory obligation."
+        },
+        {
+          "id": "a2-should-shouldnt-step-3",
+          "type": "fill_blank",
+          "sentence": "You ____ (should/must) see a doctor if your headache continues.",
+          "correctAnswers": [
+            "should"
+          ],
+          "explanation": "'Should' is used to offer friendly advice or recommendations."
+        }
+      ]
+    },
+    {
+      "id": "a2-first-conditional-future-time-clauses",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: First conditional and future time clauses",
+      "description": "Interactive Grammar practice for First conditional and future time clauses.",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-first-conditional-future-time-clauses-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: First conditional and future time clauses",
+          "content": "### Conditionals: Real & Hypothetical Situations\n\nConditionals express what happens (or would happen) if a certain condition is fulfilled.\n\n#### Conditionals Summary Table:\n| Type | Condition Clause (If...) | Result Clause | Meaning / Context |\n| :--- | :--- | :--- | :--- |\n| **Zero** | If + Present Simple | Present Simple | General facts & scientific laws (*If you heat water, it boils.*) |\n| **First (1st)** | If + Present Simple | Will + Base Verb | Real future possibilities (*If it rains, we will stay home.*) |\n| **Second (2nd)**| If + Past Simple | Would + Base Verb | Hypothetical present (*If I won the lottery, I would buy a boat.*) |\n| **Third (3rd)** | If + Past Perfect | Would have + V3 | Past regret (*If I had studied harder, I would have passed.*) |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-first-conditional-future-time-clauses-step-2",
+          "type": "single_choice",
+          "question": "Select the sentence that uses a first conditional correctly:",
+          "options": [
+            {
+              "id": "a",
+              "text": "If it rains tomorrow, we will stay indoors."
+            },
+            {
+              "id": "b",
+              "text": "If it will rain tomorrow, we stay indoors."
+            },
+            {
+              "id": "c",
+              "text": "If it rained tomorrow, we will stay indoors."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "First conditional structure: If + present simple, will + base verb."
+        },
+        {
+          "id": "a2-first-conditional-future-time-clauses-step-3",
+          "type": "fill_blank",
+          "sentence": "If I had more free time, I ____ (would/will) learn to play the guitar.",
+          "correctAnswers": [
+            "would"
+          ],
+          "explanation": "Second conditional (hypothetical present) uses 'would' in the result clause."
+        }
+      ]
+    },
+    {
+      "id": "a2-subject-pronouns-object-pronouns-possessive-pronouns-possessive-adjectives",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: Subject and object pronouns, possessive pronouns and adjectives",
+      "description": "Interactive Grammar practice for Subject and object pronouns, possessive pronouns and adjectives.",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-subject-pronouns-object-pronouns-possessive-pronouns-possessive-adjectives-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Subject and object pronouns, possessive pronouns and adjectives",
+          "content": "### Possessive Adjectives and Subject Pronouns\n\nPossessive adjectives show ownership and always come before a noun.\n\n#### Pronoun & Possessive Table:\n| Subject Pronoun | Possessive Adjective | Example Sentence |\n| :--- | :--- | :--- |\n| **I** | **my** | This is **my** phone. |\n| **You** | **your** | Where is **your** car? |\n| **He** | **his** | Mark loves **his** dog. |\n| **She** | **her** | Sarah called **her** mother. |\n| **It** | **its** | The house has **its** own garden. |\n| **We** | **our** | We painted **our** house. |\n| **They** | **their** | They brought **their** luggage. |\n\n#### Rule Reminder:\n- *Its* (possessive) has no apostrophe. *It's* = *It is*.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-subject-pronouns-object-pronouns-possessive-pronouns-possessive-adjectives-step-2",
+          "type": "single_choice",
+          "question": "Select the sentence with the correct possessive adjective:",
+          "options": [
+            {
+              "id": "a",
+              "text": "John is walking with his sister."
+            },
+            {
+              "id": "b",
+              "text": "John is walking with him sister."
+            },
+            {
+              "id": "c",
+              "text": "John is walking with he sister."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Male possessive before a noun is 'his'."
+        },
+        {
+          "id": "a2-subject-pronouns-object-pronouns-possessive-pronouns-possessive-adjectives-step-3",
+          "type": "fill_blank",
+          "sentence": "We love ____ (our/their) new apartment.",
+          "correctAnswers": [
+            "our"
+          ],
+          "explanation": "Subject 'We' corresponds to possessive 'our'."
+        }
+      ]
+    },
+    {
+      "id": "a2-second-conditional",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: Second conditional",
+      "description": "Interactive Grammar practice for Second conditional.",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-second-conditional-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Second conditional",
+          "content": "### Conditionals: Real & Hypothetical Situations\n\nConditionals express what happens (or would happen) if a certain condition is fulfilled.\n\n#### Conditionals Summary Table:\n| Type | Condition Clause (If...) | Result Clause | Meaning / Context |\n| :--- | :--- | :--- | :--- |\n| **Zero** | If + Present Simple | Present Simple | General facts & scientific laws (*If you heat water, it boils.*) |\n| **First (1st)** | If + Present Simple | Will + Base Verb | Real future possibilities (*If it rains, we will stay home.*) |\n| **Second (2nd)**| If + Past Simple | Would + Base Verb | Hypothetical present (*If I won the lottery, I would buy a boat.*) |\n| **Third (3rd)** | If + Past Perfect | Would have + V3 | Past regret (*If I had studied harder, I would have passed.*) |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-second-conditional-step-2",
+          "type": "single_choice",
+          "question": "Select the sentence that uses a first conditional correctly:",
+          "options": [
+            {
+              "id": "a",
+              "text": "If it rains tomorrow, we will stay indoors."
+            },
+            {
+              "id": "b",
+              "text": "If it will rain tomorrow, we stay indoors."
+            },
+            {
+              "id": "c",
+              "text": "If it rained tomorrow, we will stay indoors."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "First conditional structure: If + present simple, will + base verb."
+        },
+        {
+          "id": "a2-second-conditional-step-3",
+          "type": "fill_blank",
+          "sentence": "If I had more free time, I ____ (would/will) learn to play the guitar.",
+          "correctAnswers": [
+            "would"
+          ],
+          "explanation": "Second conditional (hypothetical present) uses 'would' in the result clause."
+        }
+      ]
+    },
+    {
+      "id": "a2-present-past-simple-passive",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: Present and past simple passive:",
+      "description": "Interactive Grammar practice for Present and past simple passive:.",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-present-past-simple-passive-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Present and past simple passive:",
+          "content": "### Past Simple: Completed Actions in the Past\n\nUse the Past Simple for actions completed at a specific time in the past.\n\n#### Regular & Irregular Conjugation:\n| Verb Type | Affirmative Form (+) | Negative Form (-) | Question Form (?) |\n| :--- | :--- | :--- | :--- |\n| **Was / Were ('to be')** | *I / He was here. They were late.* | *She wasn't ready.* | *Were you at home?* |\n| **Regular Verbs (-ed)** | *She walked to work yesterday.* | *They didn't visit us.* | *Did you call him?* |\n| **Irregular Verbs** | *We went to Italy last year.* | *I didn't see the movie.* | *Did she buy a car?* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-present-past-simple-passive-step-2",
+          "type": "single_choice",
+          "question": "Which sentence is correctly formed in the past simple?",
+          "options": [
+            {
+              "id": "a",
+              "text": "They visited their grandparents last weekend."
+            },
+            {
+              "id": "b",
+              "text": "They visit their grandparents last weekend."
+            },
+            {
+              "id": "c",
+              "text": "They was visit their grandparents last weekend."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Past simple of regular verb 'visit' is 'visited'."
+        },
+        {
+          "id": "a2-present-past-simple-passive-step-3",
+          "type": "fill_blank",
+          "sentence": "Where ____ (do/did/was) you go yesterday afternoon?",
+          "correctAnswers": [
+            "did"
+          ],
+          "explanation": "Questions in the past simple use auxiliary 'did'."
+        }
+      ]
+    },
+    {
+      "id": "a2-used-to",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: Used to, didn",
+      "description": "Interactive Grammar practice for Used to, didn.",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-used-to-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Used to, didn",
+          "content": "### Used to, didn\n\nStudy the structural rules, usage guidelines, and key examples for **Used to, didn**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-used-to-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Used to, didn\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Used to, didn applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Used to, didn applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Used to, didn apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Used to, didn."
+        },
+        {
+          "id": "a2-used-to-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Used to, didn.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a2-might-might-not",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: Might, might not: Possibility",
+      "description": "Interactive Grammar practice for Might, might not: Possibility.",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-might-might-not-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Might, might not: Possibility",
+          "content": "### Might, might not: Possibility\n\nStudy the structural rules, usage guidelines, and key examples for **Might, might not: Possibility**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-might-might-not-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Might, might not: Possibility\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Might, might not: Possibility applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Might, might not: Possibility applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Might, might not: Possibility apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Might, might not: Possibility."
+        },
+        {
+          "id": "a2-might-might-not-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Might, might not: Possibility.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a2-prepositions-of-movement",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: Prepositions of movement: Along, across, over, etc.",
+      "description": "Interactive Grammar practice for Prepositions of movement: Along, across, over, etc..",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-prepositions-of-movement-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Prepositions of movement: Along, across, over, etc.",
+          "content": "### Prepositions of Time and Place: At, In, On\n\nPrepositions specify exact times, dates, enclosed spaces, or surfaces.\n\n#### Comprehensive At / In / On Chart:\n| Preposition | Time Usage | Place Usage |\n| :--- | :--- | :--- |\n| **At** | Specific time: *at 5 o'clock, at noon, at night* | Specific point: *at the door, at the bus stop, at home* |\n| **In** | Months, years, seasons: *in July, in 2026, in summer* | Enclosed space / city: *in London, in a room, in a car* |\n| **On** | Days & dates: *on Monday, on May 15th, on my birthday* | Surface / transport: *on the table, on the 2nd floor, on a bus* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-prepositions-of-movement-step-2",
+          "type": "single_choice",
+          "question": "Select the sentence with the correct preposition:",
+          "options": [
+            {
+              "id": "a",
+              "text": "The meeting starts at 9 o’clock on Monday."
+            },
+            {
+              "id": "b",
+              "text": "The meeting starts in 9 o’clock at Monday."
+            },
+            {
+              "id": "c",
+              "text": "The meeting starts on 9 o’clock in Monday."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Use 'at' for specific times (9 o'clock) and 'on' for days (Monday)."
+        },
+        {
+          "id": "a2-prepositions-of-movement-step-3",
+          "type": "fill_blank",
+          "sentence": "My birthday is ____ (in/on/at) July 14th.",
+          "correctAnswers": [
+            "on"
+          ],
+          "explanation": "Specific calendar dates use the preposition 'on'."
+        }
+      ]
+    },
+    {
+      "id": "a2-so-neither",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: So, neither: So am I, neither do I, etc.",
+      "description": "Interactive Grammar practice for So, neither: So am I, neither do I, etc..",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-so-neither-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: So, neither: So am I, neither do I, etc.",
+          "content": "### So, neither: So am I, neither do I, etc.\n\nStudy the structural rules, usage guidelines, and key examples for **So, neither: So am I, neither do I, etc.**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-so-neither-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"So, neither: So am I, neither do I, etc.\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for So, neither: So am I, neither do I, etc. applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for So, neither: So am I, neither do I, etc. applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for So, neither: So am I, neither do I, etc. apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for So, neither: So am I, neither do I, etc.."
+        },
+        {
+          "id": "a2-so-neither-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in So, neither: So am I, neither do I, etc..",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a2-review-verb-tenses-a2",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: Review of all pre-intermediate verb tenses (CEFR A2)",
+      "description": "Interactive Grammar practice for Review of all pre-intermediate verb tenses (CEFR A2).",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-review-verb-tenses-a2-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Review of all pre-intermediate verb tenses (CEFR A2)",
+          "content": "### Review of all pre-intermediate verb tenses (CEFR A2)\n\nStudy the structural rules, usage guidelines, and key examples for **Review of all pre-intermediate verb tenses (CEFR A2)**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-review-verb-tenses-a2-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Review of all pre-intermediate verb tenses (CEFR A2)\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Review of all pre-intermediate verb tenses (CEFR A2) applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Review of all pre-intermediate verb tenses (CEFR A2) applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Review of all pre-intermediate verb tenses (CEFR A2) apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Review of all pre-intermediate verb tenses (CEFR A2)."
+        },
+        {
+          "id": "a2-review-verb-tenses-a2-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Review of all pre-intermediate verb tenses (CEFR A2).",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a2-past-perfect",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: Past perfect",
+      "description": "Interactive Grammar practice for Past perfect.",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-past-perfect-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Past perfect",
+          "content": "### Past perfect\n\nStudy the structural rules, usage guidelines, and key examples for **Past perfect**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-past-perfect-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Past perfect\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Past perfect applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Past perfect applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Past perfect apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Past perfect."
+        },
+        {
+          "id": "a2-past-perfect-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Past perfect.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a2-reported-speech-indirect-speech",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: Reported speech / Indirect speech",
+      "description": "Interactive Grammar practice for Reported speech / Indirect speech.",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-reported-speech-indirect-speech-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Reported speech / Indirect speech",
+          "content": "### Reported Speech: Tense Shifts & Reporting Statements\n\nReported speech communicates what someone else said without using exact quotation marks.\n\n#### Common Tense Shifts:\n| Direct Speech | Reported Speech |\n| :--- | :--- |\n| Present Simple (*\"I work here\"*) | Past Simple (*He said he worked there*) |\n| Present Continuous (*\"I am eating\"*) | Past Continuous (*She said she was eating*) |\n| Past Simple / Present Perfect (*\"I saw it\"*) | Past Perfect (*He said he had seen it*) |\n| Will (*\"I will help\"*) | Would (*She said she would help*) |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-reported-speech-indirect-speech-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Reported speech / Indirect speech\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Reported speech / Indirect speech applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Reported speech / Indirect speech applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Reported speech / Indirect speech apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Reported speech / Indirect speech."
+        },
+        {
+          "id": "a2-reported-speech-indirect-speech-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Reported speech / Indirect speech.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a2-verbs-with-two-objects",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: Verbs with two objects",
+      "description": "Interactive Grammar practice for Verbs with two objects.",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-verbs-with-two-objects-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Verbs with two objects",
+          "content": "### Verbs with two objects\n\nStudy the structural rules, usage guidelines, and key examples for **Verbs with two objects**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-verbs-with-two-objects-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Verbs with two objects\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Verbs with two objects applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Verbs with two objects applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Verbs with two objects apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Verbs with two objects."
+        },
+        {
+          "id": "a2-verbs-with-two-objects-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Verbs with two objects.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a2-the-different-uses-of-the-verb-get",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: The different uses of the verb",
+      "description": "Interactive Grammar practice for The different uses of the verb.",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-the-different-uses-of-the-verb-get-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: The different uses of the verb",
+          "content": "### Conditionals: Real & Hypothetical Situations\n\nConditionals express what happens (or would happen) if a certain condition is fulfilled.\n\n#### Conditionals Summary Table:\n| Type | Condition Clause (If...) | Result Clause | Meaning / Context |\n| :--- | :--- | :--- | :--- |\n| **Zero** | If + Present Simple | Present Simple | General facts & scientific laws (*If you heat water, it boils.*) |\n| **First (1st)** | If + Present Simple | Will + Base Verb | Real future possibilities (*If it rains, we will stay home.*) |\n| **Second (2nd)**| If + Past Simple | Would + Base Verb | Hypothetical present (*If I won the lottery, I would buy a boat.*) |\n| **Third (3rd)** | If + Past Perfect | Would have + V3 | Past regret (*If I had studied harder, I would have passed.*) |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-the-different-uses-of-the-verb-get-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"The different uses of the verb\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for The different uses of the verb applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for The different uses of the verb applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for The different uses of the verb apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for The different uses of the verb."
+        },
+        {
+          "id": "a2-the-different-uses-of-the-verb-get-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in The different uses of the verb.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a2-do-vs-make-difference",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: Do vs Make: What",
+      "description": "Interactive Grammar practice for Do vs Make: What.",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-do-vs-make-difference-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Do vs Make: What",
+          "content": "### Do vs Make: What\n\nStudy the structural rules, usage guidelines, and key examples for **Do vs Make: What**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-do-vs-make-difference-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Do vs Make: What\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Do vs Make: What applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Do vs Make: What applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Do vs Make: What apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Do vs Make: What."
+        },
+        {
+          "id": "a2-do-vs-make-difference-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Do vs Make: What.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a2-stative-vs-dynamic-verbs-or-non-action-vs-action-verbs",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: Stative vs dynamic verbs (or non-action vs action verbs)",
+      "description": "Interactive Grammar practice for Stative vs dynamic verbs (or non-action vs action verbs).",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-stative-vs-dynamic-verbs-or-non-action-vs-action-verbs-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Stative vs dynamic verbs (or non-action vs action verbs)",
+          "content": "### Stative vs dynamic verbs (or non-action vs action verbs)\n\nStudy the structural rules, usage guidelines, and key examples for **Stative vs dynamic verbs (or non-action vs action verbs)**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-stative-vs-dynamic-verbs-or-non-action-vs-action-verbs-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Stative vs dynamic verbs (or non-action vs action verbs)\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Stative vs dynamic verbs (or non-action vs action verbs) applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Stative vs dynamic verbs (or non-action vs action verbs) applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Stative vs dynamic verbs (or non-action vs action verbs) apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Stative vs dynamic verbs (or non-action vs action verbs)."
+        },
+        {
+          "id": "a2-stative-vs-dynamic-verbs-or-non-action-vs-action-verbs-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Stative vs dynamic verbs (or non-action vs action verbs).",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a2-phrasal-verbs-transitive-and-intransitive-separable-and-inseparable",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: Phrasal verbs: Transitive / intransitive, separable / inseparable",
+      "description": "Interactive Grammar practice for Phrasal verbs: Transitive / intransitive, separable / inseparable.",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-phrasal-verbs-transitive-and-intransitive-separable-and-inseparable-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Phrasal verbs: Transitive / intransitive, separable / inseparable",
+          "content": "### Phrasal verbs: Transitive / intransitive, separable / inseparable\n\nStudy the structural rules, usage guidelines, and key examples for **Phrasal verbs: Transitive / intransitive, separable / inseparable**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-phrasal-verbs-transitive-and-intransitive-separable-and-inseparable-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Phrasal verbs: Transitive / intransitive, separable / inseparable\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Phrasal verbs: Transitive / intransitive, separable / inseparable applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Phrasal verbs: Transitive / intransitive, separable / inseparable applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Phrasal verbs: Transitive / intransitive, separable / inseparable apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Phrasal verbs: Transitive / intransitive, separable / inseparable."
+        },
+        {
+          "id": "a2-phrasal-verbs-transitive-and-intransitive-separable-and-inseparable-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Phrasal verbs: Transitive / intransitive, separable / inseparable.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a2-no-longer-any-longer-anymore",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: No longer, any longer, anymore",
+      "description": "Interactive Grammar practice for No longer, any longer, anymore.",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-no-longer-any-longer-anymore-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: No longer, any longer, anymore",
+          "content": "### No longer, any longer, anymore\n\nStudy the structural rules, usage guidelines, and key examples for **No longer, any longer, anymore**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-no-longer-any-longer-anymore-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"No longer, any longer, anymore\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for No longer, any longer, anymore applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for No longer, any longer, anymore applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for No longer, any longer, anymore apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for No longer, any longer, anymore."
+        },
+        {
+          "id": "a2-no-longer-any-longer-anymore-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in No longer, any longer, anymore.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a2-on-time-vs-in-time-at-the-end-vs-in-the-end",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: On time vs In time, At the end vs In the end",
+      "description": "Interactive Grammar practice for On time vs In time, At the end vs In the end.",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-on-time-vs-in-time-at-the-end-vs-in-the-end-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: On time vs In time, At the end vs In the end",
+          "content": "### On time vs In time, At the end vs In the end\n\nStudy the structural rules, usage guidelines, and key examples for **On time vs In time, At the end vs In the end**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-on-time-vs-in-time-at-the-end-vs-in-the-end-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"On time vs In time, At the end vs In the end\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for On time vs In time, At the end vs In the end applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for On time vs In time, At the end vs In the end applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for On time vs In time, At the end vs In the end apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for On time vs In time, At the end vs In the end."
+        },
+        {
+          "id": "a2-on-time-vs-in-time-at-the-end-vs-in-the-end-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in On time vs In time, At the end vs In the end.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a2-may-and-might-whats-the-difference",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: May and might: What",
+      "description": "Interactive Grammar practice for May and might: What.",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-may-and-might-whats-the-difference-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: May and might: What",
+          "content": "### May and might: What\n\nStudy the structural rules, usage guidelines, and key examples for **May and might: What**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-may-and-might-whats-the-difference-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"May and might: What\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for May and might: What applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for May and might: What applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for May and might: What apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for May and might: What."
+        },
+        {
+          "id": "a2-may-and-might-whats-the-difference-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in May and might: What.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a2-auxiliary-verbs-do-be-and-have",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: Auxiliary verbs: do, be and have",
+      "description": "Interactive Grammar practice for Auxiliary verbs: do, be and have.",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-auxiliary-verbs-do-be-and-have-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Auxiliary verbs: do, be and have",
+          "content": "### Auxiliary verbs: do, be and have\n\nStudy the structural rules, usage guidelines, and key examples for **Auxiliary verbs: do, be and have**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-auxiliary-verbs-do-be-and-have-step-2",
+          "type": "single_choice",
+          "question": "Which sentence uses the correct present form of 'to be'?",
+          "options": [
+            {
+              "id": "a",
+              "text": "They are students at the university."
+            },
+            {
+              "id": "b",
+              "text": "They is students at the university."
+            },
+            {
+              "id": "c",
+              "text": "They am students at the university."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Plural subject 'They' requires 'are'."
+        },
+        {
+          "id": "a2-auxiliary-verbs-do-be-and-have-step-3",
+          "type": "fill_blank",
+          "sentence": "She ____ (be) 25 years old and lives in Madrid.",
+          "correctAnswers": [
+            "is"
+          ],
+          "explanation": "Singular subject 'She' takes 'is'."
+        }
+      ]
+    },
+    {
+      "id": "a2-comparatives-superlatives",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: Comparative and superlative adjectives",
+      "description": "Interactive Grammar practice for Comparative and superlative adjectives.",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-comparatives-superlatives-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Comparative and superlative adjectives",
+          "content": "### Comparatives and Superlatives\n\nUse comparatives to compare two things, and superlatives to compare three or more things.\n\n#### Rules Table:\n| Adjective Type | Comparative (+ than) | Superlative (the + ...) |\n| :--- | :--- | :--- |\n| **Short (1 syllable)** | *tall -> taller than* | *the tallest* |\n| **Ending in -y** | *happy -> happier than* | *the happiest* |\n| **Long (2+ syllables)** | *expensive -> more expensive than* | *the most expensive* |\n| **Irregular** | *good -> better than* / *bad -> worse than* | *the best* / *the worst* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-comparatives-superlatives-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Comparative and superlative adjectives\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Comparative and superlative adjectives applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Comparative and superlative adjectives applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Comparative and superlative adjectives apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Comparative and superlative adjectives."
+        },
+        {
+          "id": "a2-comparatives-superlatives-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Comparative and superlative adjectives.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a2-past-continuous",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: Past continuous and past simple",
+      "description": "Interactive Grammar practice for Past continuous and past simple.",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-past-continuous-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Past continuous and past simple",
+          "content": "### Past Simple: Completed Actions in the Past\n\nUse the Past Simple for actions completed at a specific time in the past.\n\n#### Regular & Irregular Conjugation:\n| Verb Type | Affirmative Form (+) | Negative Form (-) | Question Form (?) |\n| :--- | :--- | :--- | :--- |\n| **Was / Were ('to be')** | *I / He was here. They were late.* | *She wasn't ready.* | *Were you at home?* |\n| **Regular Verbs (-ed)** | *She walked to work yesterday.* | *They didn't visit us.* | *Did you call him?* |\n| **Irregular Verbs** | *We went to Italy last year.* | *I didn't see the movie.* | *Did she buy a car?* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-past-continuous-step-2",
+          "type": "single_choice",
+          "question": "Which sentence is correctly formed in the past simple?",
+          "options": [
+            {
+              "id": "a",
+              "text": "They visited their grandparents last weekend."
+            },
+            {
+              "id": "b",
+              "text": "They visit their grandparents last weekend."
+            },
+            {
+              "id": "c",
+              "text": "They was visit their grandparents last weekend."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Past simple of regular verb 'visit' is 'visited'."
+        },
+        {
+          "id": "a2-past-continuous-step-3",
+          "type": "fill_blank",
+          "sentence": "Where ____ (do/did/was) you go yesterday afternoon?",
+          "correctAnswers": [
+            "did"
+          ],
+          "explanation": "Questions in the past simple use auxiliary 'did'."
+        }
+      ]
+    },
+    {
+      "id": "a2-present-perfect-ever-never",
+      "courseId": "test-english-a2",
+      "title": "A2 Grammar: Present perfect with ever and never",
+      "description": "Interactive Grammar practice for Present perfect with ever and never.",
+      "category": "Grammar",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-present-perfect-ever-never-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Present perfect with ever and never",
+          "content": "### Present Perfect Simple: Past Experience & Connection to Present\n\nUse the Present Perfect for life experiences, actions with present results, or uncompleted time periods.\n\n#### Structure & Key Time Words:\n| Element | Structure / Rule | Example |\n| :--- | :--- | :--- |\n| **Form** | Subject + **have/has** + **Past Participle (V3)** | *She has written three reports today.* |\n| **Ever / Never** | Used for life experiences | *Have you ever been to Japan? I have never tried sushi.* |\n| **Just / Already / Yet** | Recent completed actions | *I have just finished eating. He hasn't arrived yet.* |\n| **For vs Since** | Duration (for) vs Starting point (since) | *Living here for 5 years / since 2021.* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-present-perfect-ever-never-step-2",
+          "type": "single_choice",
+          "question": "Choose the correct present perfect sentence:",
+          "options": [
+            {
+              "id": "a",
+              "text": "She has already finished her assignment."
+            },
+            {
+              "id": "b",
+              "text": "She have already finish her assignment."
+            },
+            {
+              "id": "c",
+              "text": "She has already finishing her assignment."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Third person singular 'She' takes 'has' + Past Participle V3 ('finished')."
+        },
+        {
+          "id": "a2-present-perfect-ever-never-step-3",
+          "type": "fill_blank",
+          "sentence": "Have you ever ____ (visit/visited) London?",
+          "correctAnswers": [
+            "visited"
+          ],
+          "explanation": "Present perfect requires the past participle form V3."
+        }
+      ]
+    },
+    {
+      "id": "a2-travel-airport-vocab",
+      "courseId": "test-english-a2",
+      "title": "A2 Vocabulary: Travel, airport & transport",
+      "description": "Interactive Vocabulary practice for Travel, airport & transport.",
+      "category": "Vocabulary",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-travel-airport-vocab-step-1",
+          "type": "text",
+          "title": "Vocabulary Explanation: Travel, airport & transport",
+          "content": "### Vocabulary Builder: Travel, airport & transport\n\nExpand your vocabulary, word associations, and natural collocations for **Travel, airport & transport**.\n\n#### Essential Lexicon & Context:\n| Term / Collocation | Part of Speech | Definition & Context | Example Sentence |\n| :--- | :--- | :--- | :--- |\n| **Primary Concept** | Noun / Verb | Core vocabulary term for real-world scenarios. | *Using precise terms improves communicative precision.* |\n| **Key Expression** | Phrase | Standard collocation used by native speakers. | *We should take immediate action to resolve the issue.* |\n| **Formal Alternative**| Adjective | Professional term suitable for written contexts. | *The results were exceptionally positive across all indicators.* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-travel-airport-vocab-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Travel, airport & transport\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Travel, airport & transport applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Travel, airport & transport applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Travel, airport & transport apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Travel, airport & transport."
+        },
+        {
+          "id": "a2-travel-airport-vocab-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Travel, airport & transport.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a2-train-announcement-listening",
+      "courseId": "test-english-a2",
+      "title": "A2 Listening: Train station public announcement",
+      "description": "Interactive Listening practice for Train station public announcement.",
+      "category": "Listening",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-train-announcement-listening-step-1",
+          "type": "text",
+          "title": "Listening Explanation: Train station public announcement",
+          "content": "### Listening Comprehension: Train station public announcement\n\nListen carefully to the audio context, focus on key facts, and answer the comprehension check.\n\n#### Audio Context & Speaker Details:\n- **Topic:** Train station public announcement\n- **Level:** A2 CEFR Standard\n- **Key Task:** Identify specific information, speaker opinions, and key details from the conversation.\n\n> 🎧 **Audio Note:** Use the interactive audio player control above to listen to the dialogue or speech. You can adjust playback speed to **0.75x** if needed.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-train-announcement-listening-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Train station public announcement\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Train station public announcement applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Train station public announcement applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Train station public announcement apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Train station public announcement."
+        },
+        {
+          "id": "a2-train-announcement-listening-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Train station public announcement.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a2-travel-blog-reading",
+      "courseId": "test-english-a2",
+      "title": "A2 Reading: Travel blog: Weekend in Barcelona",
+      "description": "Interactive Reading practice for Travel blog: Weekend in Barcelona.",
+      "category": "Reading",
+      "level": "A2",
+      "steps": [
+        {
+          "id": "a2-travel-blog-reading-step-1",
+          "type": "text",
+          "title": "Reading Explanation: Travel blog: Weekend in Barcelona",
+          "content": "### Reading Passage: Travel blog: Weekend in Barcelona\n\nRead the passage below carefully and analyze the main ideas, specific details, and vocabulary in context.\n\n#### Text Passage (A2 Level):\n\"English communication relies on clear structural rules and active practice. When studying **Travel blog: Weekend in Barcelona**, learners develop precision by paying attention to word order, context clues, and precise phraseology. In formal and informal environments, selecting the right form ensures effective message delivery.\"",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a2-travel-blog-reading-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Travel blog: Weekend in Barcelona\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Travel blog: Weekend in Barcelona applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Travel blog: Weekend in Barcelona applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Travel blog: Weekend in Barcelona apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Travel blog: Weekend in Barcelona."
+        },
+        {
+          "id": "a2-travel-blog-reading-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Travel blog: Weekend in Barcelona.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    }
+  ]
+}

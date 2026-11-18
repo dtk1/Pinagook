@@ -1,0 +1,82 @@
+{
+  "id": "bc-elementary-a1-a2",
+  "title": "British Council: Elementary English (A1-A2)",
+  "description": "Essential grammar, everyday vocabulary, and fundamental sentence structures based on the British Council A1-A2 curriculum.",
+  "lessons": [
+    {
+      "id": "a1-present-tenses",
+      "courseId": "bc-elementary-a1-a2",
+      "title": "Lesson 1: Present Simple vs Present Continuous",
+      "description": "Learn when to use Present Simple for habits and Present Continuous for actions happening right now.",
+      "steps": [
+        {
+          "id": "step-1-explanation",
+          "type": "text",
+          "title": "Grammar Overview: Present Tenses",
+          "content": "In English, we distinguish between routines and actions happening now:\n\n1. **Present Simple**: Used for permanent situations, habits, and daily routines.\n   - *Example*: She works in London every day.\n\n2. **Present Continuous**: Used for temporary actions happening right now or around this period.\n   - *Example*: Look! She is working on her computer right now.",
+          "prompt": "Read the rule and compare the two examples."
+        },
+        {
+          "id": "step-2-quiz-1",
+          "type": "single_choice",
+          "question": "Which sentence describes an action happening RIGHT NOW?",
+          "options": [
+            { "id": "opt-1", "text": "I drink tea every morning." },
+            { "id": "opt-2", "text": "I am drinking tea right now." },
+            { "id": "opt-3", "text": "I drank tea yesterday." }
+          ],
+          "correctOptionId": "opt-2",
+          "explanation": "'I am drinking tea right now' uses Present Continuous (be + verb-ing) for present action."
+        },
+        {
+          "id": "step-3-fill-1",
+          "type": "fill_blank",
+          "sentence": "Listen! The teacher ____ (speak) to the class.",
+          "correctAnswers": ["is speaking"],
+          "explanation": "'Listen!' signal words indicate an action happening at the moment of speaking (is speaking)."
+        },
+        {
+          "id": "step-4-fill-2",
+          "type": "fill_blank",
+          "sentence": "He usually ____ (go) to the gym on Mondays.",
+          "correctAnswers": ["goes"],
+          "explanation": "'Usually' signals a regular habit, so we use Present Simple 3rd person (goes)."
+        }
+      ]
+    },
+    {
+      "id": "a2-past-simple",
+      "courseId": "bc-elementary-a1-a2",
+      "title": "Lesson 2: Past Simple & Travel Vocabulary",
+      "description": "Master past completed actions and essential vocabulary for travel and holidays.",
+      "steps": [
+        {
+          "id": "step-1-explanation",
+          "type": "text",
+          "title": "Past Simple Rules",
+          "content": "We use **Past Simple** for finished actions at a specific time in the past.\n\n- **Regular verbs**: Add *-ed* (walk → walked, visit → visited)\n- **Irregular verbs**: Change form (go → went, buy → bought, see → saw)\n\n*Time expressions*: yesterday, last week, 2 years ago, in 2020.",
+          "prompt": "Memorize common irregular verbs: go -> went, see -> saw, buy -> bought."
+        },
+        {
+          "id": "step-2-quiz",
+          "type": "single_choice",
+          "question": "What is the correct Past Simple form of 'go'?",
+          "options": [
+            { "id": "opt-1", "text": "goed" },
+            { "id": "opt-2", "text": "went" },
+            { "id": "opt-3", "text": "gone" }
+          ],
+          "correctOptionId": "opt-2",
+          "explanation": "'Go' is an irregular verb with the Past Simple form 'went'."
+        },
+        {
+          "id": "step-3-fill",
+          "type": "fill_blank",
+          "sentence": "We ____ (visit) London last summer.",
+          "correctAnswers": ["visited"],
+          "explanation": "'Visit' is a regular verb: visit + ed = visited."
+        }
+      ]
+    }
+  ]
+}

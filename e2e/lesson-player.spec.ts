@@ -13,7 +13,7 @@ test.describe('Lesson Player E2E', () => {
     await expect(page).toHaveURL('/courses');
 
     // Wait for courses to load
-    await expect(page.getByRole('heading', { name: /available courses/i })).toBeVisible();
+    await expect(page.getByRole('heading', { name: /english learning hub/i })).toBeVisible();
 
     // Find and click demo course
     const demoCourseLink = page.getByRole('link', { name: /present simple basics/i });
@@ -37,7 +37,7 @@ test.describe('Lesson Player E2E', () => {
     await expect(page.getByText(/step 1 of/i)).toBeVisible();
 
     // Complete first text step (just click Next)
-    const nextButton = page.getByRole('button', { name: /next/i });
+    const nextButton = page.getByRole('button', { name: /^next/i });
     await expect(nextButton).toBeVisible();
     await nextButton.click();
 
@@ -95,7 +95,7 @@ test.describe('Lesson Player E2E', () => {
         break;
       }
 
-      const nextBtn = page.getByRole('button', { name: /next/i });
+      const nextBtn = page.getByRole('button', { name: /^next/i });
       if (await nextBtn.isEnabled().catch(() => false)) {
         await nextBtn.click();
         await page.waitForTimeout(500); // Wait for step transition
@@ -129,7 +129,7 @@ test.describe('Lesson Player E2E', () => {
     await expect(page.getByText(/step 1 of/i)).toBeVisible();
 
     // Navigate to step 2
-    await page.getByRole('button', { name: /next/i }).click();
+    await page.getByRole('button', { name: /^next/i }).click();
     await expect(page.getByText(/step 2 of/i)).toBeVisible();
 
     // Answer a question if it's interactive
@@ -140,18 +140,14 @@ test.describe('Lesson Player E2E', () => {
       await page.waitForTimeout(500);
     }
 
+    // Wait for auto-save before reload
+    await page.waitForTimeout(600);
+
     // Reload page
     await page.reload();
 
     // Should see resume prompt or continue from saved progress
-    const resumePrompt = page.getByText(/saved progress|continue|start over/i);
-    const stepIndicator = page.getByText(/step 2 of/i);
-
-    // Either resume prompt is shown, or we're already on step 2 (progress restored)
-    const hasResumePrompt = await resumePrompt.isVisible().catch(() => false);
-    const isOnStep2 = await stepIndicator.isVisible().catch(() => false);
-
-    expect(hasResumePrompt || isOnStep2).toBeTruthy();
+    await expect(page.getByText(/saved progress|step 2 of/i)).toBeVisible({ timeout: 5000 });
   });
 
   test('should show result screen after completing lesson', async ({ page }) => {
@@ -169,43 +165,51 @@ test.describe('Lesson Player E2E', () => {
 
     while (stepCount < maxSteps) {
       // Check if we're on result screen
-      const resultScreen = page.getByText(/lesson complete|score|total|correct/i);
+      const resultScreen = page.getByText(/lesson complete|score|total|percent/i);
       if (await resultScreen.isVisible().catch(() => false)) {
         break;
       }
 
-      // Check if there's an interactive step that needs checking
-      const checkButton = page.getByRole('button', { name: /check/i });
-      if (await checkButton.isEnabled().catch(() => false)) {
-        // Try to answer
-        const fillBlankInput = page.getByPlaceholder('?');
-        const option = page.getByText(/i go to school|i brush/i);
-
-        if (await fillBlankInput.isVisible().catch(() => false)) {
-          await fillBlankInput.fill('go');
-          await checkButton.click();
-          await page.waitForTimeout(300);
-        } else if (await option.isVisible().catch(() => false)) {
-          await option.click();
-          await checkButton.click();
-          await page.waitForTimeout(300);
-        }
-      }
-
-      // Try to go to next step
-      const nextButton = page.getByRole('button', { name: /next/i });
       const finishButton = page.getByRole('button', { name: /finish/i });
-
-      if (await finishButton.isEnabled().catch(() => false)) {
+      if (await finishButton.isVisible().catch(() => false) && await finishButton.isEnabled().catch(() => false)) {
         await finishButton.click();
+        await page.waitForTimeout(500);
         break;
       }
 
+      // Check if there's an interactive step that needs answering
+      const fillBlankInput = page.getByPlaceholder('?');
+      const optionButton = page.locator('.space-y-2 button').first();
+      const checkButton = page.getByRole('button', { name: /check/i });
+
+      if (await fillBlankInput.isVisible().catch(() => false)) {
+        await fillBlankInput.fill('go');
+        await page.waitForTimeout(100);
+        if (await checkButton.isEnabled().catch(() => false)) {
+          await checkButton.click();
+          await page.waitForTimeout(200);
+        }
+      } else if (await optionButton.isVisible().catch(() => false)) {
+        await optionButton.click();
+        await page.waitForTimeout(100);
+        if (await checkButton.isEnabled().catch(() => false)) {
+          await checkButton.click();
+          await page.waitForTimeout(200);
+        }
+      }
+
+      // Check finish again after checking
+      if (await finishButton.isVisible().catch(() => false) && await finishButton.isEnabled().catch(() => false)) {
+        await finishButton.click();
+        await page.waitForTimeout(500);
+        break;
+      }
+
+      // Try to go to next step
+      const nextButton = page.getByRole('button', { name: /^next/i });
       if (await nextButton.isEnabled().catch(() => false)) {
         await nextButton.click();
         await page.waitForTimeout(300);
-      } else {
-        break; // Can't proceed
       }
 
       stepCount++;
@@ -213,7 +217,7 @@ test.describe('Lesson Player E2E', () => {
 
     // Should see result screen
     await expect(
-      page.getByText(/lesson complete|score|total|percent/i)
+      page.getByText('Lesson Complete 🎉')
     ).toBeVisible({ timeout: 5000 });
   });
 });

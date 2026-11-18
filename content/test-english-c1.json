@@ -1,0 +1,620 @@
+{
+  "id": "test-english-c1",
+  "title": "Test-English: C1 Advanced Complete Course",
+  "description": "Full Test-English C1 curriculum with authentic rules, audio tracks, and interactive exercises.",
+  "level": "C1",
+  "category": "Grammar",
+  "lessons": [
+    {
+      "id": "c1-advanced-present-simple-and-present-continuous",
+      "courseId": "test-english-c1",
+      "title": "C1 Grammar: Advanced present simple and present continuous",
+      "description": "Interactive Grammar practice for Advanced present simple and present continuous.",
+      "category": "Grammar",
+      "level": "C1",
+      "steps": [
+        {
+          "id": "c1-advanced-present-simple-and-present-continuous-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Advanced present simple and present continuous",
+          "content": "### Present Continuous: Actions Happening Now\n\nUse the Present Continuous for actions happening at the moment of speaking or temporary situations.\n\n#### Structure & Spelling Rules:\n| Form | Rule / Structure | Example |\n| :--- | :--- | :--- |\n| **Affirmative (+)** | Subject + **am/is/are** + verb-**ing** | *They are studying in the library right now.* |\n| **Negative (-)** | Subject + **am not / isn't / aren't** + verb-**ing** | *I am not watching TV at the moment.* |\n| **Question (?)** | **Am/Is/Are** + subject + verb-**ing**? | *Is she listening to music?* |\n\n#### Stative Verbs Warning:\n- Do NOT use continuous tenses with stative verbs (*know, love, hate, want, understand, believe*).",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "c1-advanced-present-simple-and-present-continuous-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Advanced present simple and present continuous\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Advanced present simple and present continuous applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Advanced present simple and present continuous applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Advanced present simple and present continuous apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Advanced present simple and present continuous."
+        },
+        {
+          "id": "c1-advanced-present-simple-and-present-continuous-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Advanced present simple and present continuous.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "c1-advanced-past-simple-past-continuous-past-perfect",
+      "courseId": "test-english-c1",
+      "title": "C1 Grammar: Advanced past simple, past continuous & past perfect",
+      "description": "Interactive Grammar practice for Advanced past simple, past continuous & past perfect.",
+      "category": "Grammar",
+      "level": "C1",
+      "steps": [
+        {
+          "id": "c1-advanced-past-simple-past-continuous-past-perfect-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Advanced past simple, past continuous & past perfect",
+          "content": "### Past Simple: Completed Actions in the Past\n\nUse the Past Simple for actions completed at a specific time in the past.\n\n#### Regular & Irregular Conjugation:\n| Verb Type | Affirmative Form (+) | Negative Form (-) | Question Form (?) |\n| :--- | :--- | :--- | :--- |\n| **Was / Were ('to be')** | *I / He was here. They were late.* | *She wasn't ready.* | *Were you at home?* |\n| **Regular Verbs (-ed)** | *She walked to work yesterday.* | *They didn't visit us.* | *Did you call him?* |\n| **Irregular Verbs** | *We went to Italy last year.* | *I didn't see the movie.* | *Did she buy a car?* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "c1-advanced-past-simple-past-continuous-past-perfect-step-2",
+          "type": "single_choice",
+          "question": "Which sentence is correctly formed in the past simple?",
+          "options": [
+            {
+              "id": "a",
+              "text": "They visited their grandparents last weekend."
+            },
+            {
+              "id": "b",
+              "text": "They visit their grandparents last weekend."
+            },
+            {
+              "id": "c",
+              "text": "They was visit their grandparents last weekend."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Past simple of regular verb 'visit' is 'visited'."
+        },
+        {
+          "id": "c1-advanced-past-simple-past-continuous-past-perfect-step-3",
+          "type": "fill_blank",
+          "sentence": "Where ____ (do/did/was) you go yesterday afternoon?",
+          "correctAnswers": [
+            "did"
+          ],
+          "explanation": "Questions in the past simple use auxiliary 'did'."
+        }
+      ]
+    },
+    {
+      "id": "c1-advanced-modal-verbs-will-would-and-should",
+      "courseId": "test-english-c1",
+      "title": "C1 Grammar: Advanced modal verbs: will, would and should",
+      "description": "Interactive Grammar practice for Advanced modal verbs: will, would and should.",
+      "category": "Grammar",
+      "level": "C1",
+      "steps": [
+        {
+          "id": "c1-advanced-modal-verbs-will-would-and-should-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Advanced modal verbs: will, would and should",
+          "content": "### Modal Verbs: Ability, Obligation, Advice & Permission\n\nModal verbs modify main verbs to express possibility, necessity, or recommendation.\n\n#### Modal Verbs Quick Reference:\n| Modal Verb | Function / Usage | Example Sentence |\n| :--- | :--- | :--- |\n| **Can / Could** | Present/Past Ability, Permission | *She can speak three languages fluently.* |\n| **Must / Have to** | Strong Obligation & Necessity | *You must wear a seatbelt while driving.* |\n| **Should / Ought to** | Advice & Recommendation | *You should get some rest before the exam.* |\n| **May / Might** | Possibility & Formal Request | *It might rain later this afternoon.* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "c1-advanced-modal-verbs-will-would-and-should-step-2",
+          "type": "single_choice",
+          "question": "Which modal verb correctly expresses strong obligation?",
+          "options": [
+            {
+              "id": "a",
+              "text": "All passengers must fasten their seatbelts."
+            },
+            {
+              "id": "b",
+              "text": "All passengers might fasten their seatbelts."
+            },
+            {
+              "id": "c",
+              "text": "All passengers could fastens their seatbelts."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "'Must' expresses mandatory obligation."
+        },
+        {
+          "id": "c1-advanced-modal-verbs-will-would-and-should-step-3",
+          "type": "fill_blank",
+          "sentence": "You ____ (should/must) see a doctor if your headache continues.",
+          "correctAnswers": [
+            "should"
+          ],
+          "explanation": "'Should' is used to offer friendly advice or recommendations."
+        }
+      ]
+    },
+    {
+      "id": "c1-advanced-modal-verbs-can-be-able-to-may-might",
+      "courseId": "test-english-c1",
+      "title": "C1 Grammar: Advanced modal verbs: can / be able to, may / might",
+      "description": "Interactive Grammar practice for Advanced modal verbs: can / be able to, may / might.",
+      "category": "Grammar",
+      "level": "C1",
+      "steps": [
+        {
+          "id": "c1-advanced-modal-verbs-can-be-able-to-may-might-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Advanced modal verbs: can / be able to, may / might",
+          "content": "### Modal Verbs: Ability, Obligation, Advice & Permission\n\nModal verbs modify main verbs to express possibility, necessity, or recommendation.\n\n#### Modal Verbs Quick Reference:\n| Modal Verb | Function / Usage | Example Sentence |\n| :--- | :--- | :--- |\n| **Can / Could** | Present/Past Ability, Permission | *She can speak three languages fluently.* |\n| **Must / Have to** | Strong Obligation & Necessity | *You must wear a seatbelt while driving.* |\n| **Should / Ought to** | Advice & Recommendation | *You should get some rest before the exam.* |\n| **May / Might** | Possibility & Formal Request | *It might rain later this afternoon.* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "c1-advanced-modal-verbs-can-be-able-to-may-might-step-2",
+          "type": "single_choice",
+          "question": "Which sentence uses the correct present form of 'to be'?",
+          "options": [
+            {
+              "id": "a",
+              "text": "They are students at the university."
+            },
+            {
+              "id": "b",
+              "text": "They is students at the university."
+            },
+            {
+              "id": "c",
+              "text": "They am students at the university."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Plural subject 'They' requires 'are'."
+        },
+        {
+          "id": "c1-advanced-modal-verbs-can-be-able-to-may-might-step-3",
+          "type": "fill_blank",
+          "sentence": "She ____ (be) 25 years old and lives in Madrid.",
+          "correctAnswers": [
+            "is"
+          ],
+          "explanation": "Singular subject 'She' takes 'is'."
+        }
+      ]
+    },
+    {
+      "id": "c1-the-subjunctive-in-english-present-and-past",
+      "courseId": "test-english-c1",
+      "title": "C1 Grammar: The subjunctive in English: Present and past",
+      "description": "Interactive Grammar practice for The subjunctive in English: Present and past.",
+      "category": "Grammar",
+      "level": "C1",
+      "steps": [
+        {
+          "id": "c1-the-subjunctive-in-english-present-and-past-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: The subjunctive in English: Present and past",
+          "content": "### The subjunctive in English: Present and past\n\nStudy the structural rules, usage guidelines, and key examples for **The subjunctive in English: Present and past**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "c1-the-subjunctive-in-english-present-and-past-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"The subjunctive in English: Present and past\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for The subjunctive in English: Present and past applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for The subjunctive in English: Present and past applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for The subjunctive in English: Present and past apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for The subjunctive in English: Present and past."
+        },
+        {
+          "id": "c1-the-subjunctive-in-english-present-and-past-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in The subjunctive in English: Present and past.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "c1-the-perfect-tenses-forms-and-uses",
+      "courseId": "test-english-c1",
+      "title": "C1 Grammar: The perfect tenses: Forms and uses",
+      "description": "Interactive Grammar practice for The perfect tenses: Forms and uses.",
+      "category": "Grammar",
+      "level": "C1",
+      "steps": [
+        {
+          "id": "c1-the-perfect-tenses-forms-and-uses-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: The perfect tenses: Forms and uses",
+          "content": "### The perfect tenses: Forms and uses\n\nStudy the structural rules, usage guidelines, and key examples for **The perfect tenses: Forms and uses**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "c1-the-perfect-tenses-forms-and-uses-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"The perfect tenses: Forms and uses\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for The perfect tenses: Forms and uses applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for The perfect tenses: Forms and uses applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for The perfect tenses: Forms and uses apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for The perfect tenses: Forms and uses."
+        },
+        {
+          "id": "c1-the-perfect-tenses-forms-and-uses-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in The perfect tenses: Forms and uses.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "c1-advanced-participle-clauses",
+      "courseId": "test-english-c1",
+      "title": "C1 Grammar: Advanced participle clauses",
+      "description": "Interactive Grammar practice for Advanced participle clauses.",
+      "category": "Grammar",
+      "level": "C1",
+      "steps": [
+        {
+          "id": "c1-advanced-participle-clauses-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Advanced participle clauses",
+          "content": "### Advanced participle clauses\n\nStudy the structural rules, usage guidelines, and key examples for **Advanced participle clauses**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "c1-advanced-participle-clauses-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Advanced participle clauses\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Advanced participle clauses applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Advanced participle clauses applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Advanced participle clauses apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Advanced participle clauses."
+        },
+        {
+          "id": "c1-advanced-participle-clauses-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Advanced participle clauses.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "c1-advanced-word-order",
+      "courseId": "test-english-c1",
+      "title": "C1 Grammar: Advanced word order",
+      "description": "Interactive Grammar practice for Advanced word order.",
+      "category": "Grammar",
+      "level": "C1",
+      "steps": [
+        {
+          "id": "c1-advanced-word-order-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Advanced word order",
+          "content": "### Advanced word order\n\nStudy the structural rules, usage guidelines, and key examples for **Advanced word order**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "c1-advanced-word-order-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Advanced word order\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Advanced word order applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Advanced word order applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Advanced word order apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Advanced word order."
+        },
+        {
+          "id": "c1-advanced-word-order-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Advanced word order.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "c1-prepositions-position-and-advanced-patterns",
+      "courseId": "test-english-c1",
+      "title": "C1 Grammar: Prepositions: Position and advanced patterns",
+      "description": "Interactive Grammar practice for Prepositions: Position and advanced patterns.",
+      "category": "Grammar",
+      "level": "C1",
+      "steps": [
+        {
+          "id": "c1-prepositions-position-and-advanced-patterns-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Prepositions: Position and advanced patterns",
+          "content": "### Prepositions of Time and Place: At, In, On\n\nPrepositions specify exact times, dates, enclosed spaces, or surfaces.\n\n#### Comprehensive At / In / On Chart:\n| Preposition | Time Usage | Place Usage |\n| :--- | :--- | :--- |\n| **At** | Specific time: *at 5 o'clock, at noon, at night* | Specific point: *at the door, at the bus stop, at home* |\n| **In** | Months, years, seasons: *in July, in 2026, in summer* | Enclosed space / city: *in London, in a room, in a car* |\n| **On** | Days & dates: *on Monday, on May 15th, on my birthday* | Surface / transport: *on the table, on the 2nd floor, on a bus* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "c1-prepositions-position-and-advanced-patterns-step-2",
+          "type": "single_choice",
+          "question": "Select the sentence with the correct preposition:",
+          "options": [
+            {
+              "id": "a",
+              "text": "The meeting starts at 9 o’clock on Monday."
+            },
+            {
+              "id": "b",
+              "text": "The meeting starts in 9 o’clock at Monday."
+            },
+            {
+              "id": "c",
+              "text": "The meeting starts on 9 o’clock in Monday."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Use 'at' for specific times (9 o'clock) and 'on' for days (Monday)."
+        },
+        {
+          "id": "c1-prepositions-position-and-advanced-patterns-step-3",
+          "type": "fill_blank",
+          "sentence": "My birthday is ____ (in/on/at) July 14th.",
+          "correctAnswers": [
+            "on"
+          ],
+          "explanation": "Specific calendar dates use the preposition 'on'."
+        }
+      ]
+    },
+    {
+      "id": "c1-subject-verb-agreement-advanced-rules",
+      "courseId": "test-english-c1",
+      "title": "C1 Grammar: Subject–verb agreement: Advanced rules",
+      "description": "Interactive Grammar practice for Subject–verb agreement: Advanced rules.",
+      "category": "Grammar",
+      "level": "C1",
+      "steps": [
+        {
+          "id": "c1-subject-verb-agreement-advanced-rules-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Subject–verb agreement: Advanced rules",
+          "content": "### Subject–verb agreement: Advanced rules\n\nStudy the structural rules, usage guidelines, and key examples for **Subject–verb agreement: Advanced rules**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "c1-subject-verb-agreement-advanced-rules-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Subject–verb agreement: Advanced rules\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Subject–verb agreement: Advanced rules applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Subject–verb agreement: Advanced rules applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Subject–verb agreement: Advanced rules apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Subject–verb agreement: Advanced rules."
+        },
+        {
+          "id": "c1-subject-verb-agreement-advanced-rules-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Subject–verb agreement: Advanced rules.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "c1-inversion-negative-adverbials",
+      "courseId": "test-english-c1",
+      "title": "C1 Grammar: Inversion with negative adverbials",
+      "description": "Interactive Grammar practice for Inversion with negative adverbials.",
+      "category": "Grammar",
+      "level": "C1",
+      "steps": [
+        {
+          "id": "c1-inversion-negative-adverbials-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Inversion with negative adverbials",
+          "content": "### Inversion with negative adverbials\n\nStudy the structural rules, usage guidelines, and key examples for **Inversion with negative adverbials**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "c1-inversion-negative-adverbials-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Inversion with negative adverbials\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Inversion with negative adverbials applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Inversion with negative adverbials applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Inversion with negative adverbials apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Inversion with negative adverbials."
+        },
+        {
+          "id": "c1-inversion-negative-adverbials-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Inversion with negative adverbials.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "c1-academic-nuances-vocab",
+      "courseId": "test-english-c1",
+      "title": "C1 Vocabulary: Advanced academic nuances & discourse markers",
+      "description": "Interactive Vocabulary practice for Advanced academic nuances & discourse markers.",
+      "category": "Vocabulary",
+      "level": "C1",
+      "steps": [
+        {
+          "id": "c1-academic-nuances-vocab-step-1",
+          "type": "text",
+          "title": "Vocabulary Explanation: Advanced academic nuances & discourse markers",
+          "content": "### Vocabulary Builder: Advanced academic nuances & discourse markers\n\nExpand your vocabulary, word associations, and natural collocations for **Advanced academic nuances & discourse markers**.\n\n#### Essential Lexicon & Context:\n| Term / Collocation | Part of Speech | Definition & Context | Example Sentence |\n| :--- | :--- | :--- | :--- |\n| **Primary Concept** | Noun / Verb | Core vocabulary term for real-world scenarios. | *Using precise terms improves communicative precision.* |\n| **Key Expression** | Phrase | Standard collocation used by native speakers. | *We should take immediate action to resolve the issue.* |\n| **Formal Alternative**| Adjective | Professional term suitable for written contexts. | *The results were exceptionally positive across all indicators.* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "c1-academic-nuances-vocab-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Advanced academic nuances & discourse markers\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Advanced academic nuances & discourse markers applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Advanced academic nuances & discourse markers applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Advanced academic nuances & discourse markers apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Advanced academic nuances & discourse markers."
+        },
+        {
+          "id": "c1-academic-nuances-vocab-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Advanced academic nuances & discourse markers.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "c1-economics-lecture-listening",
+      "courseId": "test-english-c1",
+      "title": "C1 Listening: University economics lecture on interest rates",
+      "description": "Interactive Listening practice for University economics lecture on interest rates.",
+      "category": "Listening",
+      "level": "C1",
+      "steps": [
+        {
+          "id": "c1-economics-lecture-listening-step-1",
+          "type": "text",
+          "title": "Listening Explanation: University economics lecture on interest rates",
+          "content": "### Listening Comprehension: University economics lecture on interest rates\n\nListen carefully to the audio context, focus on key facts, and answer the comprehension check.\n\n#### Audio Context & Speaker Details:\n- **Topic:** University economics lecture on interest rates\n- **Level:** C1 CEFR Standard\n- **Key Task:** Identify specific information, speaker opinions, and key details from the conversation.\n\n> 🎧 **Audio Note:** Use the interactive audio player control above to listen to the dialogue or speech. You can adjust playback speed to **0.75x** if needed.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "c1-economics-lecture-listening-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"University economics lecture on interest rates\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for University economics lecture on interest rates applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for University economics lecture on interest rates applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for University economics lecture on interest rates apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for University economics lecture on interest rates."
+        },
+        {
+          "id": "c1-economics-lecture-listening-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in University economics lecture on interest rates.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    }
+  ]
+}

@@ -12,6 +12,8 @@ export type {
   StepSingleChoice,
   StepFillBlank,
   StepBase,
+  SkillCategory,
+  CEFRLevel,
 } from './types';
 
 // Validation

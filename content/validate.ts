@@ -65,6 +65,10 @@ function validateStepText(step: unknown, stepId: string): StepText {
     result.prompt = step.prompt;
   }
 
+  if (step.audioUrl !== undefined && isString(step.audioUrl)) {
+    result.audioUrl = step.audioUrl;
+  }
+
   return result;
 }
 
@@ -150,6 +154,10 @@ function validateStepSingleChoice(step: unknown, stepId: string): StepSingleChoi
     result.explanation = step.explanation;
   }
 
+  if (step.audioUrl !== undefined && isString(step.audioUrl)) {
+    result.audioUrl = step.audioUrl;
+  }
+
   return result;
 }
 
@@ -208,6 +216,10 @@ function validateStepFillBlank(step: unknown, stepId: string): StepFillBlank {
       throw new Error(`Step ${stepId}: "explanation" must be a string if provided`);
     }
     result.explanation = step.explanation;
+  }
+
+  if (step.audioUrl !== undefined && isString(step.audioUrl)) {
+    result.audioUrl = step.audioUrl;
   }
 
   return result;
@@ -300,6 +312,18 @@ function validateLesson(lesson: unknown, lessonId: string, courseId: string): Le
     result.description = lesson.description;
   }
 
+  if (lesson.category !== undefined && isString(lesson.category)) {
+    result.category = lesson.category as any;
+  }
+
+  if (lesson.level !== undefined && isString(lesson.level)) {
+    result.level = lesson.level as any;
+  }
+
+  if (lesson.audioUrl !== undefined && isString(lesson.audioUrl)) {
+    result.audioUrl = lesson.audioUrl;
+  }
+
   return result;
 }
 
@@ -345,6 +369,14 @@ export function loadCourseFromJson(data: unknown): Course {
       throw new Error('Course "description" must be a string if provided');
     }
     result.description = data.description;
+  }
+
+  if (data.category !== undefined && isString(data.category)) {
+    result.category = data.category as any;
+  }
+
+  if (data.level !== undefined && isString(data.level)) {
+    result.level = data.level as any;
   }
 
   return result;

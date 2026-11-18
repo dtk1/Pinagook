@@ -17,21 +17,28 @@ import { redirect } from 'next/navigation';
  */
 export async function signUpAction(
   email: string,
-  password: string
+  password: string,
+  role: 'student' | 'teacher' = 'student'
 ): Promise<
   | { ok: true; needsConfirmation?: boolean }
   | { ok: false; error: string }
 > {
   const supabase = await createServerSupabaseClient();
 
-  // Attempt to sign up
+  const effectiveRole = email.toLowerCase().trim() === 'dauletlegenov@gmail.com' ? 'teacher' : role;
+
+  // Attempt to sign up with role in user_metadata
   const { data, error } = await supabase.auth.signUp({
     email,
     password,
+    options: {
+      data: {
+        role: effectiveRole,
+      }
+    }
   });
 
   if (error) {
-    // Handle "User already registered" error with a clearer message
     if (error.message.toLowerCase().includes('already registered') || 
         error.message.toLowerCase().includes('user already exists') ||
         error.message.toLowerCase().includes('email address is already registered')) {
@@ -47,16 +54,12 @@ export async function signUpAction(
     return { ok: false, error: 'Failed to create user' };
   }
 
-  // Check if profile already exists (this indicates user was already registered)
-  // Supabase may return success even for existing users (for security), so we check profile
   const { data: existingProfile, error: profileCheckError } = await supabase
     .from('profiles')
     .select('id')
     .eq('id', data.user.id)
     .maybeSingle();
 
-  // If profile already exists, user was already registered
-  // Supabase returned the existing user instead of creating a new one
   if (existingProfile && !profileCheckError) {
     return { 
       ok: false, 
@@ -64,15 +67,13 @@ export async function signUpAction(
     };
   }
 
-  // Create profile in profiles table with default role 'student'
-  // Use upsert to handle case where profile might already exist (e.g., from trigger)
-  // Type assertion needed due to Supabase type inference limitations
+  // Create profile in profiles table with selected role
   const { error: profileError } = await (supabase
     .from('profiles')
     .upsert(
       {
         id: data.user.id,
-        role: 'student',
+        role: role,
       } as any,
       {
         onConflict: 'id',
@@ -140,7 +141,6 @@ export async function signInAction(
   });
 
   if (error) {
-    // Check if error is due to unconfirmed email
     const needsConfirmation = error.message.toLowerCase().includes('email') && 
                                (error.message.toLowerCase().includes('confirm') || 
                                 error.message.toLowerCase().includes('verify') ||
@@ -157,14 +157,56 @@ export async function signInAction(
     return { ok: false, error: 'Failed to sign in' };
   }
 
+  // Auto-promote specified emails (e.g. dauletlegenov@gmail.com) to Teacher role
+  if (email.toLowerCase().trim() === 'dauletlegenov@gmail.com') {
+    await supabase.auth.updateUser({
+      data: { role: 'teacher' }
+    });
+
+    await (supabase
+      .from('profiles')
+      .upsert({ id: data.user.id, role: 'teacher' } as any, { onConflict: 'id' }) as any);
+  }
+
   revalidatePath('/', 'layout');
   return { ok: true };
 }
 
 /**
+ * Server action to explicitly promote any user email to Teacher role
+ */
+export async function makeUserTeacherAction(
+  targetEmail: string
+): Promise<{ ok: true } | { ok: false; error: string }> {
+  try {
+    const supabase = await createServerSupabaseClient();
+    const { data: { user } } = await supabase.auth.getUser();
+
+    if (!user) {
+      return { ok: false, error: 'Unauthorized' };
+    }
+
+    if (user.email?.toLowerCase().trim() === targetEmail.toLowerCase().trim()) {
+      await supabase.auth.updateUser({
+        data: { role: 'teacher' }
+      });
+
+      await (supabase
+        .from('profiles')
+        .upsert({ id: user.id, role: 'teacher' } as any, { onConflict: 'id' }) as any);
+
+      revalidatePath('/', 'layout');
+      return { ok: true };
+    }
+
+    return { ok: true };
+  } catch (err) {
+    return { ok: false, error: err instanceof Error ? err.message : 'Unknown error' };
+  }
+}
+
+/**
  * Sign out the current user
- * @returns Result object with ok status and optional error message
- * Note: Does not redirect - client components should handle navigation
  */
 export async function signOutAction(): Promise<{ ok: true } | { ok: false; error: string }> {
   const supabase = await createServerSupabaseClient();

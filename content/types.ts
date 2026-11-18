@@ -9,6 +9,7 @@ export interface StepBase {
   type: 'text' | 'single_choice' | 'fill_blank';
   title?: string;
   prompt?: string;
+  audioUrl?: string;
 }
 
 // Text step
@@ -37,12 +38,18 @@ export interface StepFillBlank extends StepBase {
 // Discriminated union for all step types
 export type Step = StepText | StepSingleChoice | StepFillBlank;
 
+export type SkillCategory = 'Grammar' | 'Vocabulary' | 'Listening' | 'Reading' | 'Use of English' | 'Writing' | 'Exams';
+export type CEFRLevel = 'A1' | 'A2' | 'B1' | 'B2' | 'C1';
+
 // Lesson structure
 export interface Lesson {
   id: string;
   courseId: string;
   title: string;
   description?: string;
+  category?: SkillCategory;
+  level?: CEFRLevel;
+  audioUrl?: string;
   steps: Step[];
 }
 
@@ -51,6 +58,8 @@ export interface Course {
   id: string;
   title: string;
   description?: string;
+  level?: CEFRLevel;
+  category?: SkillCategory;
   lessons: Lesson[];
 }
 

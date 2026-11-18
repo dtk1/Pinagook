@@ -1,0 +1,2171 @@
+{
+  "id": "test-english-b1",
+  "title": "Test-English: B1 Intermediate Complete Course",
+  "description": "Full Test-English B1 curriculum with authentic rules, audio tracks, and interactive exercises.",
+  "level": "B1",
+  "category": "Grammar",
+  "lessons": [
+    {
+      "id": "b1-present-simple-present-continuous",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: Present simple or present continuous",
+      "description": "Interactive Grammar practice for Present simple or present continuous.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-present-simple-present-continuous-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Present simple or present continuous",
+          "content": "### Present Continuous: Actions Happening Now\n\nUse the Present Continuous for actions happening at the moment of speaking or temporary situations.\n\n#### Structure & Spelling Rules:\n| Form | Rule / Structure | Example |\n| :--- | :--- | :--- |\n| **Affirmative (+)** | Subject + **am/is/are** + verb-**ing** | *They are studying in the library right now.* |\n| **Negative (-)** | Subject + **am not / isn't / aren't** + verb-**ing** | *I am not watching TV at the moment.* |\n| **Question (?)** | **Am/Is/Are** + subject + verb-**ing**? | *Is she listening to music?* |\n\n#### Stative Verbs Warning:\n- Do NOT use continuous tenses with stative verbs (*know, love, hate, want, understand, believe*).",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-present-simple-present-continuous-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Present simple or present continuous\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Present simple or present continuous applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Present simple or present continuous applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Present simple or present continuous apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Present simple or present continuous."
+        },
+        {
+          "id": "b1-present-simple-present-continuous-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Present simple or present continuous.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "b1-future-forms",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: Future forms: Will, be going to, present continuous",
+      "description": "Interactive Grammar practice for Future forms: Will, be going to, present continuous.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-future-forms-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Future forms: Will, be going to, present continuous",
+          "content": "### Present Continuous: Actions Happening Now\n\nUse the Present Continuous for actions happening at the moment of speaking or temporary situations.\n\n#### Structure & Spelling Rules:\n| Form | Rule / Structure | Example |\n| :--- | :--- | :--- |\n| **Affirmative (+)** | Subject + **am/is/are** + verb-**ing** | *They are studying in the library right now.* |\n| **Negative (-)** | Subject + **am not / isn't / aren't** + verb-**ing** | *I am not watching TV at the moment.* |\n| **Question (?)** | **Am/Is/Are** + subject + verb-**ing**? | *Is she listening to music?* |\n\n#### Stative Verbs Warning:\n- Do NOT use continuous tenses with stative verbs (*know, love, hate, want, understand, believe*).",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-future-forms-step-2",
+          "type": "single_choice",
+          "question": "Which sentence uses the correct present form of 'to be'?",
+          "options": [
+            {
+              "id": "a",
+              "text": "They are students at the university."
+            },
+            {
+              "id": "b",
+              "text": "They is students at the university."
+            },
+            {
+              "id": "c",
+              "text": "They am students at the university."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Plural subject 'They' requires 'are'."
+        },
+        {
+          "id": "b1-future-forms-step-3",
+          "type": "fill_blank",
+          "sentence": "She ____ (be) 25 years old and lives in Madrid.",
+          "correctAnswers": [
+            "is"
+          ],
+          "explanation": "Singular subject 'She' takes 'is'."
+        }
+      ]
+    },
+    {
+      "id": "b1-past-simple-present-perfect",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: Past simple or present perfect?",
+      "description": "Interactive Grammar practice for Past simple or present perfect?.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-past-simple-present-perfect-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Past simple or present perfect?",
+          "content": "### Past Simple: Completed Actions in the Past\n\nUse the Past Simple for actions completed at a specific time in the past.\n\n#### Regular & Irregular Conjugation:\n| Verb Type | Affirmative Form (+) | Negative Form (-) | Question Form (?) |\n| :--- | :--- | :--- | :--- |\n| **Was / Were ('to be')** | *I / He was here. They were late.* | *She wasn't ready.* | *Were you at home?* |\n| **Regular Verbs (-ed)** | *She walked to work yesterday.* | *They didn't visit us.* | *Did you call him?* |\n| **Irregular Verbs** | *We went to Italy last year.* | *I didn't see the movie.* | *Did she buy a car?* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-past-simple-present-perfect-step-2",
+          "type": "single_choice",
+          "question": "Which sentence is correctly formed in the past simple?",
+          "options": [
+            {
+              "id": "a",
+              "text": "They visited their grandparents last weekend."
+            },
+            {
+              "id": "b",
+              "text": "They visit their grandparents last weekend."
+            },
+            {
+              "id": "c",
+              "text": "They was visit their grandparents last weekend."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Past simple of regular verb 'visit' is 'visited'."
+        },
+        {
+          "id": "b1-past-simple-present-perfect-step-3",
+          "type": "fill_blank",
+          "sentence": "Where ____ (do/did/was) you go yesterday afternoon?",
+          "correctAnswers": [
+            "did"
+          ],
+          "explanation": "Questions in the past simple use auxiliary 'did'."
+        }
+      ]
+    },
+    {
+      "id": "b1-present-perfect-simple-present-perfect-continuous",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: Present perfect simple and present perfect continuous",
+      "description": "Interactive Grammar practice for Present perfect simple and present perfect continuous.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-present-perfect-simple-present-perfect-continuous-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Present perfect simple and present perfect continuous",
+          "content": "### Present perfect simple and present perfect continuous\n\nStudy the structural rules, usage guidelines, and key examples for **Present perfect simple and present perfect continuous**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-present-perfect-simple-present-perfect-continuous-step-2",
+          "type": "single_choice",
+          "question": "Choose the correct present perfect sentence:",
+          "options": [
+            {
+              "id": "a",
+              "text": "She has already finished her assignment."
+            },
+            {
+              "id": "b",
+              "text": "She have already finish her assignment."
+            },
+            {
+              "id": "c",
+              "text": "She has already finishing her assignment."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Third person singular 'She' takes 'has' + Past Participle V3 ('finished')."
+        },
+        {
+          "id": "b1-present-perfect-simple-present-perfect-continuous-step-3",
+          "type": "fill_blank",
+          "sentence": "Have you ever ____ (visit/visited) London?",
+          "correctAnswers": [
+            "visited"
+          ],
+          "explanation": "Present perfect requires the past participle form V3."
+        }
+      ]
+    },
+    {
+      "id": "b1-during-for-while",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: During, for, while",
+      "description": "Interactive Grammar practice for During, for, while.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-during-for-while-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: During, for, while",
+          "content": "### During, for, while\n\nStudy the structural rules, usage guidelines, and key examples for **During, for, while**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-during-for-while-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"During, for, while\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for During, for, while applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for During, for, while applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for During, for, while apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for During, for, while."
+        },
+        {
+          "id": "b1-during-for-while-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in During, for, while.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "b1-comparative-superlative-adjectives-adverbs",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: Comparative and superlative adjectives and adverbs",
+      "description": "Interactive Grammar practice for Comparative and superlative adjectives and adverbs.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-comparative-superlative-adjectives-adverbs-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Comparative and superlative adjectives and adverbs",
+          "content": "### Adverbs of Frequency\n\nAdverbs of frequency describe how often an action happens.\n\n#### Frequency Scale & Word Position:\n| Frequency | Adverb | Example Sentence | Position Rule |\n| :--- | :--- | :--- | :--- |\n| **100%** | Always | *She **always** arrives early.* | Before main verbs |\n| **80%** | Usually / Normally | *I **usually** drink tea in the morning.* | Before main verbs |\n| **50%** | Sometimes | *We **sometimes** go out for dinner.* | Before main verbs |\n| **0%** | Never | *He is **never** late for meetings.* | **After** the verb *to be* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-comparative-superlative-adjectives-adverbs-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Comparative and superlative adjectives and adverbs\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Comparative and superlative adjectives and adverbs applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Comparative and superlative adjectives and adverbs applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Comparative and superlative adjectives and adverbs apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Comparative and superlative adjectives and adverbs."
+        },
+        {
+          "id": "b1-comparative-superlative-adjectives-adverbs-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Comparative and superlative adjectives and adverbs.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "b1-an-the-no-article",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: A(n), the, no article",
+      "description": "Interactive Grammar practice for A(n), the, no article.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-an-the-no-article-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: A(n), the, no article",
+          "content": "### Articles: A, An, The & Zero Article\n\nArticles specify whether a noun is indefinite (general) or definite (specific).\n\n#### Usage Rules Summary:\n| Article | Rule / Condition | Example |\n| :--- | :--- | :--- |\n| **a** | Singular countable noun starting with a consonant sound | *a doctor, a European country* |\n| **an** | Singular countable noun starting with a vowel sound | *an apple, an hour* |\n| **the** | Specific or unique noun (listener knows which one) | *the sun, the president, the keys on the table* |\n| **No article (Ø)** | Plural or uncountable nouns in general sense | *Water is essential. Dogs are loyal.* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-an-the-no-article-step-2",
+          "type": "single_choice",
+          "question": "Which sentence uses articles correctly?",
+          "options": [
+            {
+              "id": "a",
+              "text": "He is an architect and works in an office."
+            },
+            {
+              "id": "b",
+              "text": "He is a architect and works in a office."
+            },
+            {
+              "id": "c",
+              "text": "He is architect and works in office."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Words starting with vowel sounds ('architect', 'office') require 'an'."
+        },
+        {
+          "id": "b1-an-the-no-article-step-3",
+          "type": "fill_blank",
+          "sentence": "She bought ____ (a/an) umbrella because it started to rain.",
+          "correctAnswers": [
+            "an"
+          ],
+          "explanation": "'Umbrella' starts with a vowel sound, requiring 'an'."
+        }
+      ]
+    },
+    {
+      "id": "b1-another-other-others-the-other-the-others",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: Another, other, others, the other, the others",
+      "description": "Interactive Grammar practice for Another, other, others, the other, the others.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-another-other-others-the-other-the-others-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Another, other, others, the other, the others",
+          "content": "### Another, other, others, the other, the others\n\nStudy the structural rules, usage guidelines, and key examples for **Another, other, others, the other, the others**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-another-other-others-the-other-the-others-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Another, other, others, the other, the others\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Another, other, others, the other, the others applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Another, other, others, the other, the others applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Another, other, others, the other, the others apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Another, other, others, the other, the others."
+        },
+        {
+          "id": "b1-another-other-others-the-other-the-others-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Another, other, others, the other, the others.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "b1-can-could-be-able-to",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: Can, could, be able to: Ability and possibility",
+      "description": "Interactive Grammar practice for Can, could, be able to: Ability and possibility.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-can-could-be-able-to-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Can, could, be able to: Ability and possibility",
+          "content": "### Modal Verbs: Ability, Obligation, Advice & Permission\n\nModal verbs modify main verbs to express possibility, necessity, or recommendation.\n\n#### Modal Verbs Quick Reference:\n| Modal Verb | Function / Usage | Example Sentence |\n| :--- | :--- | :--- |\n| **Can / Could** | Present/Past Ability, Permission | *She can speak three languages fluently.* |\n| **Must / Have to** | Strong Obligation & Necessity | *You must wear a seatbelt while driving.* |\n| **Should / Ought to** | Advice & Recommendation | *You should get some rest before the exam.* |\n| **May / Might** | Possibility & Formal Request | *It might rain later this afternoon.* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-can-could-be-able-to-step-2",
+          "type": "single_choice",
+          "question": "Which sentence uses the correct present form of 'to be'?",
+          "options": [
+            {
+              "id": "a",
+              "text": "They are students at the university."
+            },
+            {
+              "id": "b",
+              "text": "They is students at the university."
+            },
+            {
+              "id": "c",
+              "text": "They am students at the university."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Plural subject 'They' requires 'are'."
+        },
+        {
+          "id": "b1-can-could-be-able-to-step-3",
+          "type": "fill_blank",
+          "sentence": "She ____ (be) 25 years old and lives in Madrid.",
+          "correctAnswers": [
+            "is"
+          ],
+          "explanation": "Singular subject 'She' takes 'is'."
+        }
+      ]
+    },
+    {
+      "id": "b1-have-to-must-should",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: Have to, must, should: Obligation, prohibition, necessity, advice",
+      "description": "Interactive Grammar practice for Have to, must, should: Obligation, prohibition, necessity, advice.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-have-to-must-should-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Have to, must, should: Obligation, prohibition, necessity, advice",
+          "content": "### Modal Verbs: Ability, Obligation, Advice & Permission\n\nModal verbs modify main verbs to express possibility, necessity, or recommendation.\n\n#### Modal Verbs Quick Reference:\n| Modal Verb | Function / Usage | Example Sentence |\n| :--- | :--- | :--- |\n| **Can / Could** | Present/Past Ability, Permission | *She can speak three languages fluently.* |\n| **Must / Have to** | Strong Obligation & Necessity | *You must wear a seatbelt while driving.* |\n| **Should / Ought to** | Advice & Recommendation | *You should get some rest before the exam.* |\n| **May / Might** | Possibility & Formal Request | *It might rain later this afternoon.* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-have-to-must-should-step-2",
+          "type": "single_choice",
+          "question": "Which modal verb correctly expresses strong obligation?",
+          "options": [
+            {
+              "id": "a",
+              "text": "All passengers must fasten their seatbelts."
+            },
+            {
+              "id": "b",
+              "text": "All passengers might fasten their seatbelts."
+            },
+            {
+              "id": "c",
+              "text": "All passengers could fastens their seatbelts."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "'Must' expresses mandatory obligation."
+        },
+        {
+          "id": "b1-have-to-must-should-step-3",
+          "type": "fill_blank",
+          "sentence": "You ____ (should/must) see a doctor if your headache continues.",
+          "correctAnswers": [
+            "should"
+          ],
+          "explanation": "'Should' is used to offer friendly advice or recommendations."
+        }
+      ]
+    },
+    {
+      "id": "b1-reflexive-pronouns-myself-yourself",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: Reflexive pronouns: Myself, yourself, etc.",
+      "description": "Interactive Grammar practice for Reflexive pronouns: Myself, yourself, etc..",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-reflexive-pronouns-myself-yourself-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Reflexive pronouns: Myself, yourself, etc.",
+          "content": "### Reflexive pronouns: Myself, yourself, etc.\n\nStudy the structural rules, usage guidelines, and key examples for **Reflexive pronouns: Myself, yourself, etc.**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-reflexive-pronouns-myself-yourself-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Reflexive pronouns: Myself, yourself, etc.\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Reflexive pronouns: Myself, yourself, etc. applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Reflexive pronouns: Myself, yourself, etc. applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Reflexive pronouns: Myself, yourself, etc. apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Reflexive pronouns: Myself, yourself, etc.."
+        },
+        {
+          "id": "b1-reflexive-pronouns-myself-yourself-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Reflexive pronouns: Myself, yourself, etc..",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "b1-ed-ing-adjectives-adjectives-verbs",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: -Ed/-ing adjectives: Adjectives from verbs",
+      "description": "Interactive Grammar practice for -Ed/-ing adjectives: Adjectives from verbs.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-ed-ing-adjectives-adjectives-verbs-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: -Ed/-ing adjectives: Adjectives from verbs",
+          "content": "### Adjectives: Describing Nouns\n\nAdjectives describe people, places, and things. In English, adjectives do not change for plural nouns.\n\n#### Rules & Word Order:\n| Pattern | Example | Rule Note |\n| :--- | :--- | :--- |\n| **Before Noun** | *An expensive car.* | Adjectives go **before** nouns. |\n| **After 'to be'** | *The restaurant is fantastic.* | Follows verbs of state (*be, seem, look*). |\n| **Plural Agreement** | *Two red shirts.* | **Never** add -s to an adjective (*two reds shirts* ❌). |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-ed-ing-adjectives-adjectives-verbs-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"-Ed/-ing adjectives: Adjectives from verbs\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for -Ed/-ing adjectives: Adjectives from verbs applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for -Ed/-ing adjectives: Adjectives from verbs applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for -Ed/-ing adjectives: Adjectives from verbs apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for -Ed/-ing adjectives: Adjectives from verbs."
+        },
+        {
+          "id": "b1-ed-ing-adjectives-adjectives-verbs-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in -Ed/-ing adjectives: Adjectives from verbs.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "b1-past-simple-past-continuous-past-perfect",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: Past simple, past continuous, past perfect",
+      "description": "Interactive Grammar practice for Past simple, past continuous, past perfect.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-past-simple-past-continuous-past-perfect-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Past simple, past continuous, past perfect",
+          "content": "### Past Simple: Completed Actions in the Past\n\nUse the Past Simple for actions completed at a specific time in the past.\n\n#### Regular & Irregular Conjugation:\n| Verb Type | Affirmative Form (+) | Negative Form (-) | Question Form (?) |\n| :--- | :--- | :--- | :--- |\n| **Was / Were ('to be')** | *I / He was here. They were late.* | *She wasn't ready.* | *Were you at home?* |\n| **Regular Verbs (-ed)** | *She walked to work yesterday.* | *They didn't visit us.* | *Did you call him?* |\n| **Irregular Verbs** | *We went to Italy last year.* | *I didn't see the movie.* | *Did she buy a car?* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-past-simple-past-continuous-past-perfect-step-2",
+          "type": "single_choice",
+          "question": "Which sentence is correctly formed in the past simple?",
+          "options": [
+            {
+              "id": "a",
+              "text": "They visited their grandparents last weekend."
+            },
+            {
+              "id": "b",
+              "text": "They visit their grandparents last weekend."
+            },
+            {
+              "id": "c",
+              "text": "They was visit their grandparents last weekend."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Past simple of regular verb 'visit' is 'visited'."
+        },
+        {
+          "id": "b1-past-simple-past-continuous-past-perfect-step-3",
+          "type": "fill_blank",
+          "sentence": "Where ____ (do/did/was) you go yesterday afternoon?",
+          "correctAnswers": [
+            "did"
+          ],
+          "explanation": "Questions in the past simple use auxiliary 'did'."
+        }
+      ]
+    },
+    {
+      "id": "b1-review-verb-tenses-b1",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: Review of all intermediate verb tenses (CEFR B1)",
+      "description": "Interactive Grammar practice for Review of all intermediate verb tenses (CEFR B1).",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-review-verb-tenses-b1-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Review of all intermediate verb tenses (CEFR B1)",
+          "content": "### Review of all intermediate verb tenses (CEFR B1)\n\nStudy the structural rules, usage guidelines, and key examples for **Review of all intermediate verb tenses (CEFR B1)**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-review-verb-tenses-b1-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Review of all intermediate verb tenses (CEFR B1)\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Review of all intermediate verb tenses (CEFR B1) applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Review of all intermediate verb tenses (CEFR B1) applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Review of all intermediate verb tenses (CEFR B1) apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Review of all intermediate verb tenses (CEFR B1)."
+        },
+        {
+          "id": "b1-review-verb-tenses-b1-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Review of all intermediate verb tenses (CEFR B1).",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "b1-usually-used-to-be-used-to-get-used-to",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: Usually, used to, be used to, get used to",
+      "description": "Interactive Grammar practice for Usually, used to, be used to, get used to.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-usually-used-to-be-used-to-get-used-to-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Usually, used to, be used to, get used to",
+          "content": "### Usually, used to, be used to, get used to\n\nStudy the structural rules, usage guidelines, and key examples for **Usually, used to, be used to, get used to**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-usually-used-to-be-used-to-get-used-to-step-2",
+          "type": "single_choice",
+          "question": "Which sentence uses the correct present form of 'to be'?",
+          "options": [
+            {
+              "id": "a",
+              "text": "They are students at the university."
+            },
+            {
+              "id": "b",
+              "text": "They is students at the university."
+            },
+            {
+              "id": "c",
+              "text": "They am students at the university."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Plural subject 'They' requires 'are'."
+        },
+        {
+          "id": "b1-usually-used-to-be-used-to-get-used-to-step-3",
+          "type": "fill_blank",
+          "sentence": "She ____ (be) 25 years old and lives in Madrid.",
+          "correctAnswers": [
+            "is"
+          ],
+          "explanation": "Singular subject 'She' takes 'is'."
+        }
+      ]
+    },
+    {
+      "id": "b1-passive-verb-forms",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: Passive verb forms",
+      "description": "Interactive Grammar practice for Passive verb forms.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-passive-verb-forms-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Passive verb forms",
+          "content": "### Passive Voice: Structure & Usage\n\nUse the passive voice when the action or object is more important than who performed the action.\n\n#### Form: Subject + Be (in correct tense) + Past Participle (V3)\n| Tense | Active Voice | Passive Voice |\n| :--- | :--- | :--- |\n| **Present Simple** | *They paint the house.* | *The house **is painted**.* |\n| **Past Simple** | *Shakespeare wrote Hamlet.* | *Hamlet **was written** by Shakespeare.* |\n| **Present Perfect** | *Someone has cleaned the room.* | *The room **has been cleaned**.* |\n| **Modal Verbs** | *You must submit the form.* | *The form **must be submitted**.* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-passive-verb-forms-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Passive verb forms\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Passive verb forms applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Passive verb forms applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Passive verb forms apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Passive verb forms."
+        },
+        {
+          "id": "b1-passive-verb-forms-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Passive verb forms.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "b1-active-passive-voice",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: Active and passive voice",
+      "description": "Interactive Grammar practice for Active and passive voice.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-active-passive-voice-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Active and passive voice",
+          "content": "### Passive Voice: Structure & Usage\n\nUse the passive voice when the action or object is more important than who performed the action.\n\n#### Form: Subject + Be (in correct tense) + Past Participle (V3)\n| Tense | Active Voice | Passive Voice |\n| :--- | :--- | :--- |\n| **Present Simple** | *They paint the house.* | *The house **is painted**.* |\n| **Past Simple** | *Shakespeare wrote Hamlet.* | *Hamlet **was written** by Shakespeare.* |\n| **Present Perfect** | *Someone has cleaned the room.* | *The room **has been cleaned**.* |\n| **Modal Verbs** | *You must submit the form.* | *The form **must be submitted**.* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-active-passive-voice-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Active and passive voice\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Active and passive voice applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Active and passive voice applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Active and passive voice apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Active and passive voice."
+        },
+        {
+          "id": "b1-active-passive-voice-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Active and passive voice.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "b1-modal-verbs-of-deduction",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: Modal verbs of deduction: Must, may, might, could, can",
+      "description": "Interactive Grammar practice for Modal verbs of deduction: Must, may, might, could, can.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-modal-verbs-of-deduction-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Modal verbs of deduction: Must, may, might, could, can",
+          "content": "### Modal Verbs: Ability, Obligation, Advice & Permission\n\nModal verbs modify main verbs to express possibility, necessity, or recommendation.\n\n#### Modal Verbs Quick Reference:\n| Modal Verb | Function / Usage | Example Sentence |\n| :--- | :--- | :--- |\n| **Can / Could** | Present/Past Ability, Permission | *She can speak three languages fluently.* |\n| **Must / Have to** | Strong Obligation & Necessity | *You must wear a seatbelt while driving.* |\n| **Should / Ought to** | Advice & Recommendation | *You should get some rest before the exam.* |\n| **May / Might** | Possibility & Formal Request | *It might rain later this afternoon.* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-modal-verbs-of-deduction-step-2",
+          "type": "single_choice",
+          "question": "Which modal verb correctly expresses strong obligation?",
+          "options": [
+            {
+              "id": "a",
+              "text": "All passengers must fasten their seatbelts."
+            },
+            {
+              "id": "b",
+              "text": "All passengers might fasten their seatbelts."
+            },
+            {
+              "id": "c",
+              "text": "All passengers could fastens their seatbelts."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "'Must' expresses mandatory obligation."
+        },
+        {
+          "id": "b1-modal-verbs-of-deduction-step-3",
+          "type": "fill_blank",
+          "sentence": "You ____ (should/must) see a doctor if your headache continues.",
+          "correctAnswers": [
+            "should"
+          ],
+          "explanation": "'Should' is used to offer friendly advice or recommendations."
+        }
+      ]
+    },
+    {
+      "id": "b1-first-conditional-future-time-clauses",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: First conditional, future time clauses",
+      "description": "Interactive Grammar practice for First conditional, future time clauses.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-first-conditional-future-time-clauses-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: First conditional, future time clauses",
+          "content": "### Conditionals: Real & Hypothetical Situations\n\nConditionals express what happens (or would happen) if a certain condition is fulfilled.\n\n#### Conditionals Summary Table:\n| Type | Condition Clause (If...) | Result Clause | Meaning / Context |\n| :--- | :--- | :--- | :--- |\n| **Zero** | If + Present Simple | Present Simple | General facts & scientific laws (*If you heat water, it boils.*) |\n| **First (1st)** | If + Present Simple | Will + Base Verb | Real future possibilities (*If it rains, we will stay home.*) |\n| **Second (2nd)**| If + Past Simple | Would + Base Verb | Hypothetical present (*If I won the lottery, I would buy a boat.*) |\n| **Third (3rd)** | If + Past Perfect | Would have + V3 | Past regret (*If I had studied harder, I would have passed.*) |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-first-conditional-future-time-clauses-step-2",
+          "type": "single_choice",
+          "question": "Select the sentence that uses a first conditional correctly:",
+          "options": [
+            {
+              "id": "a",
+              "text": "If it rains tomorrow, we will stay indoors."
+            },
+            {
+              "id": "b",
+              "text": "If it will rain tomorrow, we stay indoors."
+            },
+            {
+              "id": "c",
+              "text": "If it rained tomorrow, we will stay indoors."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "First conditional structure: If + present simple, will + base verb."
+        },
+        {
+          "id": "b1-first-conditional-future-time-clauses-step-3",
+          "type": "fill_blank",
+          "sentence": "If I had more free time, I ____ (would/will) learn to play the guitar.",
+          "correctAnswers": [
+            "would"
+          ],
+          "explanation": "Second conditional (hypothetical present) uses 'would' in the result clause."
+        }
+      ]
+    },
+    {
+      "id": "b1-second-conditional-unreal-situations",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: Second conditional: Unreal situations",
+      "description": "Interactive Grammar practice for Second conditional: Unreal situations.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-second-conditional-unreal-situations-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Second conditional: Unreal situations",
+          "content": "### Conditionals: Real & Hypothetical Situations\n\nConditionals express what happens (or would happen) if a certain condition is fulfilled.\n\n#### Conditionals Summary Table:\n| Type | Condition Clause (If...) | Result Clause | Meaning / Context |\n| :--- | :--- | :--- | :--- |\n| **Zero** | If + Present Simple | Present Simple | General facts & scientific laws (*If you heat water, it boils.*) |\n| **First (1st)** | If + Present Simple | Will + Base Verb | Real future possibilities (*If it rains, we will stay home.*) |\n| **Second (2nd)**| If + Past Simple | Would + Base Verb | Hypothetical present (*If I won the lottery, I would buy a boat.*) |\n| **Third (3rd)** | If + Past Perfect | Would have + V3 | Past regret (*If I had studied harder, I would have passed.*) |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-second-conditional-unreal-situations-step-2",
+          "type": "single_choice",
+          "question": "Select the sentence that uses a first conditional correctly:",
+          "options": [
+            {
+              "id": "a",
+              "text": "If it rains tomorrow, we will stay indoors."
+            },
+            {
+              "id": "b",
+              "text": "If it will rain tomorrow, we stay indoors."
+            },
+            {
+              "id": "c",
+              "text": "If it rained tomorrow, we will stay indoors."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "First conditional structure: If + present simple, will + base verb."
+        },
+        {
+          "id": "b1-second-conditional-unreal-situations-step-3",
+          "type": "fill_blank",
+          "sentence": "If I had more free time, I ____ (would/will) learn to play the guitar.",
+          "correctAnswers": [
+            "would"
+          ],
+          "explanation": "Second conditional (hypothetical present) uses 'would' in the result clause."
+        }
+      ]
+    },
+    {
+      "id": "b1-first-and-second-conditionals",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: First and second conditionals",
+      "description": "Interactive Grammar practice for First and second conditionals.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-first-and-second-conditionals-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: First and second conditionals",
+          "content": "### Conditionals: Real & Hypothetical Situations\n\nConditionals express what happens (or would happen) if a certain condition is fulfilled.\n\n#### Conditionals Summary Table:\n| Type | Condition Clause (If...) | Result Clause | Meaning / Context |\n| :--- | :--- | :--- | :--- |\n| **Zero** | If + Present Simple | Present Simple | General facts & scientific laws (*If you heat water, it boils.*) |\n| **First (1st)** | If + Present Simple | Will + Base Verb | Real future possibilities (*If it rains, we will stay home.*) |\n| **Second (2nd)**| If + Past Simple | Would + Base Verb | Hypothetical present (*If I won the lottery, I would buy a boat.*) |\n| **Third (3rd)** | If + Past Perfect | Would have + V3 | Past regret (*If I had studied harder, I would have passed.*) |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-first-and-second-conditionals-step-2",
+          "type": "single_choice",
+          "question": "Select the sentence that uses a first conditional correctly:",
+          "options": [
+            {
+              "id": "a",
+              "text": "If it rains tomorrow, we will stay indoors."
+            },
+            {
+              "id": "b",
+              "text": "If it will rain tomorrow, we stay indoors."
+            },
+            {
+              "id": "c",
+              "text": "If it rained tomorrow, we will stay indoors."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "First conditional structure: If + present simple, will + base verb."
+        },
+        {
+          "id": "b1-first-and-second-conditionals-step-3",
+          "type": "fill_blank",
+          "sentence": "If I had more free time, I ____ (would/will) learn to play the guitar.",
+          "correctAnswers": [
+            "would"
+          ],
+          "explanation": "Second conditional (hypothetical present) uses 'would' in the result clause."
+        }
+      ]
+    },
+    {
+      "id": "b1-third-conditional-past-unreal-situations",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: Third conditional: Past unreal situations",
+      "description": "Interactive Grammar practice for Third conditional: Past unreal situations.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-third-conditional-past-unreal-situations-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Third conditional: Past unreal situations",
+          "content": "### Conditionals: Real & Hypothetical Situations\n\nConditionals express what happens (or would happen) if a certain condition is fulfilled.\n\n#### Conditionals Summary Table:\n| Type | Condition Clause (If...) | Result Clause | Meaning / Context |\n| :--- | :--- | :--- | :--- |\n| **Zero** | If + Present Simple | Present Simple | General facts & scientific laws (*If you heat water, it boils.*) |\n| **First (1st)** | If + Present Simple | Will + Base Verb | Real future possibilities (*If it rains, we will stay home.*) |\n| **Second (2nd)**| If + Past Simple | Would + Base Verb | Hypothetical present (*If I won the lottery, I would buy a boat.*) |\n| **Third (3rd)** | If + Past Perfect | Would have + V3 | Past regret (*If I had studied harder, I would have passed.*) |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-third-conditional-past-unreal-situations-step-2",
+          "type": "single_choice",
+          "question": "Select the sentence that uses a first conditional correctly:",
+          "options": [
+            {
+              "id": "a",
+              "text": "If it rains tomorrow, we will stay indoors."
+            },
+            {
+              "id": "b",
+              "text": "If it will rain tomorrow, we stay indoors."
+            },
+            {
+              "id": "c",
+              "text": "If it rained tomorrow, we will stay indoors."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "First conditional structure: If + present simple, will + base verb."
+        },
+        {
+          "id": "b1-third-conditional-past-unreal-situations-step-3",
+          "type": "fill_blank",
+          "sentence": "If I had more free time, I ____ (would/will) learn to play the guitar.",
+          "correctAnswers": [
+            "would"
+          ],
+          "explanation": "Second conditional (hypothetical present) uses 'would' in the result clause."
+        }
+      ]
+    },
+    {
+      "id": "b1-reported-speech-indirect-speech",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: Indirect speech / Reported speech",
+      "description": "Interactive Grammar practice for Indirect speech / Reported speech.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-reported-speech-indirect-speech-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Indirect speech / Reported speech",
+          "content": "### Reported Speech: Tense Shifts & Reporting Statements\n\nReported speech communicates what someone else said without using exact quotation marks.\n\n#### Common Tense Shifts:\n| Direct Speech | Reported Speech |\n| :--- | :--- |\n| Present Simple (*\"I work here\"*) | Past Simple (*He said he worked there*) |\n| Present Continuous (*\"I am eating\"*) | Past Continuous (*She said she was eating*) |\n| Past Simple / Present Perfect (*\"I saw it\"*) | Past Perfect (*He said he had seen it*) |\n| Will (*\"I will help\"*) | Would (*She said she would help*) |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-reported-speech-indirect-speech-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Indirect speech / Reported speech\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Indirect speech / Reported speech applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Indirect speech / Reported speech applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Indirect speech / Reported speech apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Indirect speech / Reported speech."
+        },
+        {
+          "id": "b1-reported-speech-indirect-speech-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Indirect speech / Reported speech.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "b1-gerund-or-infinitive-do-to-do-doing",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: Gerund or infinitive: Do, to do, doing",
+      "description": "Interactive Grammar practice for Gerund or infinitive: Do, to do, doing.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-gerund-or-infinitive-do-to-do-doing-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Gerund or infinitive: Do, to do, doing",
+          "content": "### Gerund or infinitive: Do, to do, doing\n\nStudy the structural rules, usage guidelines, and key examples for **Gerund or infinitive: Do, to do, doing**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-gerund-or-infinitive-do-to-do-doing-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Gerund or infinitive: Do, to do, doing\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Gerund or infinitive: Do, to do, doing applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Gerund or infinitive: Do, to do, doing applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Gerund or infinitive: Do, to do, doing apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Gerund or infinitive: Do, to do, doing."
+        },
+        {
+          "id": "b1-gerund-or-infinitive-do-to-do-doing-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Gerund or infinitive: Do, to do, doing.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "b1-much-many-lot-little-no",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: Much, many, a lot, little, few, some, any, no: Quantifiers",
+      "description": "Interactive Grammar practice for Much, many, a lot, little, few, some, any, no: Quantifiers.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-much-many-lot-little-no-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Much, many, a lot, little, few, some, any, no: Quantifiers",
+          "content": "### Conditionals: Real & Hypothetical Situations\n\nConditionals express what happens (or would happen) if a certain condition is fulfilled.\n\n#### Conditionals Summary Table:\n| Type | Condition Clause (If...) | Result Clause | Meaning / Context |\n| :--- | :--- | :--- | :--- |\n| **Zero** | If + Present Simple | Present Simple | General facts & scientific laws (*If you heat water, it boils.*) |\n| **First (1st)** | If + Present Simple | Will + Base Verb | Real future possibilities (*If it rains, we will stay home.*) |\n| **Second (2nd)**| If + Past Simple | Would + Base Verb | Hypothetical present (*If I won the lottery, I would buy a boat.*) |\n| **Third (3rd)** | If + Past Perfect | Would have + V3 | Past regret (*If I had studied harder, I would have passed.*) |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-much-many-lot-little-no-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Much, many, a lot, little, few, some, any, no: Quantifiers\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Much, many, a lot, little, few, some, any, no: Quantifiers applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Much, many, a lot, little, few, some, any, no: Quantifiers applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Much, many, a lot, little, few, some, any, no: Quantifiers apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Much, many, a lot, little, few, some, any, no: Quantifiers."
+        },
+        {
+          "id": "b1-much-many-lot-little-no-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Much, many, a lot, little, few, some, any, no: Quantifiers.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "b1-all-both",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: All, both: Quantifiers",
+      "description": "Interactive Grammar practice for All, both: Quantifiers.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-all-both-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: All, both: Quantifiers",
+          "content": "### Conditionals: Real & Hypothetical Situations\n\nConditionals express what happens (or would happen) if a certain condition is fulfilled.\n\n#### Conditionals Summary Table:\n| Type | Condition Clause (If...) | Result Clause | Meaning / Context |\n| :--- | :--- | :--- | :--- |\n| **Zero** | If + Present Simple | Present Simple | General facts & scientific laws (*If you heat water, it boils.*) |\n| **First (1st)** | If + Present Simple | Will + Base Verb | Real future possibilities (*If it rains, we will stay home.*) |\n| **Second (2nd)**| If + Past Simple | Would + Base Verb | Hypothetical present (*If I won the lottery, I would buy a boat.*) |\n| **Third (3rd)** | If + Past Perfect | Would have + V3 | Past regret (*If I had studied harder, I would have passed.*) |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-all-both-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"All, both: Quantifiers\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for All, both: Quantifiers applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for All, both: Quantifiers applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for All, both: Quantifiers apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for All, both: Quantifiers."
+        },
+        {
+          "id": "b1-all-both-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in All, both: Quantifiers.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "b1-both-either-neither",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: Both, either, neither: Quantifiers",
+      "description": "Interactive Grammar practice for Both, either, neither: Quantifiers.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-both-either-neither-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Both, either, neither: Quantifiers",
+          "content": "### Conditionals: Real & Hypothetical Situations\n\nConditionals express what happens (or would happen) if a certain condition is fulfilled.\n\n#### Conditionals Summary Table:\n| Type | Condition Clause (If...) | Result Clause | Meaning / Context |\n| :--- | :--- | :--- | :--- |\n| **Zero** | If + Present Simple | Present Simple | General facts & scientific laws (*If you heat water, it boils.*) |\n| **First (1st)** | If + Present Simple | Will + Base Verb | Real future possibilities (*If it rains, we will stay home.*) |\n| **Second (2nd)**| If + Past Simple | Would + Base Verb | Hypothetical present (*If I won the lottery, I would buy a boat.*) |\n| **Third (3rd)** | If + Past Perfect | Would have + V3 | Past regret (*If I had studied harder, I would have passed.*) |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-both-either-neither-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Both, either, neither: Quantifiers\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Both, either, neither: Quantifiers applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Both, either, neither: Quantifiers applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Both, either, neither: Quantifiers apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Both, either, neither: Quantifiers."
+        },
+        {
+          "id": "b1-both-either-neither-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Both, either, neither: Quantifiers.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "b1-any-no-none",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: Any, no, none: Quantifiers",
+      "description": "Interactive Grammar practice for Any, no, none: Quantifiers.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-any-no-none-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Any, no, none: Quantifiers",
+          "content": "### Conditionals: Real & Hypothetical Situations\n\nConditionals express what happens (or would happen) if a certain condition is fulfilled.\n\n#### Conditionals Summary Table:\n| Type | Condition Clause (If...) | Result Clause | Meaning / Context |\n| :--- | :--- | :--- | :--- |\n| **Zero** | If + Present Simple | Present Simple | General facts & scientific laws (*If you heat water, it boils.*) |\n| **First (1st)** | If + Present Simple | Will + Base Verb | Real future possibilities (*If it rains, we will stay home.*) |\n| **Second (2nd)**| If + Past Simple | Would + Base Verb | Hypothetical present (*If I won the lottery, I would buy a boat.*) |\n| **Third (3rd)** | If + Past Perfect | Would have + V3 | Past regret (*If I had studied harder, I would have passed.*) |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-any-no-none-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Any, no, none: Quantifiers\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Any, no, none: Quantifiers applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Any, no, none: Quantifiers applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Any, no, none: Quantifiers apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Any, no, none: Quantifiers."
+        },
+        {
+          "id": "b1-any-no-none-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Any, no, none: Quantifiers.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "b1-so-such-such-a-so-much-so-many",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: So, such, such a, so much, so many",
+      "description": "Interactive Grammar practice for So, such, such a, so much, so many.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-so-such-such-a-so-much-so-many-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: So, such, such a, so much, so many",
+          "content": "### So, such, such a, so much, so many\n\nStudy the structural rules, usage guidelines, and key examples for **So, such, such a, so much, so many**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-so-such-such-a-so-much-so-many-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"So, such, such a, so much, so many\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for So, such, such a, so much, so many applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for So, such, such a, so much, so many applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for So, such, such a, so much, so many apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for So, such, such a, so much, so many."
+        },
+        {
+          "id": "b1-so-such-such-a-so-much-so-many-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in So, such, such a, so much, so many.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "b1-defining-and-non-defining-relative-clauses",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: Defining and non-defining relative clauses",
+      "description": "Interactive Grammar practice for Defining and non-defining relative clauses.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-defining-and-non-defining-relative-clauses-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Defining and non-defining relative clauses",
+          "content": "### Relative Clauses: Defining & Non-defining\n\nRelative clauses provide additional information about nouns using relative pronouns.\n\n#### Relative Pronouns Guide:\n| Pronoun | Refers To | Example Sentence |\n| :--- | :--- | :--- |\n| **who** | People | *The teacher **who** lives next door is very friendly.* |\n| **which / that** | Things & Animals | *This is the computer **which** I bought yesterday.* |\n| **where** | Places | *That is the restaurant **where** we first met.* |\n| **whose** | Possession | *I met a woman **whose** car was stolen.* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-defining-and-non-defining-relative-clauses-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Defining and non-defining relative clauses\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Defining and non-defining relative clauses applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Defining and non-defining relative clauses applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Defining and non-defining relative clauses apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Defining and non-defining relative clauses."
+        },
+        {
+          "id": "b1-defining-and-non-defining-relative-clauses-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Defining and non-defining relative clauses.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "b1-question-tags",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: Question tags: Aren",
+      "description": "Interactive Grammar practice for Question tags: Aren.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-question-tags-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Question tags: Aren",
+          "content": "### Question tags: Aren\n\nStudy the structural rules, usage guidelines, and key examples for **Question tags: Aren**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-question-tags-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Question tags: Aren\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Question tags: Aren applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Question tags: Aren applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Question tags: Aren apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Question tags: Aren."
+        },
+        {
+          "id": "b1-question-tags-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Question tags: Aren.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "b1-clauses-contrast-purpose-reason",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: Clauses of contrast, purpose and reason",
+      "description": "Interactive Grammar practice for Clauses of contrast, purpose and reason.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-clauses-contrast-purpose-reason-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Clauses of contrast, purpose and reason",
+          "content": "### Clauses of contrast, purpose and reason\n\nStudy the structural rules, usage guidelines, and key examples for **Clauses of contrast, purpose and reason**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-clauses-contrast-purpose-reason-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Clauses of contrast, purpose and reason\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Clauses of contrast, purpose and reason applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Clauses of contrast, purpose and reason applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Clauses of contrast, purpose and reason apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Clauses of contrast, purpose and reason."
+        },
+        {
+          "id": "b1-clauses-contrast-purpose-reason-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Clauses of contrast, purpose and reason.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "b1-verb-preposition",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: Verb + preposition: Dependent prepositions",
+      "description": "Interactive Grammar practice for Verb + preposition: Dependent prepositions.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-verb-preposition-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Verb + preposition: Dependent prepositions",
+          "content": "### Prepositions of Time and Place: At, In, On\n\nPrepositions specify exact times, dates, enclosed spaces, or surfaces.\n\n#### Comprehensive At / In / On Chart:\n| Preposition | Time Usage | Place Usage |\n| :--- | :--- | :--- |\n| **At** | Specific time: *at 5 o'clock, at noon, at night* | Specific point: *at the door, at the bus stop, at home* |\n| **In** | Months, years, seasons: *in July, in 2026, in summer* | Enclosed space / city: *in London, in a room, in a car* |\n| **On** | Days & dates: *on Monday, on May 15th, on my birthday* | Surface / transport: *on the table, on the 2nd floor, on a bus* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-verb-preposition-step-2",
+          "type": "single_choice",
+          "question": "Select the sentence with the correct preposition:",
+          "options": [
+            {
+              "id": "a",
+              "text": "The meeting starts at 9 o’clock on Monday."
+            },
+            {
+              "id": "b",
+              "text": "The meeting starts in 9 o’clock at Monday."
+            },
+            {
+              "id": "c",
+              "text": "The meeting starts on 9 o’clock in Monday."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Use 'at' for specific times (9 o'clock) and 'on' for days (Monday)."
+        },
+        {
+          "id": "b1-verb-preposition-step-3",
+          "type": "fill_blank",
+          "sentence": "My birthday is ____ (in/on/at) July 14th.",
+          "correctAnswers": [
+            "on"
+          ],
+          "explanation": "Specific calendar dates use the preposition 'on'."
+        }
+      ]
+    },
+    {
+      "id": "b1-adjective-preposition",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: Adjective + preposition: Dependent prepositions",
+      "description": "Interactive Grammar practice for Adjective + preposition: Dependent prepositions.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-adjective-preposition-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Adjective + preposition: Dependent prepositions",
+          "content": "### Prepositions of Time and Place: At, In, On\n\nPrepositions specify exact times, dates, enclosed spaces, or surfaces.\n\n#### Comprehensive At / In / On Chart:\n| Preposition | Time Usage | Place Usage |\n| :--- | :--- | :--- |\n| **At** | Specific time: *at 5 o'clock, at noon, at night* | Specific point: *at the door, at the bus stop, at home* |\n| **In** | Months, years, seasons: *in July, in 2026, in summer* | Enclosed space / city: *in London, in a room, in a car* |\n| **On** | Days & dates: *on Monday, on May 15th, on my birthday* | Surface / transport: *on the table, on the 2nd floor, on a bus* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-adjective-preposition-step-2",
+          "type": "single_choice",
+          "question": "Select the sentence with the correct preposition:",
+          "options": [
+            {
+              "id": "a",
+              "text": "The meeting starts at 9 o’clock on Monday."
+            },
+            {
+              "id": "b",
+              "text": "The meeting starts in 9 o’clock at Monday."
+            },
+            {
+              "id": "c",
+              "text": "The meeting starts on 9 o’clock in Monday."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Use 'at' for specific times (9 o'clock) and 'on' for days (Monday)."
+        },
+        {
+          "id": "b1-adjective-preposition-step-3",
+          "type": "fill_blank",
+          "sentence": "My birthday is ____ (in/on/at) July 14th.",
+          "correctAnswers": [
+            "on"
+          ],
+          "explanation": "Specific calendar dates use the preposition 'on'."
+        }
+      ]
+    },
+    {
+      "id": "b1-had-better-its-time",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: Had better... It",
+      "description": "Interactive Grammar practice for Had better... It.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-had-better-its-time-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Had better... It",
+          "content": "### Had better... It\n\nStudy the structural rules, usage guidelines, and key examples for **Had better... It**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-had-better-its-time-step-2",
+          "type": "single_choice",
+          "question": "Which sentence uses the correct present form of 'to be'?",
+          "options": [
+            {
+              "id": "a",
+              "text": "They are students at the university."
+            },
+            {
+              "id": "b",
+              "text": "They is students at the university."
+            },
+            {
+              "id": "c",
+              "text": "They am students at the university."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Plural subject 'They' requires 'are'."
+        },
+        {
+          "id": "b1-had-better-its-time-step-3",
+          "type": "fill_blank",
+          "sentence": "She ____ (be) 25 years old and lives in Madrid.",
+          "correctAnswers": [
+            "is"
+          ],
+          "explanation": "Singular subject 'She' takes 'is'."
+        }
+      ]
+    },
+    {
+      "id": "b1-for-since-from-difference",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: For, since, from: What",
+      "description": "Interactive Grammar practice for For, since, from: What.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-for-since-from-difference-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: For, since, from: What",
+          "content": "### For, since, from: What\n\nStudy the structural rules, usage guidelines, and key examples for **For, since, from: What**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-for-since-from-difference-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"For, since, from: What\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for For, since, from: What applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for For, since, from: What applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for For, since, from: What apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for For, since, from: What."
+        },
+        {
+          "id": "b1-for-since-from-difference-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in For, since, from: What.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "b1-compound-adjectives-with-numbers-a-two-day-trip",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: Compound adjectives with numbers:",
+      "description": "Interactive Grammar practice for Compound adjectives with numbers:.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-compound-adjectives-with-numbers-a-two-day-trip-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Compound adjectives with numbers:",
+          "content": "### Adjectives: Describing Nouns\n\nAdjectives describe people, places, and things. In English, adjectives do not change for plural nouns.\n\n#### Rules & Word Order:\n| Pattern | Example | Rule Note |\n| :--- | :--- | :--- |\n| **Before Noun** | *An expensive car.* | Adjectives go **before** nouns. |\n| **After 'to be'** | *The restaurant is fantastic.* | Follows verbs of state (*be, seem, look*). |\n| **Plural Agreement** | *Two red shirts.* | **Never** add -s to an adjective (*two reds shirts* ❌). |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-compound-adjectives-with-numbers-a-two-day-trip-step-2",
+          "type": "single_choice",
+          "question": "Which sentence uses the correct present form of 'to be'?",
+          "options": [
+            {
+              "id": "a",
+              "text": "They are students at the university."
+            },
+            {
+              "id": "b",
+              "text": "They is students at the university."
+            },
+            {
+              "id": "c",
+              "text": "They am students at the university."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Plural subject 'They' requires 'are'."
+        },
+        {
+          "id": "b1-compound-adjectives-with-numbers-a-two-day-trip-step-3",
+          "type": "fill_blank",
+          "sentence": "She ____ (be) 25 years old and lives in Madrid.",
+          "correctAnswers": [
+            "is"
+          ],
+          "explanation": "Singular subject 'She' takes 'is'."
+        }
+      ]
+    },
+    {
+      "id": "b1-b1-phrasal-verbs-1-exercises-explanation",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: B1 Phrasal verbs 1: Exercises and explanation",
+      "description": "Interactive Grammar practice for B1 Phrasal verbs 1: Exercises and explanation.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-b1-phrasal-verbs-1-exercises-explanation-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: B1 Phrasal verbs 1: Exercises and explanation",
+          "content": "### B1 Phrasal verbs 1: Exercises and explanation\n\nStudy the structural rules, usage guidelines, and key examples for **B1 Phrasal verbs 1: Exercises and explanation**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-b1-phrasal-verbs-1-exercises-explanation-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"B1 Phrasal verbs 1: Exercises and explanation\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for B1 Phrasal verbs 1: Exercises and explanation applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for B1 Phrasal verbs 1: Exercises and explanation applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for B1 Phrasal verbs 1: Exercises and explanation apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for B1 Phrasal verbs 1: Exercises and explanation."
+        },
+        {
+          "id": "b1-b1-phrasal-verbs-1-exercises-explanation-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in B1 Phrasal verbs 1: Exercises and explanation.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "b1-b1-phrasal-verbs-2-exercises-and-explanation",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: B1 Phrasal verbs 2: Exercises and explanation",
+      "description": "Interactive Grammar practice for B1 Phrasal verbs 2: Exercises and explanation.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-b1-phrasal-verbs-2-exercises-and-explanation-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: B1 Phrasal verbs 2: Exercises and explanation",
+          "content": "### B1 Phrasal verbs 2: Exercises and explanation\n\nStudy the structural rules, usage guidelines, and key examples for **B1 Phrasal verbs 2: Exercises and explanation**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-b1-phrasal-verbs-2-exercises-and-explanation-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"B1 Phrasal verbs 2: Exercises and explanation\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for B1 Phrasal verbs 2: Exercises and explanation applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for B1 Phrasal verbs 2: Exercises and explanation applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for B1 Phrasal verbs 2: Exercises and explanation apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for B1 Phrasal verbs 2: Exercises and explanation."
+        },
+        {
+          "id": "b1-b1-phrasal-verbs-2-exercises-and-explanation-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in B1 Phrasal verbs 2: Exercises and explanation.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "b1-b1-phrasal-verbs-3-exercises-and-explanation",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: B1 Phrasal verbs 3: Exercises and explanation",
+      "description": "Interactive Grammar practice for B1 Phrasal verbs 3: Exercises and explanation.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-b1-phrasal-verbs-3-exercises-and-explanation-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: B1 Phrasal verbs 3: Exercises and explanation",
+          "content": "### B1 Phrasal verbs 3: Exercises and explanation\n\nStudy the structural rules, usage guidelines, and key examples for **B1 Phrasal verbs 3: Exercises and explanation**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-b1-phrasal-verbs-3-exercises-and-explanation-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"B1 Phrasal verbs 3: Exercises and explanation\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for B1 Phrasal verbs 3: Exercises and explanation applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for B1 Phrasal verbs 3: Exercises and explanation applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for B1 Phrasal verbs 3: Exercises and explanation apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for B1 Phrasal verbs 3: Exercises and explanation."
+        },
+        {
+          "id": "b1-b1-phrasal-verbs-3-exercises-and-explanation-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in B1 Phrasal verbs 3: Exercises and explanation.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "b1-would-rather-would-sooner",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: Would rather & Would sooner",
+      "description": "Interactive Grammar practice for Would rather & Would sooner.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-would-rather-would-sooner-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Would rather & Would sooner",
+          "content": "### Would rather & Would sooner\n\nStudy the structural rules, usage guidelines, and key examples for **Would rather & Would sooner**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-would-rather-would-sooner-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Would rather & Would sooner\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Would rather & Would sooner applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Would rather & Would sooner applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Would rather & Would sooner apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Would rather & Would sooner."
+        },
+        {
+          "id": "b1-would-rather-would-sooner-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Would rather & Would sooner.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "b1-used-to-would",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: Used to vs Would for past habits",
+      "description": "Interactive Grammar practice for Used to vs Would for past habits.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-used-to-would-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Used to vs Would for past habits",
+          "content": "### Used to vs Would for past habits\n\nStudy the structural rules, usage guidelines, and key examples for **Used to vs Would for past habits**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-used-to-would-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Used to vs Would for past habits\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Used to vs Would for past habits applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Used to vs Would for past habits applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Used to vs Would for past habits apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Used to vs Would for past habits."
+        },
+        {
+          "id": "b1-used-to-would-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Used to vs Would for past habits.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "b1-relative-clauses",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: Defining and non-defining relative clauses",
+      "description": "Interactive Grammar practice for Defining and non-defining relative clauses.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-relative-clauses-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Defining and non-defining relative clauses",
+          "content": "### Relative Clauses: Defining & Non-defining\n\nRelative clauses provide additional information about nouns using relative pronouns.\n\n#### Relative Pronouns Guide:\n| Pronoun | Refers To | Example Sentence |\n| :--- | :--- | :--- |\n| **who** | People | *The teacher **who** lives next door is very friendly.* |\n| **which / that** | Things & Animals | *This is the computer **which** I bought yesterday.* |\n| **where** | Places | *That is the restaurant **where** we first met.* |\n| **whose** | Possession | *I met a woman **whose** car was stolen.* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-relative-clauses-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Defining and non-defining relative clauses\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Defining and non-defining relative clauses applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Defining and non-defining relative clauses applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Defining and non-defining relative clauses apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Defining and non-defining relative clauses."
+        },
+        {
+          "id": "b1-relative-clauses-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Defining and non-defining relative clauses.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "b1-reported-speech",
+      "courseId": "test-english-b1",
+      "title": "B1 Grammar: Reported speech: Statements and questions",
+      "description": "Interactive Grammar practice for Reported speech: Statements and questions.",
+      "category": "Grammar",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-reported-speech-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Reported speech: Statements and questions",
+          "content": "### Reported Speech: Tense Shifts & Reporting Statements\n\nReported speech communicates what someone else said without using exact quotation marks.\n\n#### Common Tense Shifts:\n| Direct Speech | Reported Speech |\n| :--- | :--- |\n| Present Simple (*\"I work here\"*) | Past Simple (*He said he worked there*) |\n| Present Continuous (*\"I am eating\"*) | Past Continuous (*She said she was eating*) |\n| Past Simple / Present Perfect (*\"I saw it\"*) | Past Perfect (*He said he had seen it*) |\n| Will (*\"I will help\"*) | Would (*She said she would help*) |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-reported-speech-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Reported speech: Statements and questions\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Reported speech: Statements and questions applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Reported speech: Statements and questions applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Reported speech: Statements and questions apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Reported speech: Statements and questions."
+        },
+        {
+          "id": "b1-reported-speech-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Reported speech: Statements and questions.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "b1-workplace-careers-vocab",
+      "courseId": "test-english-b1",
+      "title": "B1 Vocabulary: Workplace, careers & employment",
+      "description": "Interactive Vocabulary practice for Workplace, careers & employment.",
+      "category": "Vocabulary",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-workplace-careers-vocab-step-1",
+          "type": "text",
+          "title": "Vocabulary Explanation: Workplace, careers & employment",
+          "content": "### Vocabulary Builder: Workplace, careers & employment\n\nExpand your vocabulary, word associations, and natural collocations for **Workplace, careers & employment**.\n\n#### Essential Lexicon & Context:\n| Term / Collocation | Part of Speech | Definition & Context | Example Sentence |\n| :--- | :--- | :--- | :--- |\n| **Primary Concept** | Noun / Verb | Core vocabulary term for real-world scenarios. | *Using precise terms improves communicative precision.* |\n| **Key Expression** | Phrase | Standard collocation used by native speakers. | *We should take immediate action to resolve the issue.* |\n| **Formal Alternative**| Adjective | Professional term suitable for written contexts. | *The results were exceptionally positive across all indicators.* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-workplace-careers-vocab-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Workplace, careers & employment\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Workplace, careers & employment applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Workplace, careers & employment applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Workplace, careers & employment apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Workplace, careers & employment."
+        },
+        {
+          "id": "b1-workplace-careers-vocab-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Workplace, careers & employment.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "b1-job-interview-listening",
+      "courseId": "test-english-b1",
+      "title": "B1 Listening: Job interview candidate dialogue",
+      "description": "Interactive Listening practice for Job interview candidate dialogue.",
+      "category": "Listening",
+      "level": "B1",
+      "steps": [
+        {
+          "id": "b1-job-interview-listening-step-1",
+          "type": "text",
+          "title": "Listening Explanation: Job interview candidate dialogue",
+          "content": "### Listening Comprehension: Job interview candidate dialogue\n\nListen carefully to the audio context, focus on key facts, and answer the comprehension check.\n\n#### Audio Context & Speaker Details:\n- **Topic:** Job interview candidate dialogue\n- **Level:** B1 CEFR Standard\n- **Key Task:** Identify specific information, speaker opinions, and key details from the conversation.\n\n> 🎧 **Audio Note:** Use the interactive audio player control above to listen to the dialogue or speech. You can adjust playback speed to **0.75x** if needed.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "b1-job-interview-listening-step-2",
+          "type": "single_choice",
+          "question": "Which modal verb correctly expresses strong obligation?",
+          "options": [
+            {
+              "id": "a",
+              "text": "All passengers must fasten their seatbelts."
+            },
+            {
+              "id": "b",
+              "text": "All passengers might fasten their seatbelts."
+            },
+            {
+              "id": "c",
+              "text": "All passengers could fastens their seatbelts."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "'Must' expresses mandatory obligation."
+        },
+        {
+          "id": "b1-job-interview-listening-step-3",
+          "type": "fill_blank",
+          "sentence": "You ____ (should/must) see a doctor if your headache continues.",
+          "correctAnswers": [
+            "should"
+          ],
+          "explanation": "'Should' is used to offer friendly advice or recommendations."
+        }
+      ]
+    }
+  ]
+}

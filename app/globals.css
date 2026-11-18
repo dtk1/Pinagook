@@ -2,25 +2,96 @@
 
 :root {
   --background: #fafbfc;
-  --foreground: #1a1a1a;
+  --foreground: #0f172a;
   --ocean-blue: #0ea5e9;
   --ocean-teal: #14b8a6;
   --ocean-deep: #0891b2;
   --ocean-light: #e0f2fe;
   --ocean-gradient: linear-gradient(135deg, #0ea5e9 0%, #14b8a6 100%);
+  
+  /* Lingo EdTech Tokens */
+  --lingo-green: #58cc02;
+  --lingo-green-dark: #46a302;
+  --lingo-gold: #ffc800;
+  --lingo-gold-dark: #d7a700;
+  --lingo-red: #ff4b4b;
+  --lingo-red-dark: #ea2b2b;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
+  --font-learning: var(--font-nunito);
   --font-mono: var(--font-geist-mono);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-geist-sans), -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: var(--font-geist-sans), var(--font-nunito), -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* Tactile 3D Lingo Buttons */
+.btn-tactile {
+  position: relative;
+  transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateY(0);
+  user-select: none;
+}
+
+.btn-tactile:hover:not(:disabled) {
+  filter: brightness(1.05);
+}
+
+.btn-tactile:active:not(:disabled) {
+  transform: translateY(3px);
+  box-shadow: none !important;
+}
+
+.btn-tactile-primary {
+  background-color: #0ea5e9;
+  color: #ffffff;
+  box-shadow: 0 4px 0 #0284c7;
+}
+
+.btn-tactile-success {
+  background-color: #58cc02;
+  color: #ffffff;
+  box-shadow: 0 4px 0 #46a302;
+}
+
+.btn-tactile-danger {
+  background-color: #ff4b4b;
+  color: #ffffff;
+  box-shadow: 0 4px 0 #ea2b2b;
+}
+
+.btn-tactile-secondary {
+  background-color: #ffffff;
+  color: #0f172a;
+  border: 2px solid #e2e8f0;
+  box-shadow: 0 4px 0 #cbd5e1;
+}
+
+/* Bento Layout Utility */
+.bento-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.bento-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.bento-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px -10px rgba(14, 165, 233, 0.15);
+  border-color: #bae6fd;
 }
 
 /* Wave shape utility */
@@ -48,10 +119,11 @@ body {
     transform: translateY(0px);
   }
   50% {
-    transform: translateY(-10px);
+    transform: translateY(-8px);
   }
 }
 
 .animate-float {
   animation: float 3s ease-in-out infinite;
 }
+

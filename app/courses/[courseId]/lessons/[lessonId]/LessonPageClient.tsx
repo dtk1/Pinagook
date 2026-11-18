@@ -43,7 +43,7 @@ export default function LessonPageClient({
           <Card>
             <div className="text-center space-y-4">
               <h1 className="text-2xl font-bold text-[#0F172A]">{lesson.title}</h1>
-              <p className="text-[#475569]">This lesson doesn't have any steps to complete.</p>
+              <p className="text-[#475569]">This lesson doesn&apos;t have any steps to complete.</p>
               <div className="pt-2">
                 <Link href={`/courses/${courseId}`}>
                   <Button variant="secondary">Back to Course</Button>

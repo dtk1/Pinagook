@@ -8,13 +8,11 @@
 'use server';
 
 import { upsertCourseFromRawJson } from '../features/course-storage/coursesRepository';
-import { getDemoCourse } from '../../content';
+import { getAllCourses, getDemoCourse } from '../../content';
 import { createServerSupabaseClient } from '../lib/supabase/server';
 
 /**
- * Seed the demo course to the database
- * Uses the current authenticated user's ID as owner
- * @returns Result object with ok status and courseId or error message
+ * Seed single demo course to the database
  */
 export async function seedDemoCourseToDb(): Promise<
   { ok: true; courseId: string } | { ok: false; error: string }
@@ -33,11 +31,10 @@ export async function seedDemoCourseToDb(): Promise<
       };
     }
 
-    // Get demo course and convert back to raw JSON for storage
     const demoCourse = getDemoCourse();
     const demoCourseJson = JSON.parse(JSON.stringify(demoCourse));
-
     const result = await upsertCourseFromRawJson(user.id, demoCourseJson);
+
     return {
       ok: true,
       courseId: result.courseId,
@@ -50,3 +47,46 @@ export async function seedDemoCourseToDb(): Promise<
     };
   }
 }
+
+/**
+ * Seed all British Council level-based courses to the database
+ */
+export async function seedAllBritishCouncilCoursesToDb(): Promise<
+  { ok: true; count: number } | { ok: false; error: string }
+> {
+  try {
+    const supabase = await createServerSupabaseClient();
+    const {
+      data: { user },
+      error: authError,
+    } = await supabase.auth.getUser();
+
+    if (authError || !user) {
+      return {
+        ok: false,
+        error: 'Unauthorized. Please sign in as a teacher to seed courses.',
+      };
+    }
+
+    const allCourses = getAllCourses();
+    let seededCount = 0;
+
+    for (const course of allCourses) {
+      const courseJson = JSON.parse(JSON.stringify(course));
+      await upsertCourseFromRawJson(user.id, courseJson);
+      seededCount++;
+    }
+
+    return {
+      ok: true,
+      count: seededCount,
+    };
+  } catch (error) {
+    const message = error instanceof Error ? error.message : 'Unknown error';
+    return {
+      ok: false,
+      error: message,
+    };
+  }
+}
+

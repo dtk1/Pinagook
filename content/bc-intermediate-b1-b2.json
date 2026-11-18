@@ -1,0 +1,75 @@
+{
+  "id": "bc-intermediate-b1-b2",
+  "title": "British Council: Intermediate English (B1-B2)",
+  "description": "Master Present Perfect, Conditionals, and Modal verbs for natural, fluent communication.",
+  "lessons": [
+    {
+      "id": "b1-present-perfect",
+      "courseId": "bc-intermediate-b1-b2",
+      "title": "Lesson 1: Present Perfect vs Past Simple",
+      "description": "Learn when to connect past actions to present results vs past completed events.",
+      "steps": [
+        {
+          "id": "step-1-exp",
+          "type": "text",
+          "title": "Grammar Rules: Present Perfect vs Past Simple",
+          "content": "Understanding life experiences vs finished past actions:\n\n1. **Present Perfect (have/has + past participle)**:\n   - Life experience (no specific time given): *I have visited Paris three times.*\n   - Recent action with present result: *I have lost my key (I don't have it now).*\n\n2. **Past Simple**:\n   - Specific completed time in the past: *I visited Paris in 2021.*",
+          "prompt": "Note: 'for' and 'since' are used with Present Perfect to show duration up to now."
+        },
+        {
+          "id": "step-2-quiz",
+          "type": "single_choice",
+          "question": "Which sentence is correct for a specific past time?",
+          "options": [
+            { "id": "opt-1", "text": "I have seen that movie yesterday." },
+            { "id": "opt-2", "text": "I saw that movie yesterday." },
+            { "id": "opt-3", "text": "I am seeing that movie yesterday." }
+          ],
+          "correctOptionId": "opt-2",
+          "explanation": "'Yesterday' specifies a completed past time, requiring Past Simple (saw)."
+        },
+        {
+          "id": "step-3-fill",
+          "type": "fill_blank",
+          "sentence": "She has ____ (live) in Rome since 2019.",
+          "correctAnswers": ["lived"],
+          "explanation": "Present Perfect takes past participle: live → lived."
+        }
+      ]
+    },
+    {
+      "id": "b2-conditionals",
+      "courseId": "bc-intermediate-b1-b2",
+      "title": "Lesson 2: Hypotheses & Conditionals (First, Second, Third)",
+      "description": "Express future possibilities, imaginary scenarios, and past regrets.",
+      "steps": [
+        {
+          "id": "step-1-exp",
+          "type": "text",
+          "title": "Conditionals Summary",
+          "content": "- **1st Conditional (Real Future)**: *If it rains, we will stay home.*\n- **2nd Conditional (Unreal Present/Future)**: *If I won the lottery, I would buy a house.*\n- **3rd Conditional (Unreal Past Regret)**: *If I had studied harder, I would have passed the exam.*",
+          "prompt": "Compare 2nd conditional (would + verb) vs 3rd conditional (would have + past participle)."
+        },
+        {
+          "id": "step-2-quiz",
+          "type": "single_choice",
+          "question": "Choose the 2nd Conditional sentence:",
+          "options": [
+            { "id": "opt-1", "text": "If I study, I will pass." },
+            { "id": "opt-2", "text": "If I had a car, I would drive across Europe." },
+            { "id": "opt-3", "text": "If I had seen him, I would have said hello." }
+          ],
+          "correctOptionId": "opt-2",
+          "explanation": "If + past simple (had), would + base verb (would drive) is the 2nd Conditional structure."
+        },
+        {
+          "id": "step-3-fill",
+          "type": "fill_blank",
+          "sentence": "If I ____ (know) about the meeting, I would have attended.",
+          "correctAnswers": ["had known"],
+          "explanation": "3rd Conditional requires 'had + past participle' in the if-clause (had known)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,12 +1,11 @@
-import { requireUser } from '../lib/auth/requireUser';
+import { requireTeacher } from '../lib/auth/requireUser';
 import TeacherPageClient from './TeacherPageClient';
 
 /**
- * Teacher page - protected route
- * Requires authentication
+ * Teacher page - protected route for Teachers only
  */
 export default async function TeacherPage() {
-  await requireUser('/teacher');
+  await requireTeacher('/teacher');
 
   return <TeacherPageClient />;
 }

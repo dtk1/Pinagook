@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import { getCourseForUserOrFallback } from '../../features/courses/coursesService';
 import { getOptionalUser } from '../../lib/auth/getOptionalUser';
 import CourseDetailPageClient from './CourseDetailPageClient';
+import { Course } from '../../../content';
 
 export default async function CourseDetailPage({
   params,
@@ -14,28 +15,27 @@ export default async function CourseDetailPage({
     notFound();
   }
 
+  let course: Course | null = null;
+  let canDelete = false;
+
   try {
-    const course = await getCourseForUserOrFallback(courseId);
-    
-    if (!course) {
-      console.error(`Course ${courseId} not found`);
-      notFound();
-    }
-
-    // Check if user is authenticated and owns this course (for delete button)
+    course = await getCourseForUserOrFallback(courseId);
     const user = await getOptionalUser();
-    const canDelete = !!user; // For now, any authenticated user can delete their own courses
-
-    return (
-      <CourseDetailPageClient
-        course={course}
-        courseId={courseId}
-        canDelete={canDelete}
-      />
-    );
+    canDelete = !!user;
   } catch (error) {
     console.error(`Error loading course ${courseId}:`, error);
+  }
+
+  if (!course) {
     notFound();
   }
+
+  return (
+    <CourseDetailPageClient
+      course={course}
+      courseId={courseId}
+      canDelete={canDelete}
+    />
+  );
 }
 

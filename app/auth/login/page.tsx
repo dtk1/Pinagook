@@ -139,7 +139,7 @@ function LoginPageInner() {
             </form>
 
             <div className="text-center text-sm text-[#64748B]">
-              Don't have an account?{' '}
+              Don&apos;t have an account?{' '}
               <Link href="/auth/register" className="text-[#0EA5B7] hover:underline">
                 Sign up
               </Link>

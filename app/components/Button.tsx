@@ -1,9 +1,10 @@
 import { ButtonHTMLAttributes, ReactNode } from 'react';
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: 'primary' | 'secondary' | 'ghost' | 'danger';
+  variant?: 'primary' | 'secondary' | 'ghost' | 'danger' | 'success' | 'tactile-primary' | 'tactile-success';
   size?: 's' | 'm' | 'l';
   isLoading?: boolean;
+  tactile?: boolean;
   children: ReactNode;
 }
 
@@ -11,31 +12,43 @@ export default function Button({
   variant = 'primary', 
   size = 'm',
   isLoading = false,
+  tactile = false,
   children, 
   className = '', 
   disabled,
   ...props 
 }: ButtonProps) {
-  const baseStyles = 'inline-flex items-center justify-center font-semibold transition-all duration-200 rounded-xl';
+  const baseStyles = 'inline-flex items-center justify-center font-bold transition-all duration-200 rounded-xl select-none';
   
   const sizes = {
-    s: 'h-8 px-3 text-sm gap-2',
-    m: 'h-10 px-4 text-base gap-2',
-    l: 'h-12 px-5 text-base gap-2.5'
+    s: 'h-9 px-3.5 text-sm gap-2',
+    m: 'h-11 px-5 text-base gap-2',
+    l: 'h-13 px-6 text-lg gap-2.5'
   };
 
   const variants = {
-    primary: 'bg-[#0EA5B7] text-white hover:bg-[#0B8A99] shadow-sm hover:shadow-md disabled:opacity-40 disabled:shadow-none',
-    secondary: 'bg-transparent border border-[#E6EEF2] text-[#0F172A] hover:bg-[#D9F6F8] disabled:opacity-40',
-    ghost: 'bg-transparent text-[#0EA5B7] hover:bg-[#D9F6F8] disabled:opacity-40',
-    danger: 'bg-[#EF4444] text-white hover:bg-[#DC2626] shadow-sm hover:shadow-md disabled:opacity-40 disabled:shadow-none'
+    primary: tactile 
+      ? 'btn-tactile btn-tactile-primary' 
+      : 'bg-[#0ea5e9] text-white hover:bg-[#0284c7] shadow-sm hover:shadow-md disabled:opacity-40 disabled:shadow-none',
+    success: tactile
+      ? 'btn-tactile btn-tactile-success'
+      : 'bg-[#58cc02] text-white hover:bg-[#46a302] shadow-sm hover:shadow-md disabled:opacity-40 disabled:shadow-none',
+    danger: tactile
+      ? 'btn-tactile btn-tactile-danger'
+      : 'bg-[#ff4b4b] text-white hover:bg-[#ea2b2b] shadow-sm hover:shadow-md disabled:opacity-40 disabled:shadow-none',
+    secondary: tactile
+      ? 'btn-tactile btn-tactile-secondary'
+      : 'bg-white border border-[#E6EEF2] text-[#0F172A] hover:bg-[#f8fafc] disabled:opacity-40',
+    ghost: 'bg-transparent text-[#0ea5e9] hover:bg-[#e0f2fe] disabled:opacity-40',
+    'tactile-primary': 'btn-tactile btn-tactile-primary',
+    'tactile-success': 'btn-tactile btn-tactile-success'
   };
 
   const isDisabled = disabled || isLoading;
 
   return (
     <button
-      className={`${baseStyles} ${sizes[size]} ${variants[variant]} ${isDisabled ? 'cursor-not-allowed' : ''} ${className}`}
+      className={`${baseStyles} ${sizes[size]} ${variants[variant]} ${isDisabled ? 'cursor-not-allowed opacity-50' : ''} ${className}`}
       disabled={isDisabled}
       {...props}
     >
@@ -49,3 +62,4 @@ export default function Button({
     </button>
   );
 }
+

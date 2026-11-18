@@ -50,7 +50,7 @@ export default function CourseDetailPageClient({
           <Card>
             <div className="text-center space-y-4">
               <h1 className="text-2xl font-bold text-[#0F172A]">{course.title}</h1>
-              <p className="text-[#475569]">This course doesn't have any lessons yet.</p>
+              <p className="text-[#475569]">This course doesn&apos;t have any lessons yet.</p>
               <div className="pt-2">
                 <Link href="/courses">
                   <Button variant="secondary">Back to Courses</Button>

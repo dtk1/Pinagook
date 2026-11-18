@@ -8,6 +8,7 @@ import { scoreLesson, LessonResult as LessonResultType } from './scoring';
 import Button from '../../components/Button';
 import LessonResultView from './LessonResultView';
 import Card from '../../components/Card';
+import FormattedContentRenderer from '../../components/FormattedContentRenderer';
 import {
   loadProgress,
   saveProgress,
@@ -341,10 +342,11 @@ export default function LessonPlayer({
       )}
 
       {/* Navigation */}
-      <div className="space-y-3">
-        <div className="flex items-center justify-between gap-4">
+      <div className="space-y-4">
+        <div className="flex items-center justify-between gap-4 pt-2">
           <Button
             variant="secondary"
+            tactile={true}
             onClick={handleBack}
             disabled={isFirstStep}
           >
@@ -354,38 +356,40 @@ export default function LessonPlayer({
           <div className="flex gap-3">
             {isInteractive && !isChecked && (
               <Button
-                variant="primary"
+                variant="success"
+                tactile={true}
                 onClick={handleCheck}
                 disabled={!hasCurrentAnswer}
               >
-                Check
+                Check Answer ✨
               </Button>
             )}
 
             <Button
-              variant="primary"
+              variant={isInteractive && isChecked && isCurrentCorrect ? "success" : "primary"}
+              tactile={true}
               onClick={handleNext}
               disabled={!canGoNext}
             >
-              {isLastStep ? 'Finish' : 'Next →'}
+              {isLastStep ? 'Finish Lesson 🎉' : 'Next →'}
             </Button>
           </div>
         </div>
 
         {/* Helper text for disabled states */}
         {isInteractive && !isChecked && !hasCurrentAnswer && (
-          <p className="text-xs text-[#94A3B8] text-center">
-            Please provide an answer to continue
+          <p className="text-xs text-slate-400 text-center font-medium">
+            Select an answer to continue
           </p>
         )}
         {isInteractive && !isChecked && (
-          <p className="text-xs text-[#94A3B8] text-center">
-            Press <kbd className="px-1.5 py-0.5 bg-[#E6EEF2] rounded text-[#475569]">Enter</kbd> to check your answer
+          <p className="text-xs text-slate-500 text-center font-medium">
+            Press <kbd className="px-2 py-0.5 bg-slate-100 border border-slate-200 rounded text-slate-700 font-mono shadow-xs">Enter ↵</kbd> to check
           </p>
         )}
         {isInteractive && isChecked && !isLastStep && (
-          <p className="text-xs text-[#94A3B8] text-center">
-            Press <kbd className="px-1.5 py-0.5 bg-[#E6EEF2] rounded text-[#475569]">Enter</kbd> to continue
+          <p className="text-xs text-slate-500 text-center font-medium">
+            Press <kbd className="px-2 py-0.5 bg-slate-100 border border-slate-200 rounded text-slate-700 font-mono shadow-xs">Enter ↵</kbd> for next step
           </p>
         )}
       </div>
@@ -440,7 +444,8 @@ function StepTextRenderer({ step }: { step: StepText }) {
     <div className="space-y-4">
       {step.title && <h3 className="text-xl font-semibold text-[#0F172A]">{step.title}</h3>}
       {step.prompt && <p className="text-[#475569] italic">{step.prompt}</p>}
-      <div className="text-[#0F172A] whitespace-pre-wrap">{step.content}</div>
+
+      <FormattedContentRenderer content={step.content} />
     </div>
   );
 }
@@ -464,6 +469,7 @@ function StepSingleChoiceRenderer({
     <div className="space-y-4">
       {step.title && <h3 className="text-xl font-semibold text-[#0F172A]">{step.title}</h3>}
       {step.prompt && <p className="text-[#475569] italic">{step.prompt}</p>}
+
       <p className="text-lg font-medium text-[#0F172A]">{step.question}</p>
       
       <div className="space-y-2">
@@ -568,7 +574,7 @@ function StepFillBlankRenderer({
     <div className="space-y-4">
       {step.title && <h3 className="text-xl font-semibold text-[#0F172A]">{step.title}</h3>}
       {step.prompt && <p className="text-[#475569] italic">{step.prompt}</p>}
-      
+
       <div className="space-y-3">
         <div className="flex items-center gap-2 flex-wrap text-lg">
           {parts[0]}

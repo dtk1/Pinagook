@@ -24,37 +24,42 @@ import { loadCourseFromJson } from '../../../content/validate';
  */
 export async function listAvailableCourses(): Promise<Course[]> {
   const user = await getOptionalUser();
+  const dbValidated: Course[] = [];
 
   if (user) {
-    // DB-first: fetch from Supabase
+    // Try fetching user DB courses
     try {
       const dbCourses = await listCoursesForOwner(user.id);
       
-      // Load and validate each course from DB
-      const validatedCourses: Course[] = [];
       for (const metadata of dbCourses) {
         try {
           const rawJson = await getCourseRawJson(user.id, metadata.courseId);
           if (rawJson) {
             const validated = loadCourseFromJson(rawJson);
-            validatedCourses.push(validated);
+            dbValidated.push(validated);
           }
         } catch (error) {
-          // Skip invalid courses, log error
           console.error(`Failed to load course ${metadata.courseId}:`, error);
         }
       }
-      
-      return validatedCourses;
     } catch (error) {
-      // If DB fails, fallback to localStorage/static
-      console.error('Failed to load courses from DB, falling back:', error);
-      return getAllCourses();
+      console.error('Failed to load courses from DB, falling back to static:', error);
     }
-  } else {
-    // Not authenticated: use localStorage + static demo
-    return getAllCourses();
   }
+
+  // Get static bundled courses
+  const staticCourses = getAllCourses();
+
+  // Combine static and DB courses (DB overrides static if ID matches)
+  const courseMap = new Map<string, Course>();
+  for (const c of staticCourses) {
+    courseMap.set(c.id, c);
+  }
+  for (const c of dbValidated) {
+    courseMap.set(c.id, c);
+  }
+
+  return Array.from(courseMap.values());
 }
 
 /**

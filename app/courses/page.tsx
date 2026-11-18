@@ -1,6 +1,5 @@
 import { listAvailableCourses } from '../features/courses/coursesService';
 import CoursesPageClient from './CoursesPageClient';
-
 import { Course } from '../../content';
 
 export default async function CoursesPage() {

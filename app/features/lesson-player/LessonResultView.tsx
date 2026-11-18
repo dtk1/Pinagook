@@ -25,29 +25,35 @@ export default function LessonResultView({
   const isPerfect = incorrectResults.length === 0;
 
   return (
-    <div className="max-w-3xl mx-auto p-6 space-y-6">
+    <div className="max-w-3xl mx-auto p-6 space-y-6 animate-in fade-in zoom-in-95 duration-300">
       {/* Header */}
-      <Card>
-        <div className="text-center space-y-4">
-          <h1 className="text-3xl font-bold text-[#0F172A]">Lesson Complete!</h1>
-          <p className="text-xl text-[#475569]">{lessonTitle}</p>
+      <Card className="text-center p-8 bg-gradient-to-b from-white to-sky-50/50 border-sky-100">
+        <div className="space-y-4">
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-sky-100 text-sky-800 rounded-full text-sm font-bold tracking-wide uppercase">
+            Lesson Complete 🎉
+          </div>
+          <h1 className="text-3xl font-extrabold text-slate-900 tracking-tight">{lessonTitle}</h1>
           
-          {/* Score */}
-          <div className="pt-4">
-            <div className="text-6xl font-bold text-[#0EA5B7] mb-2">
-              {result.percentCorrect}%
+          {/* Score Circle */}
+          <div className="py-6 flex flex-col items-center justify-center">
+            <div className="relative w-36 h-36 rounded-full bg-white shadow-xl border-4 border-sky-400 flex items-center justify-center mb-3">
+              <span className="text-4xl font-black text-sky-600">
+                {result.percentCorrect}%
+              </span>
             </div>
-            <div className="text-lg text-[#475569]">
-              Score: <span className="font-semibold text-[#0F172A]">{result.correctCount}</span> /{' '}
-              <span className="font-semibold text-[#0F172A]">{result.totalInteractiveSteps}</span>
+            <div className="text-base text-slate-600 font-medium">
+              Score: <span className="font-bold text-slate-900 text-lg">{result.correctCount}</span> /{' '}
+              <span className="font-bold text-slate-900 text-lg">{result.totalInteractiveSteps}</span> correct answers
             </div>
           </div>
 
-          {isPerfect && (
-            <div className="pt-4">
-              <div className="inline-block px-6 py-3 bg-green-50 border border-green-200 rounded-xl">
-                <p className="text-green-900 font-semibold">🎉 Perfect Score!</p>
-              </div>
+          {isPerfect ? (
+            <div className="inline-block px-6 py-3 bg-emerald-50 border-2 border-emerald-300 rounded-2xl shadow-sm">
+              <p className="text-emerald-800 font-extrabold text-lg">🌟 Perfect Score! You mastered this lesson!</p>
+            </div>
+          ) : (
+            <div className="inline-block px-5 py-2.5 bg-amber-50 border border-amber-200 rounded-xl">
+              <p className="text-amber-800 font-semibold text-sm">Great effort! Review the questions below to strengthen your accuracy.</p>
             </div>
           )}
         </div>
@@ -55,8 +61,10 @@ export default function LessonResultView({
 
       {/* Incorrect Answers */}
       {!isPerfect && incorrectResults.length > 0 && (
-        <Card>
-          <h2 className="text-2xl font-semibold text-[#0F172A] mb-4">Review Incorrect Answers</h2>
+        <Card className="border-slate-200">
+          <h2 className="text-xl font-bold text-slate-900 mb-4 flex items-center gap-2">
+            <span>📝</span> Review Incorrect Answers
+          </h2>
           <div className="space-y-6">
             {incorrectResults.map((stepResult, index) => (
               <IncorrectAnswerItem key={stepResult.stepId} result={stepResult} index={index + 1} />
@@ -66,13 +74,13 @@ export default function LessonResultView({
       )}
 
       {/* Actions */}
-      <div className="flex items-center justify-center gap-4">
-        <Button variant="secondary" onClick={onRetry} size="l">
-          Retry Lesson
+      <div className="flex items-center justify-center gap-4 pt-2">
+        <Button variant="secondary" tactile={true} onClick={onRetry} size="l">
+          🔄 Retry Lesson
         </Button>
         {hasNextLesson && onNextLesson && (
-          <Button variant="primary" onClick={onNextLesson} size="l">
-            Next Lesson →
+          <Button variant="success" tactile={true} onClick={onNextLesson} size="l">
+            Next Lesson 🚀
           </Button>
         )}
       </div>

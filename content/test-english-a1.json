@@ -1,0 +1,1984 @@
+{
+  "id": "test-english-a1",
+  "title": "Test-English: A1 Elementary Complete Course",
+  "description": "Full Test-English A1 curriculum with authentic rules, audio tracks, and interactive exercises.",
+  "level": "A1",
+  "category": "Grammar",
+  "lessons": [
+    {
+      "id": "a1-present-simple-forms-of-to-be",
+      "courseId": "test-english-a1",
+      "title": "A1 Grammar: Present simple forms of 'to be': am/is/are",
+      "description": "Interactive Grammar practice for Present simple forms of 'to be': am/is/are.",
+      "category": "Grammar",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-present-simple-forms-of-to-be-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Present simple forms of 'to be': am/is/are",
+          "content": "### Present Simple of 'to be': am/is/are\n\nUse **am**, **is**, or **are** to state identity, feelings, nationality, or status.\n\n#### Affirmative, Negative & Question Forms:\n| Subject | Affirmative (+) | Negative (-) | Question (?) |\n| :--- | :--- | :--- | :--- |\n| **I** | I am (*I'm*) a student. | I am not (*I'm not*) ready. | Am I late? |\n| **He / She / It** | She is (*She's*) happy. | He is not (*isn't*) here. | Is it cold today? |\n| **We / You / They** | They are (*They're*) ready. | We are not (*aren't*) tired. | Are you from Spain? |\n\n#### Important Rules:\n- Short forms (*I'm, isn't, aren't*) are preferred in speaking and informal writing.\n- Never use *do/does* with the verb *to be*.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-present-simple-forms-of-to-be-step-2",
+          "type": "single_choice",
+          "question": "Which sentence uses the correct present form of 'to be'?",
+          "options": [
+            {
+              "id": "a",
+              "text": "They are students at the university."
+            },
+            {
+              "id": "b",
+              "text": "They is students at the university."
+            },
+            {
+              "id": "c",
+              "text": "They am students at the university."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Plural subject 'They' requires 'are'."
+        },
+        {
+          "id": "a1-present-simple-forms-of-to-be-step-3",
+          "type": "fill_blank",
+          "sentence": "She ____ (be) 25 years old and lives in Madrid.",
+          "correctAnswers": [
+            "is"
+          ],
+          "explanation": "Singular subject 'She' takes 'is'."
+        }
+      ]
+    },
+    {
+      "id": "a1-this-that-these-those",
+      "courseId": "test-english-a1",
+      "title": "A1 Grammar: This, that, these, those",
+      "description": "Interactive Grammar practice for This, that, these, those.",
+      "category": "Grammar",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-this-that-these-those-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: This, that, these, those",
+          "content": "### Demonstrative Pronouns: This, That, These, Those\n\nDemonstratives indicate distance (near or far) and quantity (singular or plural).\n\n#### Reference Chart:\n| Distance | Singular | Plural |\n| :--- | :--- | :--- |\n| **Near (Here)** | **This** (*This book in my hand*) | **These** (*These shoes on my feet*) |\n| **Far (There)** | **That** (*That car over there*) | **Those** (*Those stars in the sky*) |\n\n#### Key Usage Notes:\n- Use *this/these* when touching or holding an object.\n- Use *that/those* when pointing to objects further away.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-this-that-these-those-step-2",
+          "type": "single_choice",
+          "question": "Choose the correct demonstrative pronoun for plural objects far away:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Look at those birds in the tree over there."
+            },
+            {
+              "id": "b",
+              "text": "Look at this birds in the tree over there."
+            },
+            {
+              "id": "c",
+              "text": "Look at these bird in the tree over there."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Far away plural objects use 'those'."
+        },
+        {
+          "id": "a1-this-that-these-those-step-3",
+          "type": "fill_blank",
+          "sentence": "____ (this/these) shoes on my feet are very comfortable.",
+          "correctAnswers": [
+            "these",
+            "These"
+          ],
+          "explanation": "Plural nearby items require 'these'."
+        }
+      ]
+    },
+    {
+      "id": "a1-possessive-adjectives",
+      "courseId": "test-english-a1",
+      "title": "A1 Grammar: Possessive adjectives and subject pronouns (I/my, you/your, etc.)",
+      "description": "Interactive Grammar practice for Possessive adjectives and subject pronouns (I/my, you/your, etc.).",
+      "category": "Grammar",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-possessive-adjectives-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Possessive adjectives and subject pronouns (I/my, you/your, etc.)",
+          "content": "### Possessive Adjectives and Subject Pronouns\n\nPossessive adjectives show ownership and always come before a noun.\n\n#### Pronoun & Possessive Table:\n| Subject Pronoun | Possessive Adjective | Example Sentence |\n| :--- | :--- | :--- |\n| **I** | **my** | This is **my** phone. |\n| **You** | **your** | Where is **your** car? |\n| **He** | **his** | Mark loves **his** dog. |\n| **She** | **her** | Sarah called **her** mother. |\n| **It** | **its** | The house has **its** own garden. |\n| **We** | **our** | We painted **our** house. |\n| **They** | **their** | They brought **their** luggage. |\n\n#### Rule Reminder:\n- *Its* (possessive) has no apostrophe. *It's* = *It is*.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-possessive-adjectives-step-2",
+          "type": "single_choice",
+          "question": "Select the sentence with the correct possessive adjective:",
+          "options": [
+            {
+              "id": "a",
+              "text": "John is walking with his sister."
+            },
+            {
+              "id": "b",
+              "text": "John is walking with him sister."
+            },
+            {
+              "id": "c",
+              "text": "John is walking with he sister."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Male possessive before a noun is 'his'."
+        },
+        {
+          "id": "a1-possessive-adjectives-step-3",
+          "type": "fill_blank",
+          "sentence": "We love ____ (our/their) new apartment.",
+          "correctAnswers": [
+            "our"
+          ],
+          "explanation": "Subject 'We' corresponds to possessive 'our'."
+        }
+      ]
+    },
+    {
+      "id": "a1-a-an-plurals",
+      "courseId": "test-english-a1",
+      "title": "A1 Grammar: A/an, plurals: Singular and plural forms",
+      "description": "Interactive Grammar practice for A/an, plurals: Singular and plural forms.",
+      "category": "Grammar",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-a-an-plurals-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: A/an, plurals: Singular and plural forms",
+          "content": "### Articles: A, An, The & Zero Article\n\nArticles specify whether a noun is indefinite (general) or definite (specific).\n\n#### Usage Rules Summary:\n| Article | Rule / Condition | Example |\n| :--- | :--- | :--- |\n| **a** | Singular countable noun starting with a consonant sound | *a doctor, a European country* |\n| **an** | Singular countable noun starting with a vowel sound | *an apple, an hour* |\n| **the** | Specific or unique noun (listener knows which one) | *the sun, the president, the keys on the table* |\n| **No article (Ø)** | Plural or uncountable nouns in general sense | *Water is essential. Dogs are loyal.* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-a-an-plurals-step-2",
+          "type": "single_choice",
+          "question": "Which sentence uses articles correctly?",
+          "options": [
+            {
+              "id": "a",
+              "text": "He is an architect and works in an office."
+            },
+            {
+              "id": "b",
+              "text": "He is a architect and works in a office."
+            },
+            {
+              "id": "c",
+              "text": "He is architect and works in office."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Words starting with vowel sounds ('architect', 'office') require 'an'."
+        },
+        {
+          "id": "a1-a-an-plurals-step-3",
+          "type": "fill_blank",
+          "sentence": "She bought ____ (a/an) umbrella because it started to rain.",
+          "correctAnswers": [
+            "an"
+          ],
+          "explanation": "'Umbrella' starts with a vowel sound, requiring 'an'."
+        }
+      ]
+    },
+    {
+      "id": "a1-adjectives",
+      "courseId": "test-english-a1",
+      "title": "A1 Grammar: Adjectives: Old, interesting, expensive, etc.",
+      "description": "Interactive Grammar practice for Adjectives: Old, interesting, expensive, etc..",
+      "category": "Grammar",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-adjectives-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Adjectives: Old, interesting, expensive, etc.",
+          "content": "### Adjectives: Describing Nouns\n\nAdjectives describe people, places, and things. In English, adjectives do not change for plural nouns.\n\n#### Rules & Word Order:\n| Pattern | Example | Rule Note |\n| :--- | :--- | :--- |\n| **Before Noun** | *An expensive car.* | Adjectives go **before** nouns. |\n| **After 'to be'** | *The restaurant is fantastic.* | Follows verbs of state (*be, seem, look*). |\n| **Plural Agreement** | *Two red shirts.* | **Never** add -s to an adjective (*two reds shirts* ❌). |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-adjectives-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Adjectives: Old, interesting, expensive, etc.\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Adjectives: Old, interesting, expensive, etc. applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Adjectives: Old, interesting, expensive, etc. applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Adjectives: Old, interesting, expensive, etc. apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Adjectives: Old, interesting, expensive, etc.."
+        },
+        {
+          "id": "a1-adjectives-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Adjectives: Old, interesting, expensive, etc..",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a1-present-simple",
+      "courseId": "test-english-a1",
+      "title": "A1 Grammar: Present simple: I do, I don don't, do you?",
+      "description": "Interactive Grammar practice for Present simple: I do, I don.",
+      "category": "Grammar",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-present-simple-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Present simple: I do, I don don't, do you?",
+          "content": "### Present Simple: Habits, Routines & Facts\n\nUse the Present Simple for habits, permanent states, general truths, and regular routines.\n\n#### Sentence Structure:\n| Form | Subject | Verb Structure | Example |\n| :--- | :--- | :--- | :--- |\n| **Affirmative (+)** | I / You / We / They | Base verb | *I play tennis every weekend.* |\n| **Affirmative (+)** | He / She / It | Verb + **s/es** | *She works at a bank.* |\n| **Negative (-)** | I / You / We / They | **don't** + Base verb | *We don't live in Paris.* |\n| **Negative (-)** | He / She / It | **doesn't** + Base verb | *He doesn't eat meat.* |\n| **Question (?)** | Do / Does | Subject + Base verb | *Does she speak English?* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-present-simple-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Present simple: I do, I don don't, do you?\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Present simple: I do, I don don't, do you? applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Present simple: I do, I don don't, do you? applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Present simple: I do, I don don't, do you? apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Present simple: I do, I don don't, do you?."
+        },
+        {
+          "id": "a1-present-simple-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Present simple: I do, I don don't, do you?.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a1-questions",
+      "courseId": "test-english-a1",
+      "title": "A1 Grammar: Questions: Word order and question words",
+      "description": "Interactive Grammar practice for Questions: Word order and question words.",
+      "category": "Grammar",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-questions-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Questions: Word order and question words",
+          "content": "### Questions: Word order and question words\n\nStudy the structural rules, usage guidelines, and key examples for **Questions: Word order and question words**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-questions-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Questions: Word order and question words\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Questions: Word order and question words applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Questions: Word order and question words applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Questions: Word order and question words apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Questions: Word order and question words."
+        },
+        {
+          "id": "a1-questions-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Questions: Word order and question words.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a1-adverbs-frequency",
+      "courseId": "test-english-a1",
+      "title": "A1 Grammar: Adverbs of frequency with present simple",
+      "description": "Interactive Grammar practice for Adverbs of frequency with present simple.",
+      "category": "Grammar",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-adverbs-frequency-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Adverbs of frequency with present simple",
+          "content": "### Present Simple: Habits, Routines & Facts\n\nUse the Present Simple for habits, permanent states, general truths, and regular routines.\n\n#### Sentence Structure:\n| Form | Subject | Verb Structure | Example |\n| :--- | :--- | :--- | :--- |\n| **Affirmative (+)** | I / You / We / They | Base verb | *I play tennis every weekend.* |\n| **Affirmative (+)** | He / She / It | Verb + **s/es** | *She works at a bank.* |\n| **Negative (-)** | I / You / We / They | **don't** + Base verb | *We don't live in Paris.* |\n| **Negative (-)** | He / She / It | **doesn't** + Base verb | *He doesn't eat meat.* |\n| **Question (?)** | Do / Does | Subject + Base verb | *Does she speak English?* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-adverbs-frequency-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Adverbs of frequency with present simple\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Adverbs of frequency with present simple applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Adverbs of frequency with present simple applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Adverbs of frequency with present simple apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Adverbs of frequency with present simple."
+        },
+        {
+          "id": "a1-adverbs-frequency-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Adverbs of frequency with present simple.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a1-object-pronouns",
+      "courseId": "test-english-a1",
+      "title": "A1 Grammar: Object pronouns vs subject pronouns: Me or I, she or her?",
+      "description": "Interactive Grammar practice for Object pronouns vs subject pronouns: Me or I, she or her?.",
+      "category": "Grammar",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-object-pronouns-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Object pronouns vs subject pronouns: Me or I, she or her?",
+          "content": "### Object pronouns vs subject pronouns: Me or I, she or her?\n\nStudy the structural rules, usage guidelines, and key examples for **Object pronouns vs subject pronouns: Me or I, she or her?**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-object-pronouns-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Object pronouns vs subject pronouns: Me or I, she or her?\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Object pronouns vs subject pronouns: Me or I, she or her? applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Object pronouns vs subject pronouns: Me or I, she or her? applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Object pronouns vs subject pronouns: Me or I, she or her? apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Object pronouns vs subject pronouns: Me or I, she or her?."
+        },
+        {
+          "id": "a1-object-pronouns-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Object pronouns vs subject pronouns: Me or I, she or her?.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a1-whose-possessive-s",
+      "courseId": "test-english-a1",
+      "title": "A1 Grammar: Whose, possessive 's & possessive pronouns",
+      "description": "Interactive Grammar practice for Whose, possessive.",
+      "category": "Grammar",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-whose-possessive-s-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Whose, possessive 's & possessive pronouns",
+          "content": "### Possessive Adjectives and Subject Pronouns\n\nPossessive adjectives show ownership and always come before a noun.\n\n#### Pronoun & Possessive Table:\n| Subject Pronoun | Possessive Adjective | Example Sentence |\n| :--- | :--- | :--- |\n| **I** | **my** | This is **my** phone. |\n| **You** | **your** | Where is **your** car? |\n| **He** | **his** | Mark loves **his** dog. |\n| **She** | **her** | Sarah called **her** mother. |\n| **It** | **its** | The house has **its** own garden. |\n| **We** | **our** | We painted **our** house. |\n| **They** | **their** | They brought **their** luggage. |\n\n#### Rule Reminder:\n- *Its* (possessive) has no apostrophe. *It's* = *It is*.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-whose-possessive-s-step-2",
+          "type": "single_choice",
+          "question": "Select the sentence with the correct possessive adjective:",
+          "options": [
+            {
+              "id": "a",
+              "text": "John is walking with his sister."
+            },
+            {
+              "id": "b",
+              "text": "John is walking with him sister."
+            },
+            {
+              "id": "c",
+              "text": "John is walking with he sister."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Male possessive before a noun is 'his'."
+        },
+        {
+          "id": "a1-whose-possessive-s-step-3",
+          "type": "fill_blank",
+          "sentence": "We love ____ (our/their) new apartment.",
+          "correctAnswers": [
+            "our"
+          ],
+          "explanation": "Subject 'We' corresponds to possessive 'our'."
+        }
+      ]
+    },
+    {
+      "id": "a1-at-in-on-prepositions-time",
+      "courseId": "test-english-a1",
+      "title": "A1 Grammar: At, in, on: Prepositions of time",
+      "description": "Interactive Grammar practice for At, in, on: Prepositions of time.",
+      "category": "Grammar",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-at-in-on-prepositions-time-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: At, in, on: Prepositions of time",
+          "content": "### Prepositions of Time and Place: At, In, On\n\nPrepositions specify exact times, dates, enclosed spaces, or surfaces.\n\n#### Comprehensive At / In / On Chart:\n| Preposition | Time Usage | Place Usage |\n| :--- | :--- | :--- |\n| **At** | Specific time: *at 5 o'clock, at noon, at night* | Specific point: *at the door, at the bus stop, at home* |\n| **In** | Months, years, seasons: *in July, in 2026, in summer* | Enclosed space / city: *in London, in a room, in a car* |\n| **On** | Days & dates: *on Monday, on May 15th, on my birthday* | Surface / transport: *on the table, on the 2nd floor, on a bus* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-at-in-on-prepositions-time-step-2",
+          "type": "single_choice",
+          "question": "Select the sentence with the correct preposition:",
+          "options": [
+            {
+              "id": "a",
+              "text": "The meeting starts at 9 o’clock on Monday."
+            },
+            {
+              "id": "b",
+              "text": "The meeting starts in 9 o’clock at Monday."
+            },
+            {
+              "id": "c",
+              "text": "The meeting starts on 9 o’clock in Monday."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Use 'at' for specific times (9 o'clock) and 'on' for days (Monday)."
+        },
+        {
+          "id": "a1-at-in-on-prepositions-time-step-3",
+          "type": "fill_blank",
+          "sentence": "My birthday is ____ (in/on/at) July 14th.",
+          "correctAnswers": [
+            "on"
+          ],
+          "explanation": "Specific calendar dates use the preposition 'on'."
+        }
+      ]
+    },
+    {
+      "id": "a1-at-in-on-prepositions-of-place",
+      "courseId": "test-english-a1",
+      "title": "A1 Grammar: At, in, on: Prepositions of place",
+      "description": "Interactive Grammar practice for At, in, on: Prepositions of place.",
+      "category": "Grammar",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-at-in-on-prepositions-of-place-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: At, in, on: Prepositions of place",
+          "content": "### Prepositions of Time and Place: At, In, On\n\nPrepositions specify exact times, dates, enclosed spaces, or surfaces.\n\n#### Comprehensive At / In / On Chart:\n| Preposition | Time Usage | Place Usage |\n| :--- | :--- | :--- |\n| **At** | Specific time: *at 5 o'clock, at noon, at night* | Specific point: *at the door, at the bus stop, at home* |\n| **In** | Months, years, seasons: *in July, in 2026, in summer* | Enclosed space / city: *in London, in a room, in a car* |\n| **On** | Days & dates: *on Monday, on May 15th, on my birthday* | Surface / transport: *on the table, on the 2nd floor, on a bus* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-at-in-on-prepositions-of-place-step-2",
+          "type": "single_choice",
+          "question": "Select the sentence with the correct preposition:",
+          "options": [
+            {
+              "id": "a",
+              "text": "The meeting starts at 9 o’clock on Monday."
+            },
+            {
+              "id": "b",
+              "text": "The meeting starts in 9 o’clock at Monday."
+            },
+            {
+              "id": "c",
+              "text": "The meeting starts on 9 o’clock in Monday."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Use 'at' for specific times (9 o'clock) and 'on' for days (Monday)."
+        },
+        {
+          "id": "a1-at-in-on-prepositions-of-place-step-3",
+          "type": "fill_blank",
+          "sentence": "My birthday is ____ (in/on/at) July 14th.",
+          "correctAnswers": [
+            "on"
+          ],
+          "explanation": "Specific calendar dates use the preposition 'on'."
+        }
+      ]
+    },
+    {
+      "id": "a1-can-cant",
+      "courseId": "test-english-a1",
+      "title": "A1 Grammar: Can, can",
+      "description": "Interactive Grammar practice for Can, can.",
+      "category": "Grammar",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-can-cant-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Can, can",
+          "content": "### Can, can\n\nStudy the structural rules, usage guidelines, and key examples for **Can, can**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-can-cant-step-2",
+          "type": "single_choice",
+          "question": "Which modal verb correctly expresses strong obligation?",
+          "options": [
+            {
+              "id": "a",
+              "text": "All passengers must fasten their seatbelts."
+            },
+            {
+              "id": "b",
+              "text": "All passengers might fasten their seatbelts."
+            },
+            {
+              "id": "c",
+              "text": "All passengers could fastens their seatbelts."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "'Must' expresses mandatory obligation."
+        },
+        {
+          "id": "a1-can-cant-step-3",
+          "type": "fill_blank",
+          "sentence": "You ____ (should/must) see a doctor if your headache continues.",
+          "correctAnswers": [
+            "should"
+          ],
+          "explanation": "'Should' is used to offer friendly advice or recommendations."
+        }
+      ]
+    },
+    {
+      "id": "a1-present-continuous",
+      "courseId": "test-english-a1",
+      "title": "A1 Grammar: Present continuous: I",
+      "description": "Interactive Grammar practice for Present continuous: I.",
+      "category": "Grammar",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-present-continuous-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Present continuous: I",
+          "content": "### Present Continuous: Actions Happening Now\n\nUse the Present Continuous for actions happening at the moment of speaking or temporary situations.\n\n#### Structure & Spelling Rules:\n| Form | Rule / Structure | Example |\n| :--- | :--- | :--- |\n| **Affirmative (+)** | Subject + **am/is/are** + verb-**ing** | *They are studying in the library right now.* |\n| **Negative (-)** | Subject + **am not / isn't / aren't** + verb-**ing** | *I am not watching TV at the moment.* |\n| **Question (?)** | **Am/Is/Are** + subject + verb-**ing**? | *Is she listening to music?* |\n\n#### Stative Verbs Warning:\n- Do NOT use continuous tenses with stative verbs (*know, love, hate, want, understand, believe*).",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-present-continuous-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Present continuous: I\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Present continuous: I applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Present continuous: I applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Present continuous: I apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Present continuous: I."
+        },
+        {
+          "id": "a1-present-continuous-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Present continuous: I.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a1-present-simple-present-continuous",
+      "courseId": "test-english-a1",
+      "title": "A1 Grammar: Present simple or present continuous?",
+      "description": "Interactive Grammar practice for Present simple or present continuous?.",
+      "category": "Grammar",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-present-simple-present-continuous-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Present simple or present continuous?",
+          "content": "### Present Continuous: Actions Happening Now\n\nUse the Present Continuous for actions happening at the moment of speaking or temporary situations.\n\n#### Structure & Spelling Rules:\n| Form | Rule / Structure | Example |\n| :--- | :--- | :--- |\n| **Affirmative (+)** | Subject + **am/is/are** + verb-**ing** | *They are studying in the library right now.* |\n| **Negative (-)** | Subject + **am not / isn't / aren't** + verb-**ing** | *I am not watching TV at the moment.* |\n| **Question (?)** | **Am/Is/Are** + subject + verb-**ing**? | *Is she listening to music?* |\n\n#### Stative Verbs Warning:\n- Do NOT use continuous tenses with stative verbs (*know, love, hate, want, understand, believe*).",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-present-simple-present-continuous-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Present simple or present continuous?\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Present simple or present continuous? applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Present simple or present continuous? applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Present simple or present continuous? apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Present simple or present continuous?."
+        },
+        {
+          "id": "a1-present-simple-present-continuous-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Present simple or present continuous?.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a1-imperative-sit-dont-talk",
+      "courseId": "test-english-a1",
+      "title": "A1 Grammar: The imperative: Sit down! Don’t talk!",
+      "description": "Interactive Grammar practice for The imperative: Sit down! Don’t talk!.",
+      "category": "Grammar",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-imperative-sit-dont-talk-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: The imperative: Sit down! Don’t talk!",
+          "content": "### The imperative: Sit down! Don’t talk!\n\nStudy the structural rules, usage guidelines, and key examples for **The imperative: Sit down! Don’t talk!**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-imperative-sit-dont-talk-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"The imperative: Sit down! Don’t talk!\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for The imperative: Sit down! Don’t talk! applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for The imperative: Sit down! Don’t talk! applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for The imperative: Sit down! Don’t talk! apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for The imperative: Sit down! Don’t talk!."
+        },
+        {
+          "id": "a1-imperative-sit-dont-talk-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in The imperative: Sit down! Don’t talk!.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a1-was-were",
+      "courseId": "test-english-a1",
+      "title": "A1 Grammar: Was/were: Past simple of 'to be'",
+      "description": "Interactive Grammar practice for Was/were: Past simple of 'to be'.",
+      "category": "Grammar",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-was-were-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Was/were: Past simple of 'to be'",
+          "content": "### Past Simple: Completed Actions in the Past\n\nUse the Past Simple for actions completed at a specific time in the past.\n\n#### Regular & Irregular Conjugation:\n| Verb Type | Affirmative Form (+) | Negative Form (-) | Question Form (?) |\n| :--- | :--- | :--- | :--- |\n| **Was / Were ('to be')** | *I / He was here. They were late.* | *She wasn't ready.* | *Were you at home?* |\n| **Regular Verbs (-ed)** | *She walked to work yesterday.* | *They didn't visit us.* | *Did you call him?* |\n| **Irregular Verbs** | *We went to Italy last year.* | *I didn't see the movie.* | *Did she buy a car?* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-was-were-step-2",
+          "type": "single_choice",
+          "question": "Which sentence uses the correct present form of 'to be'?",
+          "options": [
+            {
+              "id": "a",
+              "text": "They are students at the university."
+            },
+            {
+              "id": "b",
+              "text": "They is students at the university."
+            },
+            {
+              "id": "c",
+              "text": "They am students at the university."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Plural subject 'They' requires 'are'."
+        },
+        {
+          "id": "a1-was-were-step-3",
+          "type": "fill_blank",
+          "sentence": "She ____ (be) 25 years old and lives in Madrid.",
+          "correctAnswers": [
+            "is"
+          ],
+          "explanation": "Singular subject 'She' takes 'is'."
+        }
+      ]
+    },
+    {
+      "id": "a1-past-simple-regular-irregular",
+      "courseId": "test-english-a1",
+      "title": "A1 Grammar: Past simple: Regular/irregular verbs",
+      "description": "Interactive Grammar practice for Past simple: Regular/irregular verbs.",
+      "category": "Grammar",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-past-simple-regular-irregular-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Past simple: Regular/irregular verbs",
+          "content": "### Past Simple: Completed Actions in the Past\n\nUse the Past Simple for actions completed at a specific time in the past.\n\n#### Regular & Irregular Conjugation:\n| Verb Type | Affirmative Form (+) | Negative Form (-) | Question Form (?) |\n| :--- | :--- | :--- | :--- |\n| **Was / Were ('to be')** | *I / He was here. They were late.* | *She wasn't ready.* | *Were you at home?* |\n| **Regular Verbs (-ed)** | *She walked to work yesterday.* | *They didn't visit us.* | *Did you call him?* |\n| **Irregular Verbs** | *We went to Italy last year.* | *I didn't see the movie.* | *Did she buy a car?* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-past-simple-regular-irregular-step-2",
+          "type": "single_choice",
+          "question": "Which sentence is correctly formed in the past simple?",
+          "options": [
+            {
+              "id": "a",
+              "text": "They visited their grandparents last weekend."
+            },
+            {
+              "id": "b",
+              "text": "They visit their grandparents last weekend."
+            },
+            {
+              "id": "c",
+              "text": "They was visit their grandparents last weekend."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Past simple of regular verb 'visit' is 'visited'."
+        },
+        {
+          "id": "a1-past-simple-regular-irregular-step-3",
+          "type": "fill_blank",
+          "sentence": "Where ____ (do/did/was) you go yesterday afternoon?",
+          "correctAnswers": [
+            "did"
+          ],
+          "explanation": "Questions in the past simple use auxiliary 'did'."
+        }
+      ]
+    },
+    {
+      "id": "a1-past-simple-negatives-questions",
+      "courseId": "test-english-a1",
+      "title": "A1 Grammar: Past simple: Negatives and questions",
+      "description": "Interactive Grammar practice for Past simple: Negatives and questions.",
+      "category": "Grammar",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-past-simple-negatives-questions-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Past simple: Negatives and questions",
+          "content": "### Past Simple: Completed Actions in the Past\n\nUse the Past Simple for actions completed at a specific time in the past.\n\n#### Regular & Irregular Conjugation:\n| Verb Type | Affirmative Form (+) | Negative Form (-) | Question Form (?) |\n| :--- | :--- | :--- | :--- |\n| **Was / Were ('to be')** | *I / He was here. They were late.* | *She wasn't ready.* | *Were you at home?* |\n| **Regular Verbs (-ed)** | *She walked to work yesterday.* | *They didn't visit us.* | *Did you call him?* |\n| **Irregular Verbs** | *We went to Italy last year.* | *I didn't see the movie.* | *Did she buy a car?* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-past-simple-negatives-questions-step-2",
+          "type": "single_choice",
+          "question": "Which sentence is correctly formed in the past simple?",
+          "options": [
+            {
+              "id": "a",
+              "text": "They visited their grandparents last weekend."
+            },
+            {
+              "id": "b",
+              "text": "They visit their grandparents last weekend."
+            },
+            {
+              "id": "c",
+              "text": "They was visit their grandparents last weekend."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Past simple of regular verb 'visit' is 'visited'."
+        },
+        {
+          "id": "a1-past-simple-negatives-questions-step-3",
+          "type": "fill_blank",
+          "sentence": "Where ____ (do/did/was) you go yesterday afternoon?",
+          "correctAnswers": [
+            "did"
+          ],
+          "explanation": "Questions in the past simple use auxiliary 'did'."
+        }
+      ]
+    },
+    {
+      "id": "a1-verbs-infinitive-verbs-ing",
+      "courseId": "test-english-a1",
+      "title": "A1 Grammar: Verbs + to + infinitive and verbs + -ing",
+      "description": "Interactive Grammar practice for Verbs + to + infinitive and verbs + -ing.",
+      "category": "Grammar",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-verbs-infinitive-verbs-ing-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Verbs + to + infinitive and verbs + -ing",
+          "content": "### Verbs + to + infinitive and verbs + -ing\n\nStudy the structural rules, usage guidelines, and key examples for **Verbs + to + infinitive and verbs + -ing**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-verbs-infinitive-verbs-ing-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Verbs + to + infinitive and verbs + -ing\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Verbs + to + infinitive and verbs + -ing applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Verbs + to + infinitive and verbs + -ing applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Verbs + to + infinitive and verbs + -ing apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Verbs + to + infinitive and verbs + -ing."
+        },
+        {
+          "id": "a1-verbs-infinitive-verbs-ing-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Verbs + to + infinitive and verbs + -ing.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a1-would-like",
+      "courseId": "test-english-a1",
+      "title": "A1 Grammar: Would you like...? I would like...",
+      "description": "Interactive Grammar practice for Would you like...? I would like....",
+      "category": "Grammar",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-would-like-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Would you like...? I would like...",
+          "content": "### Would you like...? I would like...\n\nStudy the structural rules, usage guidelines, and key examples for **Would you like...? I would like...**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-would-like-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Would you like...? I would like...\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Would you like...? I would like... applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Would you like...? I would like... applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Would you like...? I would like... apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Would you like...? I would like...."
+        },
+        {
+          "id": "a1-would-like-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Would you like...? I would like....",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a1-have-got",
+      "courseId": "test-english-a1",
+      "title": "A1 Grammar: Have got",
+      "description": "Interactive Grammar practice for Have got.",
+      "category": "Grammar",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-have-got-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Have got",
+          "content": "### Have got\n\nStudy the structural rules, usage guidelines, and key examples for **Have got**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-have-got-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Have got\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Have got applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Have got applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Have got apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Have got."
+        },
+        {
+          "id": "a1-have-got-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Have got.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a1-a-some-any-countable-uncountable",
+      "courseId": "test-english-a1",
+      "title": "A1 Grammar: A, some, any: Countable and uncountable nouns",
+      "description": "Interactive Grammar practice for A, some, any: Countable and uncountable nouns.",
+      "category": "Grammar",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-a-some-any-countable-uncountable-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: A, some, any: Countable and uncountable nouns",
+          "content": "### A, some, any: Countable and uncountable nouns\n\nStudy the structural rules, usage guidelines, and key examples for **A, some, any: Countable and uncountable nouns**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-a-some-any-countable-uncountable-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"A, some, any: Countable and uncountable nouns\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for A, some, any: Countable and uncountable nouns applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for A, some, any: Countable and uncountable nouns applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for A, some, any: Countable and uncountable nouns apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for A, some, any: Countable and uncountable nouns."
+        },
+        {
+          "id": "a1-a-some-any-countable-uncountable-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in A, some, any: Countable and uncountable nouns.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a1-there-is-there-are",
+      "courseId": "test-english-a1",
+      "title": "A1 Grammar: There is, there are / there was, there were",
+      "description": "Interactive Grammar practice for There is, there are / there was, there were.",
+      "category": "Grammar",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-there-is-there-are-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: There is, there are / there was, there were",
+          "content": "### There is, there are / there was, there were\n\nStudy the structural rules, usage guidelines, and key examples for **There is, there are / there was, there were**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-there-is-there-are-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"There is, there are / there was, there were\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for There is, there are / there was, there were applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for There is, there are / there was, there were applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for There is, there are / there was, there were apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for There is, there are / there was, there were."
+        },
+        {
+          "id": "a1-there-is-there-are-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in There is, there are / there was, there were.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a1-there-it",
+      "courseId": "test-english-a1",
+      "title": "A1 Grammar: There or It",
+      "description": "Interactive Grammar practice for There or It.",
+      "category": "Grammar",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-there-it-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: There or It",
+          "content": "### There or It\n\nStudy the structural rules, usage guidelines, and key examples for **There or It**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-there-it-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"There or It\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for There or It applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for There or It applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for There or It apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for There or It."
+        },
+        {
+          "id": "a1-there-it-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in There or It.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a1-next-to-under-between-in-front-behind-etc",
+      "courseId": "test-english-a1",
+      "title": "A1 Grammar: Next to, under, between, in front of, behind, over, etc.",
+      "description": "Interactive Grammar practice for Next to, under, between, in front of, behind, over, etc..",
+      "category": "Grammar",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-next-to-under-between-in-front-behind-etc-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Next to, under, between, in front of, behind, over, etc.",
+          "content": "### Next to, under, between, in front of, behind, over, etc.\n\nStudy the structural rules, usage guidelines, and key examples for **Next to, under, between, in front of, behind, over, etc.**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-next-to-under-between-in-front-behind-etc-step-2",
+          "type": "single_choice",
+          "question": "Which sentence uses the correct present form of 'to be'?",
+          "options": [
+            {
+              "id": "a",
+              "text": "They are students at the university."
+            },
+            {
+              "id": "b",
+              "text": "They is students at the university."
+            },
+            {
+              "id": "c",
+              "text": "They am students at the university."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Plural subject 'They' requires 'are'."
+        },
+        {
+          "id": "a1-next-to-under-between-in-front-behind-etc-step-3",
+          "type": "fill_blank",
+          "sentence": "She ____ (be) 25 years old and lives in Madrid.",
+          "correctAnswers": [
+            "is"
+          ],
+          "explanation": "Singular subject 'She' takes 'is'."
+        }
+      ]
+    },
+    {
+      "id": "a1-much-many-lot-little-few",
+      "courseId": "test-english-a1",
+      "title": "A1 Grammar: Much, many, a lot of, a little, a few",
+      "description": "Interactive Grammar practice for Much, many, a lot of, a little, a few.",
+      "category": "Grammar",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-much-many-lot-little-few-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Much, many, a lot of, a little, a few",
+          "content": "### Much, many, a lot of, a little, a few\n\nStudy the structural rules, usage guidelines, and key examples for **Much, many, a lot of, a little, a few**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-much-many-lot-little-few-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Much, many, a lot of, a little, a few\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Much, many, a lot of, a little, a few applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Much, many, a lot of, a little, a few applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Much, many, a lot of, a little, a few apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Much, many, a lot of, a little, a few."
+        },
+        {
+          "id": "a1-much-many-lot-little-few-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Much, many, a lot of, a little, a few.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a1-comparative-adjectives",
+      "courseId": "test-english-a1",
+      "title": "A1 Grammar: Comparative adjectives: Older than, more important than, etc.",
+      "description": "Interactive Grammar practice for Comparative adjectives: Older than, more important than, etc..",
+      "category": "Grammar",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-comparative-adjectives-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Comparative adjectives: Older than, more important than, etc.",
+          "content": "### Comparatives and Superlatives\n\nUse comparatives to compare two things, and superlatives to compare three or more things.\n\n#### Rules Table:\n| Adjective Type | Comparative (+ than) | Superlative (the + ...) |\n| :--- | :--- | :--- |\n| **Short (1 syllable)** | *tall -> taller than* | *the tallest* |\n| **Ending in -y** | *happy -> happier than* | *the happiest* |\n| **Long (2+ syllables)** | *expensive -> more expensive than* | *the most expensive* |\n| **Irregular** | *good -> better than* / *bad -> worse than* | *the best* / *the worst* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-comparative-adjectives-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Comparative adjectives: Older than, more important than, etc.\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Comparative adjectives: Older than, more important than, etc. applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Comparative adjectives: Older than, more important than, etc. applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Comparative adjectives: Older than, more important than, etc. apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Comparative adjectives: Older than, more important than, etc.."
+        },
+        {
+          "id": "a1-comparative-adjectives-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Comparative adjectives: Older than, more important than, etc..",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a1-superlative-adjectives",
+      "courseId": "test-english-a1",
+      "title": "A1 Grammar: Superlative adjectives: The oldest, the most important, etc.",
+      "description": "Interactive Grammar practice for Superlative adjectives: The oldest, the most important, etc..",
+      "category": "Grammar",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-superlative-adjectives-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Superlative adjectives: The oldest, the most important, etc.",
+          "content": "### Adjectives: Describing Nouns\n\nAdjectives describe people, places, and things. In English, adjectives do not change for plural nouns.\n\n#### Rules & Word Order:\n| Pattern | Example | Rule Note |\n| :--- | :--- | :--- |\n| **Before Noun** | *An expensive car.* | Adjectives go **before** nouns. |\n| **After 'to be'** | *The restaurant is fantastic.* | Follows verbs of state (*be, seem, look*). |\n| **Plural Agreement** | *Two red shirts.* | **Never** add -s to an adjective (*two reds shirts* ❌). |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-superlative-adjectives-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Superlative adjectives: The oldest, the most important, etc.\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Superlative adjectives: The oldest, the most important, etc. applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Superlative adjectives: The oldest, the most important, etc. applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Superlative adjectives: The oldest, the most important, etc. apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Superlative adjectives: The oldest, the most important, etc.."
+        },
+        {
+          "id": "a1-superlative-adjectives-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Superlative adjectives: The oldest, the most important, etc..",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a1-will-and-shall",
+      "courseId": "test-english-a1",
+      "title": "A1 Grammar: 'Will' and 'shall': Future",
+      "description": "Interactive Grammar practice for 'Will' and 'shall': Future.",
+      "category": "Grammar",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-will-and-shall-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: 'Will' and 'shall': Future",
+          "content": "### 'Will' and 'shall': Future\n\nStudy the structural rules, usage guidelines, and key examples for **'Will' and 'shall': Future**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-will-and-shall-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"'Will' and 'shall': Future\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for 'Will' and 'shall': Future applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for 'Will' and 'shall': Future applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for 'Will' and 'shall': Future apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for 'Will' and 'shall': Future."
+        },
+        {
+          "id": "a1-will-and-shall-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in 'Will' and 'shall': Future.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a1-be-going-to-plans-predictions",
+      "courseId": "test-english-a1",
+      "title": "A1 Grammar: Be going to: Plans and predictions",
+      "description": "Interactive Grammar practice for Be going to: Plans and predictions.",
+      "category": "Grammar",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-be-going-to-plans-predictions-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Be going to: Plans and predictions",
+          "content": "### Be going to: Plans and predictions\n\nStudy the structural rules, usage guidelines, and key examples for **Be going to: Plans and predictions**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-be-going-to-plans-predictions-step-2",
+          "type": "single_choice",
+          "question": "Which sentence uses the correct present form of 'to be'?",
+          "options": [
+            {
+              "id": "a",
+              "text": "They are students at the university."
+            },
+            {
+              "id": "b",
+              "text": "They is students at the university."
+            },
+            {
+              "id": "c",
+              "text": "They am students at the university."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Plural subject 'They' requires 'are'."
+        },
+        {
+          "id": "a1-be-going-to-plans-predictions-step-3",
+          "type": "fill_blank",
+          "sentence": "She ____ (be) 25 years old and lives in Madrid.",
+          "correctAnswers": [
+            "is"
+          ],
+          "explanation": "Singular subject 'She' takes 'is'."
+        }
+      ]
+    },
+    {
+      "id": "a1-adverbs-manner",
+      "courseId": "test-english-a1",
+      "title": "A1 Grammar: Adverbs of manner (slowly) or adjectives (slow)?",
+      "description": "Interactive Grammar practice for Adverbs of manner (slowly) or adjectives (slow)?.",
+      "category": "Grammar",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-adverbs-manner-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Adverbs of manner (slowly) or adjectives (slow)?",
+          "content": "### Adjectives: Describing Nouns\n\nAdjectives describe people, places, and things. In English, adjectives do not change for plural nouns.\n\n#### Rules & Word Order:\n| Pattern | Example | Rule Note |\n| :--- | :--- | :--- |\n| **Before Noun** | *An expensive car.* | Adjectives go **before** nouns. |\n| **After 'to be'** | *The restaurant is fantastic.* | Follows verbs of state (*be, seem, look*). |\n| **Plural Agreement** | *Two red shirts.* | **Never** add -s to an adjective (*two reds shirts* ❌). |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-adverbs-manner-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Adverbs of manner (slowly) or adjectives (slow)?\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Adverbs of manner (slowly) or adjectives (slow)? applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Adverbs of manner (slowly) or adjectives (slow)? applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Adverbs of manner (slowly) or adjectives (slow)? apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Adverbs of manner (slowly) or adjectives (slow)?."
+        },
+        {
+          "id": "a1-adverbs-manner-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Adverbs of manner (slowly) or adjectives (slow)?.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a1-a-an-the-no-article",
+      "courseId": "test-english-a1",
+      "title": "A1 Grammar: A/an, the, no article: The use of articles in English",
+      "description": "Interactive Grammar practice for A/an, the, no article: The use of articles in English.",
+      "category": "Grammar",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-a-an-the-no-article-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: A/an, the, no article: The use of articles in English",
+          "content": "### Articles: A, An, The & Zero Article\n\nArticles specify whether a noun is indefinite (general) or definite (specific).\n\n#### Usage Rules Summary:\n| Article | Rule / Condition | Example |\n| :--- | :--- | :--- |\n| **a** | Singular countable noun starting with a consonant sound | *a doctor, a European country* |\n| **an** | Singular countable noun starting with a vowel sound | *an apple, an hour* |\n| **the** | Specific or unique noun (listener knows which one) | *the sun, the president, the keys on the table* |\n| **No article (Ø)** | Plural or uncountable nouns in general sense | *Water is essential. Dogs are loyal.* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-a-an-the-no-article-step-2",
+          "type": "single_choice",
+          "question": "Which sentence uses articles correctly?",
+          "options": [
+            {
+              "id": "a",
+              "text": "He is an architect and works in an office."
+            },
+            {
+              "id": "b",
+              "text": "He is a architect and works in a office."
+            },
+            {
+              "id": "c",
+              "text": "He is architect and works in office."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Words starting with vowel sounds ('architect', 'office') require 'an'."
+        },
+        {
+          "id": "a1-a-an-the-no-article-step-3",
+          "type": "fill_blank",
+          "sentence": "She bought ____ (a/an) umbrella because it started to rain.",
+          "correctAnswers": [
+            "an"
+          ],
+          "explanation": "'Umbrella' starts with a vowel sound, requiring 'an'."
+        }
+      ]
+    },
+    {
+      "id": "a1-conjunctions_and-but-or-so-because",
+      "courseId": "test-english-a1",
+      "title": "A1 Grammar: Conjunctions: And, but, or, so, because",
+      "description": "Interactive Grammar practice for Conjunctions: And, but, or, so, because.",
+      "category": "Grammar",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-conjunctions_and-but-or-so-because-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Conjunctions: And, but, or, so, because",
+          "content": "### Conjunctions: And, but, or, so, because\n\nStudy the structural rules, usage guidelines, and key examples for **Conjunctions: And, but, or, so, because**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-conjunctions_and-but-or-so-because-step-2",
+          "type": "single_choice",
+          "question": "Which sentence uses the correct present form of 'to be'?",
+          "options": [
+            {
+              "id": "a",
+              "text": "They are students at the university."
+            },
+            {
+              "id": "b",
+              "text": "They is students at the university."
+            },
+            {
+              "id": "c",
+              "text": "They am students at the university."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Plural subject 'They' requires 'are'."
+        },
+        {
+          "id": "a1-conjunctions_and-but-or-so-because-step-3",
+          "type": "fill_blank",
+          "sentence": "She ____ (be) 25 years old and lives in Madrid.",
+          "correctAnswers": [
+            "is"
+          ],
+          "explanation": "Singular subject 'She' takes 'is'."
+        }
+      ]
+    },
+    {
+      "id": "a1-basic-word-order-in-english",
+      "courseId": "test-english-a1",
+      "title": "A1 Grammar: Basic word order in English",
+      "description": "Interactive Grammar practice for Basic word order in English.",
+      "category": "Grammar",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-basic-word-order-in-english-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Basic word order in English",
+          "content": "### Basic word order in English\n\nStudy the structural rules, usage guidelines, and key examples for **Basic word order in English**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-basic-word-order-in-english-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Basic word order in English\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Basic word order in English applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Basic word order in English applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Basic word order in English apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Basic word order in English."
+        },
+        {
+          "id": "a1-basic-word-order-in-english-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Basic word order in English.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a1-the-difference-between-this-and-it",
+      "courseId": "test-english-a1",
+      "title": "A1 Grammar: The difference between 'this' and 'it'",
+      "description": "Interactive Grammar practice for The difference between 'this' and 'it'.",
+      "category": "Grammar",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-the-difference-between-this-and-it-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: The difference between 'this' and 'it'",
+          "content": "### Conditionals: Real & Hypothetical Situations\n\nConditionals express what happens (or would happen) if a certain condition is fulfilled.\n\n#### Conditionals Summary Table:\n| Type | Condition Clause (If...) | Result Clause | Meaning / Context |\n| :--- | :--- | :--- | :--- |\n| **Zero** | If + Present Simple | Present Simple | General facts & scientific laws (*If you heat water, it boils.*) |\n| **First (1st)** | If + Present Simple | Will + Base Verb | Real future possibilities (*If it rains, we will stay home.*) |\n| **Second (2nd)**| If + Past Simple | Would + Base Verb | Hypothetical present (*If I won the lottery, I would buy a boat.*) |\n| **Third (3rd)** | If + Past Perfect | Would have + V3 | Past regret (*If I had studied harder, I would have passed.*) |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-the-difference-between-this-and-it-step-2",
+          "type": "single_choice",
+          "question": "Which sentence uses the correct present form of 'to be'?",
+          "options": [
+            {
+              "id": "a",
+              "text": "They are students at the university."
+            },
+            {
+              "id": "b",
+              "text": "They is students at the university."
+            },
+            {
+              "id": "c",
+              "text": "They am students at the university."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Plural subject 'They' requires 'are'."
+        },
+        {
+          "id": "a1-the-difference-between-this-and-it-step-3",
+          "type": "fill_blank",
+          "sentence": "She ____ (be) 25 years old and lives in Madrid.",
+          "correctAnswers": [
+            "is"
+          ],
+          "explanation": "Singular subject 'She' takes 'is'."
+        }
+      ]
+    },
+    {
+      "id": "a1-present-simple-be",
+      "courseId": "test-english-a1",
+      "title": "A1 Grammar: Present simple of to be: am, is, are",
+      "description": "Interactive Grammar practice for Present simple of to be: am, is, are.",
+      "category": "Grammar",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-present-simple-be-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Present simple of to be: am, is, are",
+          "content": "### Present simple of to be: am, is, are\n\nStudy the structural rules, usage guidelines, and key examples for **Present simple of to be: am, is, are**.\n\n#### Key Rules & Structure:\n| Form / Aspect | Structural Rule | Example Usage |\n| :--- | :--- | :--- |\n| **Affirmative Structure** | Correct word order and auxiliary agreement | *The implementation was completed successfully.* |\n| **Negative Structure** | Negation placement with auxiliary verb | *The team did not encounter any unexpected errors.* |\n| **Inquiry / Question** | Subject-auxiliary inversion for questions | *Have all participants received their confirmation?* |\n\n#### Practical Usage Guidelines:\n- Pay close attention to subject-verb agreement and formal context.\n- Practice using these patterns in full conversational sentences.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-present-simple-be-step-2",
+          "type": "single_choice",
+          "question": "Which sentence uses the correct present form of 'to be'?",
+          "options": [
+            {
+              "id": "a",
+              "text": "They are students at the university."
+            },
+            {
+              "id": "b",
+              "text": "They is students at the university."
+            },
+            {
+              "id": "c",
+              "text": "They am students at the university."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Plural subject 'They' requires 'are'."
+        },
+        {
+          "id": "a1-present-simple-be-step-3",
+          "type": "fill_blank",
+          "sentence": "She ____ (be) 25 years old and lives in Madrid.",
+          "correctAnswers": [
+            "is"
+          ],
+          "explanation": "Singular subject 'She' takes 'is'."
+        }
+      ]
+    },
+    {
+      "id": "a1-present-simple-forms",
+      "courseId": "test-english-a1",
+      "title": "A1 Grammar: Present simple forms and use",
+      "description": "Interactive Grammar practice for Present simple forms and use.",
+      "category": "Grammar",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-present-simple-forms-step-1",
+          "type": "text",
+          "title": "Grammar Explanation: Present simple forms and use",
+          "content": "### Present Simple: Habits, Routines & Facts\n\nUse the Present Simple for habits, permanent states, general truths, and regular routines.\n\n#### Sentence Structure:\n| Form | Subject | Verb Structure | Example |\n| :--- | :--- | :--- | :--- |\n| **Affirmative (+)** | I / You / We / They | Base verb | *I play tennis every weekend.* |\n| **Affirmative (+)** | He / She / It | Verb + **s/es** | *She works at a bank.* |\n| **Negative (-)** | I / You / We / They | **don't** + Base verb | *We don't live in Paris.* |\n| **Negative (-)** | He / She / It | **doesn't** + Base verb | *He doesn't eat meat.* |\n| **Question (?)** | Do / Does | Subject + Base verb | *Does she speak English?* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-present-simple-forms-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Present simple forms and use\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Present simple forms and use applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Present simple forms and use applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Present simple forms and use apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Present simple forms and use."
+        },
+        {
+          "id": "a1-present-simple-forms-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Present simple forms and use.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a1-daily-routines-vocab",
+      "courseId": "test-english-a1",
+      "title": "A1 Vocabulary: Daily routines and time expressions",
+      "description": "Interactive Vocabulary practice for Daily routines and time expressions.",
+      "category": "Vocabulary",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-daily-routines-vocab-step-1",
+          "type": "text",
+          "title": "Vocabulary Explanation: Daily routines and time expressions",
+          "content": "### Vocabulary Builder: Daily routines and time expressions\n\nExpand your vocabulary, word associations, and natural collocations for **Daily routines and time expressions**.\n\n#### Essential Lexicon & Context:\n| Term / Collocation | Part of Speech | Definition & Context | Example Sentence |\n| :--- | :--- | :--- | :--- |\n| **Primary Concept** | Noun / Verb | Core vocabulary term for real-world scenarios. | *Using precise terms improves communicative precision.* |\n| **Key Expression** | Phrase | Standard collocation used by native speakers. | *We should take immediate action to resolve the issue.* |\n| **Formal Alternative**| Adjective | Professional term suitable for written contexts. | *The results were exceptionally positive across all indicators.* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-daily-routines-vocab-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Daily routines and time expressions\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Daily routines and time expressions applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Daily routines and time expressions applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Daily routines and time expressions apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Daily routines and time expressions."
+        },
+        {
+          "id": "a1-daily-routines-vocab-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Daily routines and time expressions.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a1-cafe-order-listening",
+      "courseId": "test-english-a1",
+      "title": "A1 Listening: Ordering food & drinks at a cafe",
+      "description": "Interactive Listening practice for Ordering food & drinks at a cafe.",
+      "category": "Listening",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-cafe-order-listening-step-1",
+          "type": "text",
+          "title": "Listening Explanation: Ordering food & drinks at a cafe",
+          "content": "### Listening Comprehension: Ordering food & drinks at a cafe\n\nListen carefully to the audio context, focus on key facts, and answer the comprehension check.\n\n#### Audio Context & Speaker Details:\n- **Topic:** Ordering food & drinks at a cafe\n- **Level:** A1 CEFR Standard\n- **Key Task:** Identify specific information, speaker opinions, and key details from the conversation.\n\n> 🎧 **Audio Note:** Use the interactive audio player control above to listen to the dialogue or speech. You can adjust playback speed to **0.75x** if needed.",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-cafe-order-listening-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Ordering food & drinks at a cafe\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Ordering food & drinks at a cafe applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Ordering food & drinks at a cafe applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Ordering food & drinks at a cafe apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Ordering food & drinks at a cafe."
+        },
+        {
+          "id": "a1-cafe-order-listening-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Ordering food & drinks at a cafe.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a1-personal-profile-reading",
+      "courseId": "test-english-a1",
+      "title": "A1 Reading: Personal profile & introductions",
+      "description": "Interactive Reading practice for Personal profile & introductions.",
+      "category": "Reading",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-personal-profile-reading-step-1",
+          "type": "text",
+          "title": "Reading Explanation: Personal profile & introductions",
+          "content": "### Reading Passage: Personal profile & introductions\n\nRead the passage below carefully and analyze the main ideas, specific details, and vocabulary in context.\n\n#### Text Passage (A1 Level):\n\"English communication relies on clear structural rules and active practice. When studying **Personal profile & introductions**, learners develop precision by paying attention to word order, context clues, and precise phraseology. In formal and informal environments, selecting the right form ensures effective message delivery.\"",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-personal-profile-reading-step-2",
+          "type": "single_choice",
+          "question": "Which option demonstrates correct usage for: \"Personal profile & introductions\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The rule for Personal profile & introductions applies accurately in structured contexts."
+            },
+            {
+              "id": "b",
+              "text": "The rule for Personal profile & introductions applies inaccurate with missing verbs."
+            },
+            {
+              "id": "c",
+              "text": "The rule for Personal profile & introductions apply wrong without agreement."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Option A correctly adheres to English grammar rules for Personal profile & introductions."
+        },
+        {
+          "id": "a1-personal-profile-reading-step-3",
+          "type": "fill_blank",
+          "sentence": "Select the key term to complete the sentence: Good communication requires ____ (accuracy/incorrect) in Personal profile & introductions.",
+          "correctAnswers": [
+            "accuracy"
+          ],
+          "explanation": "Accuracy is essential for grammatical precision."
+        }
+      ]
+    },
+    {
+      "id": "a1-articles-use-of-english",
+      "courseId": "test-english-a1",
+      "title": "A1 Use of English: Articles A/An/The gap-fill",
+      "description": "Interactive Use of English practice for Articles A/An/The gap-fill.",
+      "category": "Use of English",
+      "level": "A1",
+      "steps": [
+        {
+          "id": "a1-articles-use-of-english-step-1",
+          "type": "text",
+          "title": "Use of English Explanation: Articles A/An/The gap-fill",
+          "content": "### Articles: A, An, The & Zero Article\n\nArticles specify whether a noun is indefinite (general) or definite (specific).\n\n#### Usage Rules Summary:\n| Article | Rule / Condition | Example |\n| :--- | :--- | :--- |\n| **a** | Singular countable noun starting with a consonant sound | *a doctor, a European country* |\n| **an** | Singular countable noun starting with a vowel sound | *an apple, an hour* |\n| **the** | Specific or unique noun (listener knows which one) | *the sun, the president, the keys on the table* |\n| **No article (Ø)** | Plural or uncountable nouns in general sense | *Water is essential. Dogs are loyal.* |",
+          "prompt": "Read the explanation carefully."
+        },
+        {
+          "id": "a1-articles-use-of-english-step-2",
+          "type": "single_choice",
+          "question": "Which sentence uses articles correctly?",
+          "options": [
+            {
+              "id": "a",
+              "text": "He is an architect and works in an office."
+            },
+            {
+              "id": "b",
+              "text": "He is a architect and works in a office."
+            },
+            {
+              "id": "c",
+              "text": "He is architect and works in office."
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "Words starting with vowel sounds ('architect', 'office') require 'an'."
+        },
+        {
+          "id": "a1-articles-use-of-english-step-3",
+          "type": "fill_blank",
+          "sentence": "She bought ____ (a/an) umbrella because it started to rain.",
+          "correctAnswers": [
+            "an"
+          ],
+          "explanation": "'Umbrella' starts with a vowel sound, requiring 'an'."
+        }
+      ]
+    }
+  ]
+}
